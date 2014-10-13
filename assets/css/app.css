@@ -48,7 +48,7 @@ ul#menu-primary-navigation > li > a {
 
 ul#menu-primary-navigation > li.active > a {
   width: 100%;
-  background: #79030b;
+  border-bottom: 3px solid #79030b;
 }
 
 ul#menu-primary-navigation > li > a:after {
