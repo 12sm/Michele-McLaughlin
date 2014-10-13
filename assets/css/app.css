@@ -98,7 +98,7 @@ ul.nav a {
   display: inline-block;
 }
 
-ul.nav a:after {
+ul.nav.active a:after {
   content: '';
   display: block;
   height: 5px;
