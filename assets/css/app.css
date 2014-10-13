@@ -46,7 +46,7 @@ ul#menu-primary-navigation > li > a {
   display: inline-block;
 }
 
-ul#menu-primary-navigation > li > a.active {
+ul#menu-primary-navigation > li.active > a {
   width: 100%;
   background: #79030b;
 }
