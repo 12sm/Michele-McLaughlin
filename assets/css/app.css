@@ -57,7 +57,7 @@ ul#menu-primary-navigation > li:after {
 
 ul#menu-primary-navigation > li:hover:after {
   width: 100%;
-  background: blue;
+  background: #79030b;
 }
 
 
