@@ -46,7 +46,7 @@ ul#menu-primary-navigation > li {
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
-  width: 0px;
+  width: 100%;
   transition: 0.5s ease;
   white-space: nowrap;
   height: 25px;
