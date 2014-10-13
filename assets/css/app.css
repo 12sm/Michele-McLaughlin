@@ -47,6 +47,8 @@ ul#menu-primary-navigation > li {
 }
 
 ul#menu-primary-navigation > li.active {
+  border-bottom: 3px solid #79030b;
+  width: 100%;
 }
 
 ul#menu-primary-navigation > li:after {
