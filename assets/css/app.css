@@ -49,15 +49,15 @@ ul#menu-primary-navigation > li > a {
 ul#menu-primary-navigation > li.active > a:after {
   content: '';
   display: block;
-  height: 3px;
-  width: 100%;
+  height: 5px;
+  width: 100%
   background: #79030b;
 }
 
 ul#menu-primary-navigation > li > a:after {
   content: '';
   display: block;
-  height: 3px;
+  height: 5px;
   width: 0;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
