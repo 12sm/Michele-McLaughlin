@@ -42,63 +42,11 @@ body { }
    Navbar
    ========================================================================== */
 
-/*ul#menu-primary-navigation > li > a {
-  display: inline-block;
-}
-
-ul#menu-primary-navigation > li.active > a:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 100%;
-  background: #79030b;
-}
-
-ul#menu-primary-navigation > li > a:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-ul#menu-primary-navigation > li > a:hover:after {
-  width: 100%;
-  background: #79030b;
-}
-
-a.contact {
-  display: inline-block;
-}
-
-a.contact:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 100%;
-  background: #79030b;
-}
-
-a.contact:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-a.contact:hover:after {
-  width: 100%;
-  background: #79030b;
-}*/
-
 ul.nav a {
   display: inline-block;
 }
 
-ul.nav.active a:after {
+ul.nav > li > a:after {
   content: '';
   display: block;
   height: 5px;
