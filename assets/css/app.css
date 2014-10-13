@@ -68,7 +68,31 @@ ul#menu-primary-navigation > li > a:hover:after {
   background: #79030b;
 }
 
+a.contact {
+  display: inline-block;
+}
 
+a.contact:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background: #79030b;
+}
+
+a.contact:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+a.contact:hover:after {
+  width: 100%;
+  background: #79030b;
+}
 
 /* ==========================================================================
    Posts
