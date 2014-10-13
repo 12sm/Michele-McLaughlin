@@ -42,16 +42,16 @@ body { }
    Navbar
    ========================================================================== */
 
-ul#menu-primary-navigation > li {
+ul#menu-primary-navigation > li > a {
   display: inline-block;
 }
 
-ul#menu-primary-navigation > li.active {
+ul#menu-primary-navigation > li > a.active {
   width: 100%;
   background: #79030b;
 }
 
-ul#menu-primary-navigation > li:after {
+ul#menu-primary-navigation > li > a:after {
   content: '';
   display: block;
   height: 3px;
@@ -60,7 +60,7 @@ ul#menu-primary-navigation > li:after {
   transition: width .5s ease, background-color .5s ease;
 }
 
-ul#menu-primary-navigation > li:hover:after {
+ul#menu-primary-navigation > li > a:hover:after {
   width: 100%;
   background: #79030b;
 }
