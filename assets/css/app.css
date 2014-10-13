@@ -46,7 +46,7 @@ ul.nav a {
   display: inline-block;
 }
 
-ul.nav > li > a:after {
+ul.nav > li.active > a:after {
   content: '';
   display: block;
   height: 5px;
