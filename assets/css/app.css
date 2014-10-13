@@ -42,7 +42,7 @@ body { }
    Navbar
    ========================================================================== */
 
-ul#menu-primary-navigation > li > a {
+/*ul#menu-primary-navigation > li > a {
   display: inline-block;
 }
 
@@ -90,6 +90,32 @@ a.contact:after {
 }
 
 a.contact:hover:after {
+  width: 100%;
+  background: #79030b;
+}*/
+
+ul.nav a {
+  display: inline-block;
+}
+
+ul.nav a:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background: #79030b;
+}
+
+ul.nav a:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+ul.nav a:hover:after {
   width: 100%;
   background: #79030b;
 }

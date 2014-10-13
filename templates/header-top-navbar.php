@@ -16,7 +16,9 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'contact nav navbar-nav'));
         endif;
       ?>
-      <a class="contact nav navbar" data-target="#contact-form" data-toggle="modal">Contact</a>
+      <div class="nav">
+        <a class="contact nav navbar-nav" data-target="#contact-form" data-toggle="modal">Contact</a>
+      </div>
     </nav>
   </div>
 </header>
