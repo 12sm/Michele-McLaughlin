@@ -19,7 +19,7 @@ body { }
 
 div.banners {
   background-image: url("../img/header-bg.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
   background-repeat: no-repeat;
   margin: 0 auto;
   /*box-sizing: border-box;
