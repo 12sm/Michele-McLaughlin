@@ -12,11 +12,20 @@ body { }
 
 
 /* ==========================================================================
-   Header
+   Headers
    ========================================================================== */
 
 .banner { }
 
+div.banners {
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*box-sizing: border-box;
+  width: 50%;
+  border: 1em solid #080;
+  float: left;*/
+}
 
 
 /* ==========================================================================
