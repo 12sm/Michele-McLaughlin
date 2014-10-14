@@ -19,16 +19,13 @@ body { }
 
 div.banners {
   background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
   margin: 0 auto;
-  height: 120px;
-  /*box-sizing: border-box;
-  width: 50%;
-  border: 1em solid #080;
-  float: left;*/
+  height: 112px;
 }
 
 h1.bandit {
-  height: 100%;
+  vertical-align: middle;
   margin: auto 0;
 }
 
