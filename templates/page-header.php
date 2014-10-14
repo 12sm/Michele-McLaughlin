@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="row banners text-left page-header">
   <h1>
     <?php echo roots_title(); ?>
   </h1>

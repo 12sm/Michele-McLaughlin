@@ -8,9 +8,7 @@
 
 <!-- /*-------- LISTEN BANNER --------*/ -->
 
-<?php
-  echo do_shortcode("[wpv-view name='banner']");
-?>
+<?php get_template_part('templates/page', 'header'); ?>
 
 <!-- /*-------- ALBUM VIEW --------*/ -->
 
