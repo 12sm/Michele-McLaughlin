@@ -22,6 +22,7 @@ div.banners {
   /*background-size: cover;*/
   background-repeat: no-repeat;
   margin: 0 auto;
+  height: auto;
   /*box-sizing: border-box;
   width: 50%;
   border: 1em solid #080;
