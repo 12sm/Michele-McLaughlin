@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: Listen Template
+Template Name: Music Template
 */
 ?>
 
 <?php get_template_part('templates/page', 'header'); ?>
-<?php get_template_part('templates/content', 'page-listen'); ?>
+<?php get_template_part('templates/content', 'page-music'); ?>
