@@ -95,8 +95,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 /* Direction Nav */
 .flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; background: url('../img/bg_direction_nav.png') no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
-.flex-direction-nav li .next {background-position: -52px 0; right: 18%;}
-.flex-direction-nav li .prev {left: 18%;}
+.flex-direction-nav li .next {background-position: -52px 0; right: 2%;}
+.flex-direction-nav li .prev {left: 2%;}
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
 
 /* Control Nav */
@@ -204,7 +204,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: 768px) {
+  .flex-direction-nav li .next {right: 18%;}
+  .flex-direction-nav li .prev {left: 18%;}
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }
