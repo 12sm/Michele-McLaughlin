@@ -9,7 +9,7 @@
 <!-- /*-------- HOME SLIDER VIEW --------*/ -->
 
 <div class="row">
-  <?php echo do_shortcode( "[wpv-view name='homepage-slider']"); ?>
+  <?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
 </div>
 
 <div class="row">
@@ -19,7 +19,7 @@
 <!-- /*-------- HOME BIO VIEW --------*/ -->
 
 <div class="row bio">
-  <?php echo do_shortcode( "[wpv-view name='homepage-bio']"); ?>
+  <?php echo do_shortcode("[wpv-view name='homepage-bio']"); ?>
 </div>
 
 <!-- /*-------- FOOTER --------*/ -->
