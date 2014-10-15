@@ -21,6 +21,8 @@
   Mini Nav
 </div>
 
+<?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
+
 <!-- /*-------- HOME BIO VIEW --------*/ -->
 
 <div class="row">
