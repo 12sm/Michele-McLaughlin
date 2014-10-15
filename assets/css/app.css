@@ -112,7 +112,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
    Homepage
    ========================================================================== */
 
-
+body.home {
+  background-image: url('../img/top-piano-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .slide {
   height: auto;
