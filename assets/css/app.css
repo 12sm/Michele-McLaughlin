@@ -115,9 +115,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .content { }
 
 .slide {
-  max-height: 460px;
-  overflow: hidden;
-  height: 68vh;
+  height: auto;
 }
 
 
