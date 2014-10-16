@@ -116,7 +116,7 @@ body.home {
   background-image: url('../img/bg-tile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -999999 !important;
+  z-index: -1000000 !important;
 }
 
 .backstretch > img {
