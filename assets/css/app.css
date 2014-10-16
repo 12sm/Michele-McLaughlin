@@ -178,7 +178,11 @@ div#about-content {
   column-gap: 1%;
 }
 
-
+div#about-short{
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid #79030b;
+  margin: 5px;
+}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
