@@ -112,7 +112,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
    Homepage
    ========================================================================== */
 
-body.home {
+body {
   background-image: url('../img/bg-tile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
