@@ -118,12 +118,12 @@ body.home {
   background-repeat: no-repeat;
 }
 
-.backstretch > img {
-  z-index: 1 !important;
-}
-
-.backstretch {
-  z-index: 1 !important;
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .slide {

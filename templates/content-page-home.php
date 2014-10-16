@@ -1,5 +1,8 @@
 <!-- /*-------- HEADER --------*/ -->
 
+
+<img src="../assets/img/top-piano-bg.png" id="bg" alt="">
+
 <!-- /*-------- EMAIL SIGNUP --------*/ -->
 
 <div class="row text-right">
