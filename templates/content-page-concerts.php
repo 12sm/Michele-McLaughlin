@@ -21,7 +21,7 @@
 <!-- /*-------- SHOWs VIEW --------*/ -->
 
 <div class="row bg-div">
-  Bands In Town Embed
+  <?php echo do_shortcode("[wpv-view name='concerts']"); ?>
 </div>
 
 <!-- /*-------- FOOTER --------*/ -->
