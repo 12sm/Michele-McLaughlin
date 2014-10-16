@@ -17,10 +17,13 @@ body { }
 
 .banner { }
 
+div.page-header {
+  margin: 0 auto;
+}
+
 div.banners {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  margin: 0 auto;
   height: 112px;
 }
 
