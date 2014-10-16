@@ -24,6 +24,7 @@ div.page-header {
 div.banners {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
   height: 112px;
 }
 
