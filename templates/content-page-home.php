@@ -2,13 +2,13 @@
 
 <!-- /*-------- EMAIL SIGNUP --------*/ -->
 
-<div class="row text-right">
+<div class="row">
   Email Signup
 </div>
 
 <!-- /*-------- HOME SLIDER VIEW --------*/ -->
 
-<div>
+<div class="row">
   <?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
 </div>
 

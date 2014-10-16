@@ -20,7 +20,7 @@
 
 <!-- /*-------- SHOWs VIEW --------*/ -->
 
-<div class="row bg-div">
+<div class="row" id="concerts">
   <?php echo do_shortcode("[wpv-view name='concerts']"); ?>
 </div>
 
