@@ -6,19 +6,11 @@
   Email Signup
 </div>
 
-<!-- /*-------- CONCERTS BANNER --------*/ -->
+<!-- /*-------- BOOKING BANNER --------*/ -->
 
 <?php get_template_part('templates/page', 'header'); ?>
 
-<!-- /*-------- NEXT SHOW VIEW --------*/ -->
-
-<div class="row bg-image-div">
-  <div class="col-sm-6 bg-div">
-    Single Bands In Town Embed
-  </div>
-</div>
-
-<!-- /*-------- SHOWs VIEW --------*/ -->
+<!-- /*-------- BOOKING VIEW --------*/ -->
 
 <div class="row bg-div">
   Bands In Town Embed

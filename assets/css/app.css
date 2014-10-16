@@ -181,6 +181,11 @@ div#about-content {
 div#about-short{
   background-color: rgba(255, 255, 255, 0.15);
   border-left: 4px solid #79030b;
+}
+
+div#about-short > span {
+  font-weight: bold;
+  font-size: 18px;
   margin: 5px;
 }
 
