@@ -18,7 +18,7 @@
 
 <!-- /*-------- HOME BIO VIEW --------*/ -->
 
-<div class="row bio">
+<div class="row" id="bio">
   <?php echo do_shortcode("[wpv-view name='homepage-bio']"); ?>
 </div>
 
