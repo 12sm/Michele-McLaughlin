@@ -8,7 +8,7 @@
 
 <!-- /*-------- HOME SLIDER VIEW --------*/ -->
 
-<div class="row">
+<div>
   <?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
 </div>
 
