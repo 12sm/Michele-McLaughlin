@@ -180,13 +180,13 @@ div#about-content {
 
 div#about-short{
   background-color: rgba(255, 255, 255, 0.15);
-  border-left: 4px solid #79030b;
+  border-left: 10px solid #79030b;
 }
 
-div#about-short > span {
+div#about-short > div {
   font-weight: bold;
   font-size: 18px;
-  margin: 5px;
+  margin: 10px;
 }
 
 /* Gallery Shortcode */
