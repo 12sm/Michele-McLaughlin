@@ -119,11 +119,11 @@ body.home {
 }
 
 .backstretch > img {
-  z-index: -999998 !important;
+  z-index: 1 !important;
 }
 
 .backstretch {
-  z-index: -999998 !important;
+  z-index: 1 !important;
 }
 
 .slide {
