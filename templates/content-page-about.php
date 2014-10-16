@@ -12,10 +12,6 @@
 
 <!-- /*-------- ABOUT VIEW --------*/ -->
 
-<div class="row bg-image-div">
-  <div class="col-sm-12 bg-div">
-    <?php echo do_shortcode("[wpv-view name='about']"); ?>
-  </div>
-</div>
+<?php echo do_shortcode("[wpv-view name='about']"); ?>
 
 <!-- /*-------- FOOTER --------*/ -->

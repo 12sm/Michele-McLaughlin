@@ -168,11 +168,20 @@ body {
    Primary Content
    ========================================================================== */
 
-.main { }
+/*-------- ABOUT PAGE --------*/
+#about {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1%; /* Saf3, Chrome*/
+  -moz-column-count: 2;
+  -moz-column-gap: 1%; /* FF3.5+ */
+  column-count: 2;        
+  column-gap: 1%; /* Opera 11+*/
+  }
+
+
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
-
 
 
 /* ==========================================================================
