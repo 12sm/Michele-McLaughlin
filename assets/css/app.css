@@ -171,11 +171,11 @@ body {
 /*-------- ABOUT PAGE --------*/
 div#about-content {
   -webkit-column-count: 2;
-  -webkit-column-gap: 1%;
+  -webkit-column-gap: 20px;
   -moz-column-count: 2;
-  -moz-column-gap: 1%;
+  -moz-column-gap: 20px;
   column-count: 2;
-  column-gap: 1%;
+  column-gap: 20px;
 }
 
 div#about-short{
@@ -188,7 +188,7 @@ div#about-short > div {
   font-family: "franklin-gothic-urw",sans-serif;
   font-style: italic;
   font-weight: bold;
-  letter-spacing: .05em;
+  letter-spacing: .04em;
   font-size: 20px;
   margin: 0 10px;
   padding: 10px 0;
