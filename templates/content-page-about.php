@@ -6,22 +6,16 @@
   Email Signup
 </div>
 
-<!-- /*-------- CONCERTS BANNER --------*/ -->
+<!-- /*-------- ABOUT BANNER --------*/ -->
 
 <?php get_template_part('templates/page', 'header'); ?>
 
-<!-- /*-------- NEXT SHOW VIEW --------*/ -->
+<!-- /*-------- ABOUT VIEW --------*/ -->
 
 <div class="row bg-image-div">
-  <div class="col-sm-6 bg-div">
-    Single Bands In Town Embed
+  <div class="col-sm-12 bg-div">
+    <?php echo do_shortcode("[wpv-view name='about']"); ?>
   </div>
-</div>
-
-<!-- /*-------- SHOWs VIEW --------*/ -->
-
-<div class="row bg-div">
-  Bands In Town Embed
 </div>
 
 <!-- /*-------- FOOTER --------*/ -->
