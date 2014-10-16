@@ -186,7 +186,8 @@ div#about-short{
 div#about-short > div {
   font-weight: bold;
   font-size: 20px;
-  margin: 20px;
+  margin: 0 20px;
+  padding: 20px 0;
 }
 
 /* Gallery Shortcode */
