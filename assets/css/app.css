@@ -68,6 +68,10 @@ div.banners {
   background-size: cover;
   background-position: center top;
   height: 120px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border:30px solid rgba(255, 255, 255, 0.15);
 }
 
 h1.bandit {
