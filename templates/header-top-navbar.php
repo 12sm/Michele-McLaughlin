@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="../assets/img/nav-logo.png"></a>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="../wp-content/themes/michele/assets/img/nav-logo.png"></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
