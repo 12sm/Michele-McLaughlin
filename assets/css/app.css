@@ -199,6 +199,10 @@ div#about-short > div {
   background-color: black;
 }
 
+div.navbar-header > a {
+  vertical-align: center;
+}
+
 ul.nav a {
   display: inline-block;
   font-family: "franklin-gothic-urw-comp",sans-serif;
