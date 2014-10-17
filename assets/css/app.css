@@ -200,7 +200,7 @@ div#head {
   margin: 0 auto;
 }
 
-div.banner {
+header.banner {
   background-color: black;
   padding-top: 10px;
   height: 0 !important;
