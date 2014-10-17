@@ -197,6 +197,7 @@ div#about-short > div {
 
 .banner {
   background-color: black;
+  padding: 20px 0;
 }
 
 div.navbar-header > a > img {
