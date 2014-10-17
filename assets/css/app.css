@@ -208,7 +208,7 @@ ul.nav a {
 }
 
 ul.nav a:hover {
-  color: #FFF;
+  color: #FFF !important;
 }
 
 ul.nav > li.active > a:after {
