@@ -200,7 +200,7 @@ div#about-short > div {
 }
 
 div.navbar-header > a > img {
-  vertical-align: middle;
+  padding-bottom: 20px;
 }
 
 ul.nav a {
