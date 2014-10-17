@@ -200,9 +200,10 @@ div#head {
   margin: 0 auto;
 }
 
-.banner {
+div.banner {
   background-color: black;
-  padding: 20px 0 10px 0;
+  padding-top: 10px;
+  height: 0 !important;
 }
 
 div.navbar-header > a > img {
