@@ -13,6 +13,8 @@ font-family: "franklin-gothic-urw-comp",sans-serif;
 */
 
 body {
+  background-image: url('../img/bg-tile.jpg');
+  background-repeat: repeat;
   font-family: "franklin-gothic-urw",sans-serif;
   font-size: 14px;
   color: #FFFFFF;
@@ -48,10 +50,9 @@ h6 {}
    Headers
    ========================================================================== */
 
-.banner { }
 
 div.page-header {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 div.banners {
@@ -59,7 +60,7 @@ div.banners {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 112px;
+  height: 120px;
 }
 
 h1.bandit {
@@ -150,12 +151,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
    Homepage
    ========================================================================== */
 
-body {
-  background-image: url('../img/bg-tile.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .slide {
   height: auto;
 }
@@ -188,8 +183,7 @@ div#about-short > div {
   font-family: "franklin-gothic-urw-comp",sans-serif;
   font-style: italic;
   font-weight: bold;
-  letter-spacing: .04em;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 10px;
   padding: 10px 0;
 }
