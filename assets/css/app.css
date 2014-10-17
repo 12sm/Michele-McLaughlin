@@ -155,7 +155,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 
 #bio {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* ==========================================================================
@@ -173,7 +173,7 @@ div#about-content {
 }
 
 div#about-short{
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.1);
   border-left: 10px solid #79030b;
   margin: 15px;
 }
