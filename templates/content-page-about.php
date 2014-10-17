@@ -2,9 +2,7 @@
 
 <!-- /*-------- EMAIL SIGNUP --------*/ -->
 
-<div class="row text-right">
-  Email Signup
-</div>
+<?php echo do_shortcode("[wpv-view name='email-submit']"); ?>
 
 <!-- /*-------- ABOUT BANNER --------*/ -->
 
