@@ -91,7 +91,7 @@ h1.bandit {
    ========================================================================== */
 
 div.slide:before {
-  border: 20px solid rgba(255, 255, 255, 0.1);
+  border: 2% solid rgba(255, 255, 255, 0.1);
   content: "";
   position: absolute;
   top: 0px;
