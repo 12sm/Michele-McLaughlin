@@ -197,11 +197,11 @@ div#about-short > div {
 
 .banner {
   background-color: black;
-  padding: 20px 0;
+  padding: 20px 0 10px 0;
 }
 
 div.navbar-header > a > img {
-  margin-bottom: 20px;
+  margin-top: -17px;
 }
 
 ul.nav a {
