@@ -63,7 +63,7 @@ div.page-header {
 }
 
 div.banners:before {
-  border: 20px solid rgba(255, 255, 255, 0.5);
+  border: 20px solid rgba(255, 255, 255, 0.05);
   content: "";
   position: absolute;
   top: 0px;
