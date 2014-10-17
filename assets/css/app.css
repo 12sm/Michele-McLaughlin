@@ -51,7 +51,7 @@ h6 {}
 }
 
 .img-border {
-  border: 20px solid rgba(255, 255, 255, 0.2);
+  border: 10px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ==========================================================================
@@ -198,7 +198,7 @@ div#about-short > div {
 div#about-body > p > a > img {
   width: 100% !important;
   height: auto !important;
-  border: 20px solid rgba(255, 255, 255, 0.2);
+  border: 10px solid rgba(255, 255, 255, 0.2);
 }
 
 
