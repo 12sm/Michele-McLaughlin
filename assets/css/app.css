@@ -74,7 +74,7 @@ div.banners:before {
 
 div.banners {
   position: relative;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/page-title-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
