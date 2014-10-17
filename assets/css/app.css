@@ -90,6 +90,20 @@ h1.bandit {
    Slider
    ========================================================================== */
 
+div.slide:before {
+  border: 20px solid rgba(255, 255, 255, 0.1);
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+div.slide {
+  position: relative;
+}
+
 /*
  * jQuery FlexSlider v1.8
  * http://flex.madebymufffin.com
