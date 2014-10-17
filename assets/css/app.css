@@ -195,6 +195,11 @@ div#about-short > div {
    Navbar
    ========================================================================== */
 
+div#head {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .banner {
   background-color: black;
   padding: 20px 0 10px 0;
