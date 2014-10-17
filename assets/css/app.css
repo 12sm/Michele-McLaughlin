@@ -63,7 +63,7 @@ div.page-header {
 }
 
 div.banners:before {
-  border: 5px solid rgba(255, 255, 255, 0.5);
+  border: 20px solid rgba(255, 255, 255, 0.5);
   content: "";
   position: absolute;
   top: -10px;
@@ -79,10 +79,6 @@ div.banners {
   background-size: cover;
   background-position: center top;
   height: 120px;
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  border:30px solid rgba(255, 255, 255, 0.15);
 }
 
 h1.bandit {
