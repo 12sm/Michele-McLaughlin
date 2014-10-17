@@ -50,6 +50,9 @@ h6 {}
    Headers
    ========================================================================== */
 
+.banner {
+  background-color: black;
+}
 
 div.page-header {
   margin: 20px auto;
