@@ -66,10 +66,10 @@ div.banners:before {
   border: 20px solid rgba(255, 255, 255, 0.5);
   content: "";
   position: absolute;
-  top: 20px;
+  /*top: 20px;
   bottom: 20px;
   left: 20px;
-  right: 20px;
+  right: 20px;*/
 }
 
 div.banners {
