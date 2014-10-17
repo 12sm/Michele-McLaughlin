@@ -207,6 +207,10 @@ ul.nav a {
   color: #FFF;
 }
 
+ul.nav a:hover {
+  color: #FFF;
+}
+
 ul.nav > li.active > a:after {
   content: '';
   display: block;
@@ -227,7 +231,6 @@ ul.nav a:after {
 ul.nav a:hover:after {
   width: 100%;
   background: #79030b;
-  color: #FFF;
 }
 
 /* ==========================================================================
