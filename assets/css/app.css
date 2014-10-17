@@ -204,7 +204,7 @@ ul.nav a {
   font-family: "franklin-gothic-urw-comp",sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 ul.nav a:hover {
