@@ -199,7 +199,7 @@ div#about-short > div {
   background-color: black;
 }
 
-div.navbar-header > a {
+div.navbar-header > a > img {
   vertical-align: center;
 }
 
