@@ -9,32 +9,32 @@
 
 /*
 font-family: "franklin-gothic-urw",sans-serif;
-font-family: "franklin-gothic-urw-comp",sans-serif;
+font-family: "franklin-gothic-urw-comp", sans-serif;
 */
 
 body {
   background-image: url('../img/bg-tile.jpg');
   background-repeat: repeat;
-  font-family: "franklin-gothic-urw",sans-serif;
+  font-family: "franklin-gothic-urw", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
 }
 
 h1 {
-  font-family: "franklin-gothic-urw-comp",sans-serif;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   color: #9F9F9F;
 }
 
 h2 {
-  font-family: "franklin-gothic-urw-comp",sans-serif;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
   font-size: 32px;
   color: #FFFFFF;
 }
 
 h3 {
-  font-family: "franklin-gothic-urw-comp",sans-serif;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
   font-size: 24px;
   color: #FFFFFF;
 }
@@ -45,6 +45,14 @@ h5 {}
 
 h6 {}
 
+.img-width {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.img-border {
+  border: 20px solid rgba(255, 255, 255, 0.2);
+}
 
 /* ==========================================================================
    Headers
@@ -172,20 +180,31 @@ div#about-content {
   column-gap: 20px;
 }
 
-div#about-short{
+div#about-short {
   background-color: rgba(255, 255, 255, 0.1);
   border-left: 10px solid #79030b;
   margin: 15px;
 }
 
 div#about-short > div {
-  font-family: "franklin-gothic-urw-comp",sans-serif;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
   margin: 0 10px;
   padding: 10px 0;
 }
+
+div#about-body > p > a > img {
+  width: 100% !important;
+  height: auto !important;
+  border: 20px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -207,12 +226,12 @@ header.banner {
 }
 
 div.navbar-header > a > img {
-  margin-top: -17px;
+  margin-top: -18px;
 }
 
 ul.nav a {
   display: inline-block;
-  font-family: "franklin-gothic-urw-comp",sans-serif;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
   text-transform: uppercase;
   font-size: 20px !important;
   color: #FFF !important;
