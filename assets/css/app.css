@@ -288,6 +288,67 @@ ul.nav a:hover:after {
   background: #79030b;
 }
 
+/*-------- MINI NAV --------*/
+div#mini-music {
+  position: relative;
+  background-image: url("../img/buy-music.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
+div#mini-concert {
+  position: relative;
+  background-image: url("../img/attend-concert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
+div#mini-book {
+  position: relative;
+  background-image: url("../img/book-show.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
+div#mini-book:active:hover {
+  position: relative;
+  background-image: url("../img/buy-music-active.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
+div#mini-book:active:hover {
+  position: relative;
+  background-image: url("../img/attend-concert-active.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
+div#mini-book:active:hover {
+  position: relative;
+  background-image: url("../img/book-show-active.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: auto;
+  width: auto;
+}
+
 /* ==========================================================================
    Posts
    ========================================================================== */
