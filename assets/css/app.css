@@ -295,8 +295,8 @@ div#mini-music {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
 div#mini-concert {
@@ -305,8 +305,8 @@ div#mini-concert {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
 div#mini-book {
@@ -315,38 +315,38 @@ div#mini-book {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
-div#mini-book:active:hover {
+div#mini-book.active:hover {
   position: relative;
   background-image: url("../img/buy-music-active.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
-div#mini-book:active:hover {
+div#mini-book.active:hover {
   position: relative;
   background-image: url("../img/attend-concert-active.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
-div#mini-book:active:hover {
+div#mini-book.active:hover {
   position: relative;
   background-image: url("../img/book-show-active.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 150px;
-  width: auto;
+  height: 100px;
+  width: 100%;
 }
 
 /* ==========================================================================
