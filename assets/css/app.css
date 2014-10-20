@@ -289,64 +289,36 @@ ul.nav a:hover:after {
 }
 
 /*-------- MINI NAV --------*/
-div#mini-music {
+div.mini {
   position: relative;
-  background-image: url("../img/buy-music.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   height: 100px;
   width: 100%;
+}
+div#mini-music {
+  background-image: url("../img/buy-music.png");
 }
 
 div#mini-concert {
-  position: relative;
   background-image: url("../img/attend-concert.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100px;
-  width: 100%;
 }
 
 div#mini-book {
-  position: relative;
   background-image: url("../img/book-show.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100px;
-  width: 100%;
 }
 
-div#mini-book.active:hover {
-  position: relative;
+div.tri-link > a.active > div#mini-music, div#mini-book:hover {
   background-image: url("../img/buy-music-active.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100px;
-  width: 100%;
 }
 
-div#mini-book.active:hover {
-  position: relative;
+div.tri-link > a.active > div#mini-concert, div#mini-concert:hover {
   background-image: url("../img/attend-concert-active.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100px;
-  width: 100%;
 }
 
-div#mini-book.active:hover {
-  position: relative;
+div.tri-link > a.active > div#mini-book, div#mini-book:hover {
   background-image: url("../img/book-show-active.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100px;
-  width: 100%;
 }
 
 /* ==========================================================================
