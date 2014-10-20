@@ -10,8 +10,6 @@
 
 <!-- /*-------- BOOKING VIEW --------*/ -->
 
-<div class="row bg-div">
-  Bands In Town Embed
-</div>
+<?php echo do_shortcode("[wpv-view name='booking']"); ?>
 
 <!-- /*-------- FOOTER --------*/ -->
