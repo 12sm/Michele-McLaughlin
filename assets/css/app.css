@@ -78,7 +78,6 @@ div.banners {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  max-width: 1785;
   height: 111px;
 }
 
@@ -87,7 +86,7 @@ h1.bandit {
 }
 
 div.container-fluid {
-
+  max-width: 1785px;
 }
 
 /* ==========================================================================
