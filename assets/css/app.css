@@ -297,6 +297,7 @@ div.mini {
   height: 100px;
   width: 100%;
 }
+
 div#mini-music {
   background-image: url("../img/buy-music.png");
 }
@@ -309,15 +310,15 @@ div#mini-book {
   background-image: url("../img/book-show.png");
 }
 
-div.tri-link > a.active > div#mini-music, div#mini-music:hover {
+div#mini-music:hover {
   background-image: url("../img/buy-music-active.png");
 }
 
-div.tri-link > a.active > div#mini-concert, div#mini-concert:hover {
+div#mini-concert:hover {
   background-image: url("../img/attend-concert-active.png");
 }
 
-div.tri-link > a.active > div#mini-book, div#mini-book:hover {
+div#mini-book:hover {
   background-image: url("../img/book-show-active.png");
 }
 
