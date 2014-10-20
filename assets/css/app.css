@@ -78,13 +78,17 @@ div.banners {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 120px;
+  max-width: 1785;
+  height: 111px;
 }
 
 h1.bandit {
   margin: 35px 3%;
 }
 
+div.container-fluid {
+
+}
 
 /* ==========================================================================
    Slider
