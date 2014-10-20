@@ -10,9 +10,7 @@
   <?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
 </div>
 
-<div class="row">
-  Mini Nav
-</div>
+<?php echo do_shortcode("[wpv-view name='homepage-mini-nav']"); ?>
 
 <!-- /*-------- HOME BIO VIEW --------*/ -->
 
