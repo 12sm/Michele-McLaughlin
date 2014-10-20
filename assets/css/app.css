@@ -236,7 +236,7 @@ div#about-body > p > a > img {
 
 
 /* ==========================================================================
-   Navbar
+   Navbars
    ========================================================================== */
 
 div#head {
@@ -295,7 +295,7 @@ div#mini-music {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
@@ -305,7 +305,7 @@ div#mini-concert {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
@@ -315,7 +315,7 @@ div#mini-book {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
@@ -325,7 +325,7 @@ div#mini-book:active:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
@@ -335,7 +335,7 @@ div#mini-book:active:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
@@ -345,7 +345,7 @@ div#mini-book:active:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: auto;
+  height: 150px;
   width: auto;
 }
 
