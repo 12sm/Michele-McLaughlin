@@ -6,9 +6,6 @@
         <div class="modal-body">
           <?php echo do_shortcode( "[formidable id=2]"); ?>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true"><i class='fa fa-times-circle'></i></span></button>
-        </div>
       </div>
     </div>
   </div>
