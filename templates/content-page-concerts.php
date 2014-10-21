@@ -10,11 +10,7 @@
 
 <!-- /*-------- NEXT SHOW VIEW --------*/ -->
 
-<div class="row bg-image-div">
-  <div class="col-sm-6 bg-div">
-    Single Bands In Town Embed
-  </div>
-</div>
+<?php echo do_shortcode("[wpv-view name='next-concert']"); ?>
 
 <!-- /*-------- SHOWs VIEW --------*/ -->
 
