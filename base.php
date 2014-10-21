@@ -1,5 +1,17 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
+  <div class="modal fade" id="contact-form">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <?php echo do_shortcode( "[formidable id=2]"); ?>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true"><i class='fa fa-times-circle'></i></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
