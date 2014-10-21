@@ -10,6 +10,6 @@
 
 <!-- /*-------- ALBUM VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='songs']"); ?>
+<?php echo do_shortcode("[wpv-view name='music']"); ?>
 
 <!-- /*-------- FOOTER --------*/ -->
