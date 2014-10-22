@@ -99,7 +99,7 @@ div.container-fluid.content {
    ========================================================================== */
 
 div.slide:before {
-  border: 20px solid rgba(255, 255, 255, 0.1);
+  border: 10px solid rgba(255, 255, 255, 0.1);
   content: "";
   position: absolute;
   top: 0px;
@@ -375,6 +375,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
   .flex-direction-nav li .next {right: 18%;}
   .flex-direction-nav li .prev {left: 18%;}
+
+  div.slide:before {
+    border: 20px solid rgba(255, 255, 255, 0.1);
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
