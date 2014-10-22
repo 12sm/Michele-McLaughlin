@@ -131,7 +131,6 @@ div.slide {
 /* FlexSlider Necessary Styles
 *********************************/
 .flexslider {
-  width: 100%;
   height: auto;
   padding: 0;
   border: none!important;
