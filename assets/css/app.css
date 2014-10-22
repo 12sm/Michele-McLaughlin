@@ -54,7 +54,7 @@ h6 {}
   border: 12px solid rgba(255, 255, 255, 0.15);
 }
 
-div.nextTo {
+.nextTo {
   display: inline;
   float: left;
 }
