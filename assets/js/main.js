@@ -31,7 +31,8 @@
     inlinePlayer = new InlinePlayer();
     console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
   }
-  function smSetup(){\console.log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+  function smSetup(){
+    console.log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
