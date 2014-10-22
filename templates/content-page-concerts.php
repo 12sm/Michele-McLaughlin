@@ -1,5 +1,3 @@
-<!-- /*-------- HEADER --------*/ -->
-
 <!-- /*-------- EMAIL SIGNUP --------*/ -->
 
 <?php echo do_shortcode("[wpv-view name='email-submit']"); ?>
