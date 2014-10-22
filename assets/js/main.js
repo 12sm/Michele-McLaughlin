@@ -65,7 +65,7 @@
       }
     },
     // About us page, note the change from about-us to about_us.
-    listen: {
+    post_type_archive_albums: {
       init: function() {
         // JavaScript to be fired on the about us page
         smSetup();
