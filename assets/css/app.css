@@ -90,7 +90,7 @@ h1.bandit {
   margin: 35px 3%;
 }
 
-div.container-fluid {
+div.container-fluid.content {
   max-width: 1785px;
 }
 
