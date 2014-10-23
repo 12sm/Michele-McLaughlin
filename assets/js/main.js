@@ -18,7 +18,6 @@
 
   function playMusic(){
     if (inlinePlayer) {
-      console.log("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
       inlinePlayer.events.finish = function() {
         // Remove Playing Class
         $('a.sm2_playing').removeClass('sm2_playing');
@@ -29,10 +28,8 @@
   }
   function smInit(){
     inlinePlayer = new InlinePlayer();
-    console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
   }
   function smSetup(){
-    console.log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
