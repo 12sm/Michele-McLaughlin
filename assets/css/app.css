@@ -314,10 +314,6 @@ div.mini h2 {
 }
 
 div.mini h2:hover {
-  text-decoration: none;
-}
-
-div.mini h2:hover {
   color: #FFF !important;
   text-decoration: none;
 }
