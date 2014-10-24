@@ -457,7 +457,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { }
+@media (min-width: 992px) {
+  h1.bandit {
+    margin: 15px 3%;
+  }
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg) { }
