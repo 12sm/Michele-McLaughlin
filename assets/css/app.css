@@ -101,7 +101,7 @@ div.banners {
 }
 
 h1.bandit {
-  margin: 35px 3%;
+  padding: 35px 3%;
 }
 
 div.container-fluid.content {
@@ -459,7 +459,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h1.bandit {
-    margin: 15px 3%;
+    padding: 15px 3%;
   }
 }
 
