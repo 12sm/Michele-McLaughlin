@@ -314,8 +314,13 @@ div.mini h2 {
   font-size: 50px;
 }
 
+div.mini h2:hover {
+  text-decoration: none;
+}
+
 div.tri-link a:hover {
   color: #FFF !important;
+  text-decoration: none;
 }
 
 div.tri-link a:after {
