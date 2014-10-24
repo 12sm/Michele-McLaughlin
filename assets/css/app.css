@@ -309,8 +309,10 @@ div.mini:hover {
   background-position: center bottom;
 }
 
-div.mini h1 {
+div.mini h2 {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 /* ==========================================================================
