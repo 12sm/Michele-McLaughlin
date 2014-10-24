@@ -262,11 +262,11 @@ div.art > img {
 
 /*-------- CONCERTS PAGE --------*/
 tr:nth-child(1), tr:nth-child(2) {
-  display: hidden;
+  display: none;
 }
 
 div.next {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(17, 7, 7);
   padding: 20px;
 }
 
