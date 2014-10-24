@@ -1,5 +1,5 @@
 <div class="row page-header">
-  <div class="banners col-sm-8 col-sm-offset-2">
+  <div class="banners col-md-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
     <h1 class="bandit">
       <?php echo roots_title(); ?>
     </h1>
