@@ -295,6 +295,14 @@ ul.nav a:hover:after {
 }
 
 /*-------- MINI NAV --------*/
+div.tri-link {
+  text-decoration: none;
+}
+
+div.tri-link a{
+  text-decoration: none;
+}
+
 div.mini {
   height: 50px;
   width: 100%;
