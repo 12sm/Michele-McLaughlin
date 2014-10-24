@@ -307,6 +307,24 @@ div.mini h2 {
   font-size: 50px;
 }
 
+div.mini a:hover {
+  color: #FFF !important;
+}
+
+div.mini a:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+div.mini a:hover:after {
+  width: 100%;
+  background: #79030b;
+}
+
 /* ==========================================================================
    Posts
    ========================================================================== */
