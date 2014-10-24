@@ -48,6 +48,12 @@
         // JavaScript to be fired on all pages
       }
     },
+    concerts: {
+      init: function() {
+        // JavaScript to be fired on all pages
+        $(".imgLiquidFill").imgLiquid();
+      }
+    },
     // Home page
     home: {
       init: function() {
