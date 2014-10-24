@@ -297,35 +297,16 @@ ul.nav a:hover:after {
 /*-------- MINI NAV --------*/
 div.mini {
   position: relative;
+  background-image: url("../img/filligree-sprite.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center top;
   height: 100px;
   width: 100%;
 }
 
-div#mini-music {
-  background-image: url("../img/buy-music.png");
-}
-
-div#mini-concert {
-  background-image: url("../img/attend-concert.png");
-}
-
-div#mini-book {
-  background-image: url("../img/book-show.png");
-}
-
-div#mini-music:hover {
-  background-image: url("../img/buy-music-active.png");
-}
-
-div#mini-concert:hover {
-  background-image: url("../img/attend-concert-active.png");
-}
-
-div#mini-book:hover {
-  background-image: url("../img/book-show-active.png");
+div#mini:hover {
+  background-position: center bottom;
 }
 
 /* ==========================================================================
