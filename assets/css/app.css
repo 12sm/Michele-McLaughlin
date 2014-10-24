@@ -422,6 +422,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center top;
+    height: 0;
+    padding-bottom: 13.7%;
   }
 
   div.tri-link:hover {
