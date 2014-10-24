@@ -301,13 +301,17 @@ div.mini {
   margin: 25px 0;
 }
 
-div.mini h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 50px;
+div.mini a {
   display: block;
   width: auto;
   margin: 0 auto;
+}
+
+div.mini h2 {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 div.tri-link a:hover {
