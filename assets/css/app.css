@@ -299,6 +299,7 @@ div.mini {
   height: 50px;
   width: 100%;
   margin: 25px 0;
+  text-decoration: none;
 }
 
 div.mini h2 {
@@ -323,11 +324,13 @@ div.mini h2:after {
   width: 0;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
+  text-decoration: none;
 }
 
 div.mini h2:hover:after {
   width: 100%;
   background: #79030b;
+  text-decoration: none;
 }
 
 /* ==========================================================================
