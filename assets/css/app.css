@@ -297,7 +297,7 @@ ul.nav a:hover:after {
 /*-------- MINI NAV --------*/
 div.mini {
   position: relative;
-  background-image: url("../img/filligree-sprite.png");
+  background-image: url("../img/filigree-sprite.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;
