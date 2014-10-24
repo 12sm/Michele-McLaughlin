@@ -250,10 +250,10 @@ div#about-body > p > a > img {
 
 /*-------- LISTN PAGE --------*/
 div.player {
-  background: 20px solid rgba(255, 255, 255, 0.1);
+  background-color: 20px solid rgba(255, 255, 255, 0.1);
 }
 
-div.art {
+div.art > img {
   border: 20px solid rgba(255, 255, 255, 0.1);
 }
 
