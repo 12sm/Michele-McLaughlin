@@ -370,6 +370,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   div.mini:hover {
     background-position: center bottom;
   }
+
+  div.mini h2 {
+    font-size: 35px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
