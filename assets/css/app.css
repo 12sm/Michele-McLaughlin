@@ -311,7 +311,7 @@ div.mini {
 }
 
 div.mini h2 {
-  display: block;
+  display: inline-block;
   width: auto;
   margin: 0 auto;
   text-align: center;
