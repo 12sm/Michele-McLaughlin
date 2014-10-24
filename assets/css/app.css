@@ -59,10 +59,8 @@ h6 {}
   float: left;
 }
 
-.nextToRight {
-  display: inline-block;
-  float: right;
-
+.flight {
+  text-align: right;
 }
 
 /* ==========================================================================
