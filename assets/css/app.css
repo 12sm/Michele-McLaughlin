@@ -305,7 +305,7 @@ div.mini {
   width: 100%;
 }
 
-div#mini:hover {
+div.mini:hover {
   background-position: center bottom;
 }
 
