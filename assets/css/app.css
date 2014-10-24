@@ -267,7 +267,7 @@ tr:nth-child(1), tr:nth-child(2) {
 
 div.next {
   background-color: rgb(17, 7, 7);
-  padding: 20px;
+  margin: 20px;
 }
 
 
