@@ -366,6 +366,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   div.slide:before {
     border: 20px solid rgba(255, 255, 255, 0.1);
   }
+
+  div.mini {
+    position: relative;
+    background-image: url("../img/filigree-sprite.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  div.mini:hover {
+    background-position: center bottom;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
