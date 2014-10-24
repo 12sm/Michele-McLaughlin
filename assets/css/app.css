@@ -336,27 +336,6 @@ div.mini h2 {
   text-decoration: none;
 }
 
-div.mini h2:hover {
-  color: #FFF !important;
-  text-decoration: none;
-}
-
-div.mini h2:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-  text-decoration: none;
-}
-
-div.mini h2:hover:after {
-  width: 100%;
-  background: #79030b;
-  text-decoration: none;
-}
-
 /* ==========================================================================
    Posts
    ========================================================================== */
