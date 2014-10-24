@@ -317,12 +317,12 @@ div.mini h2:hover {
   text-decoration: none;
 }
 
-div.tri-link a:hover {
+div.mini h2:hover {
   color: #FFF !important;
   text-decoration: none;
 }
 
-div.tri-link a:after {
+div.mini h2:after {
   content: '';
   display: block;
   height: 5px;
@@ -331,7 +331,7 @@ div.tri-link a:after {
   transition: width .5s ease, background-color .5s ease;
 }
 
-div.tri-link a:hover:after {
+div.mini h2:hover:after {
   width: 100%;
   background: #79030b;
 }
