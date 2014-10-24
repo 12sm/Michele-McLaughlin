@@ -60,6 +60,8 @@ h6 {}
 }
 
 .flight {
+  display: inline;
+  float: right;
   text-align: right;
 }
 
