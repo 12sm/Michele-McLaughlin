@@ -409,7 +409,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     border: 20px solid rgba(255, 255, 255, 0.1);
   }
 
-  div.mini {
+  div.tri-link {
     position: relative;
     background-image: url("../img/filigree-sprite.png");
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     background-position: center top;
   }
 
-  div.mini:hover {
+  div.tri-link:hover {
     background-position: center bottom;
   }
 
