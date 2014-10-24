@@ -308,6 +308,8 @@ div.mini {
   width: 100%;
   margin: 25px 0;
   text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
 }
 
 div.mini h2 {
