@@ -307,11 +307,11 @@ div.mini h2 {
   font-size: 50px;
 }
 
-div.mini a:hover {
+div.tri-link a:hover {
   color: #FFF !important;
 }
 
-div.mini a:after {
+div.tri-link a:after {
   content: '';
   display: block;
   height: 5px;
@@ -320,7 +320,7 @@ div.mini a:after {
   transition: width .5s ease, background-color .5s ease;
 }
 
-div.mini a:hover:after {
+div.tri-link a:hover:after {
   width: 100%;
   background: #79030b;
 }
