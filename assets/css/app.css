@@ -260,6 +260,19 @@ div.art > img {
 }
 
 
+/*-------- CONCERTS PAGE --------*/
+tr:nth-child(1), tr:nth-child(2) {
+  display: hidden;
+}
+
+div.next {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+
+
+
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
