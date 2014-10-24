@@ -400,6 +400,29 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (max-width: 768px) {
+  div.mini h2:hover {
+    color: #FFF !important;
+    text-decoration: none;
+  }
+
+  div.mini h2:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    text-decoration: none;
+  }
+
+  div.mini h2:hover:after {
+    width: 100%;
+    background: #79030b;
+    text-decoration: none;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .flex-direction-nav li .next {right: 18%;}
