@@ -251,6 +251,8 @@ div#about-body > p > a > img {
 /*-------- LISTN PAGE --------*/
 div.player {
   background-color: rgba(255, 255, 255, 0.1) !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.art > img {
