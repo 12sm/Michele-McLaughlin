@@ -275,6 +275,10 @@ div.concerto {
   margin-top: 30px;
 }
 
+.bit-track-artist-header {
+  border-top: 0px !important;
+}
+
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
