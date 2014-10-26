@@ -261,7 +261,7 @@ div.art > img {
 
 
 /*-------- CONCERTS PAGE --------*/
-tr:nth-child(1), tr:nth-child(2) {
+body.concerts tr:nth-child(1), tr:nth-child(2) {
   display: none;
 }
 
