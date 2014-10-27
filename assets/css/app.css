@@ -522,54 +522,58 @@ h1.contact-header {
 }
 
 .with_frm_style input[type=text], .with_frm_style input[type=password], .with_frm_style input[type=email], .with_frm_style input[type=number], .with_frm_style input[type=url], .with_frm_style input[type=tel], .with_frm_style select, .with_frm_style textarea, .frm_form_fields_style, .with_frm_style .frm_scroll_box .frm_opt_container, .frm_form_fields_active_style, .frm_form_fields_error_style, .with_frm_style .chosen-container-multi .chosen-choices, .with_frm_style .chosen-container-single .chosen-single {
-color: #444444;
-background-color: #EAEAEA;
-border: none;
-/* border-width: 1px; */
-/* border-style: solid; */
--moz-border-radius: 0px;
--webkit-border-radius: 0px;
-border-radius: 0px;
-width: 100%;
-max-width: 100%;
-font-size: 13px;
-padding: 8px;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-outline: none;
-font-weight: normal;
-/* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; */
+  color: #444444;
+  background-color: #EAEAEA;
+  border: none;
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 13px;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: normal;
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; */
 }
 
 .with_frm_style .frm_submit input[type=submit], .with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .with_frm_style.frm_login_form input[type=submit] {
-width: auto;
-font-family: "franklin-gothic-urw-comp", sans-serif;
-font-size: 24px;
-width: 93%;
-text-transform: uppercase;
-height: auto;
-line-height: normal;
-margin: 0 auto;
-text-align: center;
-background: #780010;
-border:none;
-color: #FFFFFF;
-cursor: pointer;
-font-weight: normal;
--moz-border-radius: 0px;
--webkit-border-radius: 0px;
-border-radius: 0px;
-text-shadow: none;
-padding: 6px 12px;
--moz-box-sizing: content-box;
-box-sizing: content-box;
--ms-box-sizing: content-box;
--moz-box-shadow: 0 1px 1px #eeeeee;
--webkit-box-shadow: 0px 1px 1px #eeeeee;
-/* box-shadow: 0 1px 1px #eeeeee; */
--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee')";
-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee');
+  width: auto;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+  font-size: 24px;
+  width: 93%;
+  text-transform: uppercase;
+  height: auto;
+  line-height: normal;
+  margin: 0 auto;
+  text-align: center;
+  background: #780010;
+  border:none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: normal;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  text-shadow: none;
+  padding: 6px 12px;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -moz-box-shadow: 0 1px 1px #eeeeee;
+  -webkit-box-shadow: 0px 1px 1px #eeeeee;
+  /* box-shadow: 0 1px 1px #eeeeee; */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee');
+}
+
+.with_frm_style .frm_submit input[type=submit]:hover, .with_frm_style .frm_submit input[type=button]:hover, .with_frm_style .frm_submit input[type=submit]:focus, .with_frm_style .frm_submit input[type=button]:focus, .with_frm_style.frm_login_form input[type=submit]:focus, .with_frm_style.frm_login_form input[type=submit]:hover {
+  background: #BE1D32;
 }
 
 /* ==========================================================================
