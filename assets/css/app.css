@@ -542,6 +542,36 @@ font-weight: normal;
 /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; */
 }
 
+.with_frm_style .frm_submit input[type=submit], .with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .with_frm_style.frm_login_form input[type=submit] {
+width: auto;
+font-family: "franklin-gothic-urw-comp", sans-serif;
+font-size: 24px;
+width: 93%;
+text-transform: uppercase;
+height: auto;
+line-height: normal;
+margin: 0 auto;
+text-align: center;
+background: #780010;
+border:none;
+color: #FFFFFF;
+cursor: pointer;
+font-weight: normal;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+text-shadow: none;
+padding: 6px 12px;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+-ms-box-sizing: content-box;
+-moz-box-shadow: 0 1px 1px #eeeeee;
+-webkit-box-shadow: 0px 1px 1px #eeeeee;
+/* box-shadow: 0 1px 1px #eeeeee; */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#eeeeee');
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
