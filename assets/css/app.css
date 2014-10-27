@@ -338,6 +338,11 @@ ul.songs-list {
   background: rgba(255, 255, 255, 0.1);
   margin: 5px 0px;
   padding: 5px 10px;
+  transition: background .1s ease;
+}
+
+.songs-list li:hover {
+background: rgba(255,255,255,.3);
 }
 
 .mp3play a {
