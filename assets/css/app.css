@@ -394,6 +394,16 @@ h1.listen-heading {
   .prod-price {
     margin-top: 0px;
   }
+  .store-nav{
+    padding-left: 0px;
+    list-style: none;
+  }
+  .store-nav{
+    display: inline-block;
+  }
+  .store-nav .btn-sm{
+    width: initial;
+  }
 /* ==========================================================================
    Navbars
    ========================================================================== */
