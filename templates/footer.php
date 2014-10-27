@@ -1,6 +1,6 @@
 <footer class="content-info container-fluid" role="contentinfo">
   <div class="imgLiquidFill imgLiquid">
-    <img src="/wp-content/themes/michele/assets/img/footer-bg.png">
+    <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="row mininav">
       <div class="col-xs-2 col-xs-offset-3">
         <a href="/store">
