@@ -1,11 +1,11 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row imgLiquidFill imgLiquid">
-    <img src="../img/footer-bg.png">
+    <img src="assets/img/footer-bg.png">
     <div class="row mininav">
       <div class="col-xs-2 col-xs-offset-3">
         <a href="/store">
           <div class="mini">
-            <img src"../img/bullet-footer.png">
+            <img src"http://michelemclaughlinmusic.12southdev.com/wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               BUY MUSIC
             </h4>
@@ -15,7 +15,7 @@
       <div class="col-xs-2">
         <a href="/concerts">
           <div class="mini">
-            <img src"../img/bullet-footer.png">
+            <img src"http://michelemclaughlinmusic.12southdev.com/wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               CONCERTS
             </h4>
@@ -25,7 +25,7 @@
       <div class="col-xs-2">
         <a href="/booking">
           <div class="mini">
-            <img src"../img/bullet-footer.png">
+            <img src"http://michelemclaughlinmusic.12southdev.com/wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               BOOK A SHOW
             </h4>
