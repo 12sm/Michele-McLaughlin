@@ -73,7 +73,7 @@ h6 {}
   padding: 0 15px;
 }
 
-a {transiton:color .3s ease;}
+a {transiton:color .3s ease;!important}
 
 /* ==========================================================================
    Headers
