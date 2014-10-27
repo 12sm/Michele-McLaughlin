@@ -299,6 +299,11 @@ ul.songs-list {
   float: left;
   clear: both;
   background: rgba(255, 255, 255, 0.1);
+  margin: 5px 0px;
+  padding: 5px 10px;
+}
+.mp3play a {
+  color: #fff;
 }
 
 /* ==========================================================================

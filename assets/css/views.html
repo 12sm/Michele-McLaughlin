@@ -1,0 +1,50 @@
+[wpv-layout-start]
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
+    <wpv-loop>
+      <div class="album-block row">
+        <div class="player col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>
+                [wpv-post-title]
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="art col-sm-4">
+              [wpv-post-featured-image]
+              <div class="row">
+                [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
+              </div>
+              <div class="row">
+                  <div class="col-sm-6">
+                    <a href="[types field="amazon-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="[types field="itunes-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <div class="row">
+                <div class='col-sm-12 songs-view'>
+                  [wpv-view name='songs']
+                  <div class="row">
+                    [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </wpv-loop>
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
