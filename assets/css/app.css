@@ -340,7 +340,7 @@ i.nextTo.fa.fa-play {
   padding: 0px 5px;
   margin-top: 2px;
 }
-.button.add_to_cart_button {
+.button.add_to_cart_button, .added_to_cart.wc-forward {
   background: rgba(255, 255, 255, 0.1) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
