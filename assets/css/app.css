@@ -316,7 +316,7 @@ ul.songs-list {
   color: #fff;
   width: 100%;
 }
-.btn-sm:hover, .button.add_to_cart_button {
+.btn-sm:hover, .button.add_to_cart_button:hover {
   background: #fff;
 }
 .button.add_to_cart_button {
