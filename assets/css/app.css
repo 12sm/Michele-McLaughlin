@@ -366,7 +366,7 @@ i.nextTo.fa.fa-play {
   background: rgba(255, 255, 255, .8) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
-  color: #911515 !important;
+  color: #780010 !important;
   width: 100% !important;
   text-align: center;
   padding: 10px!important;
@@ -376,6 +376,12 @@ i.nextTo.fa.fa-play {
   box-shadow: none !important;
   font-weight: 500 !important;
   font-family: "franklin-gothic-urw", sans-serif;
+  transition:background .3s ease, color .3s ease;
+}
+
+.button.add_to_cart_button:hover, .added_to_cart.wc-forward:hover {
+  background: #780010 !important;
+  color:#FFF;
 }
 
 .sm2_playing .fa-play:before {
