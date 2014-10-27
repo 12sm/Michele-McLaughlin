@@ -16,6 +16,7 @@
 
 (function($) {
 
+  $(".imgLiquidFill").imgLiquid();
   function playMusic(){
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
@@ -51,13 +52,10 @@
     concerts: {
       init: function() {
         // JavaScript to be fired on all pages
-        $(".imgLiquidFill").imgLiquid();
       }
     },
-    // Home page
     home: {
       init: function() {
-        // JavaScript to be fired on the home page
         $.backstretch('../wp-content/themes/michele/assets/img/top-piano-bg.png');
         $(window).load(function() {
           $('.flexslider').flexslider();
@@ -67,10 +65,8 @@
         $('.play').on('click', playMusic);
       }
     },
-    // About us page, note the change from about-us to about_us.
     post_type_archive_albums: {
       init: function() {
-        // JavaScript to be fired on the about us page
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
