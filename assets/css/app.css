@@ -395,6 +395,14 @@ h1.listen-heading {
   font-size:30px;
 }
 
+.art h3 {
+text-align: center;
+font-size: 18px;
+color: #CCC;
+letter-spacing: .5px;
+text-shadow: 1px 1px 1px #4A4A4A;
+}
+
 /* ==========================================================================
    Store
    ========================================================================== */
