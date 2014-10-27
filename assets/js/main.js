@@ -65,6 +65,42 @@
         $('.play').on('click', playMusic);
       }
     },
+    post_type_archive_product: {
+    init: function() {
+
+      //Adds Cart icon to buttons
+      $('.add_to_cart_button').each(function(){
+          text = $(this).html();
+          console.log(text);
+          $(this).html(function(){
+            return '<i class="fa fa-shopping-cart"></i> ' + text;
+          });
+        });
+
+      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
+        prodLiquid();
+        sheetImg();
+        soundManager.reset();
+        soundManager.setup({
+          // disable or enable debug output
+          debugMode: true,
+          // use HTML5 audio for MP3/MP4, if available
+          preferFlash: false,
+          useFlashBlock: true,
+          // path to directory containing SM2 SWF
+          url: '/swf',
+          // optional: enable MPEG-4/AAC support (requires flash 9)
+          flashVersion: 9
+        });
+
+soundManager.onready(function() {
+  // soundManager.createSound() etc. may now be called
+  inlinePlayer = new InlinePlayer();
+});
+});
+
+  }
+},
     post_type_archive_albums: {
       init: function() {
         smSetup();
