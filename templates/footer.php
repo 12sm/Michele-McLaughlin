@@ -1,8 +1,28 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row imgLiquidFill imgLiquid">
     <img src="../asset/img/footer-bg.png">
-    <div class="row">
-      Mini Nav
+    <div class="row mininav">
+      <div class="col-xs-2 col-xs-offset-3">
+        <a href="/store">
+          <div class="mini">
+            <h2>BUY MUSIC</h2>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-2">
+        <a href="/concerts">
+          <div class="mini">
+            <h2>ATTEND A CONCERT</h2>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-2">
+        <a href="/booking">
+          <div class="mini">
+            <h2>BOOK A SHOW</h2>
+          </div>
+        </a>
+      </div>
     </div>
     <div class="row">
       Main Nav
