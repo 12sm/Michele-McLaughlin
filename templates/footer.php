@@ -5,21 +5,21 @@
       <div class="col-xs-2 col-xs-offset-3">
         <a href="/store">
           <div class="mini">
-            <h2>BUY MUSIC</h2>
+            <h4>BUY MUSIC</h4>
           </div>
         </a>
       </div>
       <div class="col-xs-2">
         <a href="/concerts">
           <div class="mini">
-            <h2>ATTEND A CONCERT</h2>
+            <h4>ATTEND A CONCERT</h4>
           </div>
         </a>
       </div>
       <div class="col-xs-2">
         <a href="/booking">
           <div class="mini">
-            <h2>BOOK A SHOW</h2>
+            <h4>BOOK A SHOW</h4>
           </div>
         </a>
       </div>
