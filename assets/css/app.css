@@ -307,12 +307,19 @@ ul.songs-list {
 .mp3play a {
   color: #fff;
 }
-.btn-sm, .button.add_to_cart_button{
+.btn-sm{
   background: rgba(255, 255, 255, 0.1);
   margin-top: 5px;
   margin-bottom: 5px;
   color: #fff;
   width: 100%;
+}
+.button.add_to_cart_button{
+  background: rgba(255, 255, 255, 0.1) !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  color: #fff !important;
+  width: 100% !important;
 }
 /* ==========================================================================
    Navbars
