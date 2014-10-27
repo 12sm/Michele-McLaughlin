@@ -410,6 +410,8 @@ div.mini h2:hover {
 
 p.credits {
   text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 
