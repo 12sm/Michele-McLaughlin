@@ -305,7 +305,7 @@ ul.songs-list {
 .mp3play a {
   color: #fff;
 }
-.btn-sm{
+.btn-sm, .button.add_to_cart_button{
   background: rgba(255, 255, 255, 0.1);
   margin-top: 5px;
   margin-bottom: 5px;
