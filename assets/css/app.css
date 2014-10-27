@@ -354,7 +354,7 @@ ul.nav a {
   font-family: "franklin-gothic-urw-comp", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  color: #FFF !important;
+  color: #ADADAD !important;
 }
 
 ul.nav a:hover {
@@ -603,23 +603,17 @@ div#head {
 }
 
 ul.nav a {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav>li>a {
-  padding: 10px 11px;
+  padding: 33px 14px;
 }
 
-.nav>li>a {
-  padding: 33px 10px;
-}
-
-nav.collapse.navbar-collapse {
+nav.collapse.navbar-collapse,
+ul.nav.navbar-nav {
   float:right;
 }
 
-ul.nav.navbar-nav {
-float: right;
-}
 
  }
