@@ -434,6 +434,10 @@ div.mini h2:hover {
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
+footer div {
+  text-align: center;
+}
+
 p.credits {
   text-transform: uppercase;
   font-size: 10px;
