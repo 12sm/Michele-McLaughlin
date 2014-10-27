@@ -126,6 +126,10 @@ div.container-fluid.content {
   border: none!important;
 }
 
+.flight button:hover {
+  background: #BE1D32;
+}
+
 input#fieldName,
 input#fieldEmail {
   border: none!important;
