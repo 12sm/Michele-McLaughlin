@@ -16,7 +16,6 @@
 
 (function($) {
 
-  $(".imgLiquidFill").imgLiquid();
   function playMusic(){
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
@@ -45,12 +44,12 @@
     // All pages
     common: {
       init: function() {
+        $(".imgLiquidFill").imgLiquid();
       }
     },
     concerts: {
       init: function() {
         // JavaScript to be fired on all pages
-        $(".imgLiquidFill").imgLiquid();
       }
     },
     home: {
