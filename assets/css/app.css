@@ -321,7 +321,7 @@ ul.songs-list {
 }
 .btn-sm:hover, .button.add_to_cart_button:hover {
   background: #fff !important;
-  color: #333;
+  color: #333 !important;
 }
 i.nextTo.fa.fa-play {
   padding: 0px 5px;
