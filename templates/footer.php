@@ -5,7 +5,7 @@
       <div class="col-xs-2 col-xs-offset-3">
         <a href="/store">
           <div class="mini">
-            <img src"http://michelemclaughlinmusic.12southdev.com/wp-content/themes/michele/assets/img/bullet-footer.png">
+            <img src"../assets/img/bullet-footer.png">
             <h4>
               BUY MUSIC
             </h4>
