@@ -527,7 +527,7 @@ div#head {
 }
 
 .nav>li>a {
-padding: 10px 10px;
+padding: 33px 10px;
 }
 
 ul.nav a {
@@ -581,6 +581,10 @@ ul.nav a {
   font-size: 16px;
 }
 
+.nav>li>a {
+  padding: 33px 10px;
+}
+
 
 h1.bandit {
   padding: 15px 3%;
@@ -604,6 +608,10 @@ ul.nav a {
 
 .nav>li>a {
   padding: 10px 11px;
+}
+
+.nav>li>a {
+  padding: 33px 10px;
 }
 
  }
