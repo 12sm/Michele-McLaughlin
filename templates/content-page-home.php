@@ -5,11 +5,15 @@
 
 <!-- /*-------- HOME SLIDER VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='homepage-slider']"); ?>
+</div>
 
 <!-- /*-------- MINI NAV VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='homepage-mini-nav']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='homepage-mini-nav']"); ?>
+</div>
 
 <!-- /*-------- HOME BIO VIEW --------*/ -->
 
