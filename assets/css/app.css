@@ -580,5 +580,9 @@ div#head {
   background: transparent;
 }
 
+ul.nav a {
+  font-size: 20px;
+}
+
 
  }
