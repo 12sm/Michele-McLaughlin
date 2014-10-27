@@ -30,7 +30,7 @@
 
         <p class="credits">&copy;
           <?php echo date('Y'); ?>
-          <?php bloginfo('name'); ?>. ALL RIGHTS RESERVED.
+          MICHELE MCLAUGHLIN. ALL RIGHTS RESERVED.
           <a href="http://12southmusic.com/" target="_blank">
             BUILT BY 12SM.
           </a>
