@@ -1,6 +1,7 @@
 <!-- /*-------- EMAIL SIGNUP --------*/ -->
-
-<?php echo do_shortcode("[wpv-view name='email-submit']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='email-submit']"); ?>
+</div>
 
 <!-- /*-------- HOME SLIDER VIEW --------*/ -->
 
