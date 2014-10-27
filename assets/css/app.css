@@ -321,6 +321,7 @@ div.concerto {
 /* ==========================================================================
    Albums
    ========================================================================== */
+   
 ul.songs-list {
   padding-left: 0px;
   list-style: none;
@@ -367,8 +368,15 @@ i.nextTo.fa.fa-play {
   font-weight: 500 !important;
   font-family: "franklin-gothic-urw", sans-serif;
 }
+
 .sm2_playing .fa-play:before {
-content: "\f04c";
+  content: "\f04c";
+}
+
+h1.listen-heading {
+  color:#FFF;
+  text-transform:Capitalize; 
+  font-size:30px;
 }
 
 /* ==========================================================================
