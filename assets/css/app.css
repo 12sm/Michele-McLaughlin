@@ -350,7 +350,7 @@ ul.songs-list {
   margin-bottom: 5px;
   color: #fff;
   width: 100%;
-  transition:background 3.s ease, color .3s ease;
+  transition:background .3s ease, color .3s ease;
 }
 
 .btn-sm:hover, .button.add_to_cart_button:hover {
