@@ -15,7 +15,7 @@
       </div>
 
       <p class="credits">&copy;
-        <?php echo date('Y'); ?>.
+        <?php echo date('Y'); ?>
         <?php bloginfo('name'); ?>. ALL RIGHTS RESERVED.
         <a href="http://12southmusic.com/" target="_blank">
           BUILT BY 12SM.
