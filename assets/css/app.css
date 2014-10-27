@@ -434,10 +434,9 @@ p.credits {
 
 }
 
-.credits a:link:visited:hover:active {
-    color: #9F9F9F;
-    text-decoration: none;
-
+.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
+  color: #9F9F9F;
+  text-decoration: none;
 }
 
 
@@ -521,7 +520,7 @@ div.tri-link:hover {
 div.mini h2 {
   font-size: 35px;
 }
-  
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -542,13 +541,13 @@ h1.bandit {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg) {
-  
+
 /* -- NAV & BASE -- */
 
 div#head {
   width: 80%;
   background: transparent;
 }
-  
-  
+
+
  }
