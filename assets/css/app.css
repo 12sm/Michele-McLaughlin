@@ -324,6 +324,11 @@ div#head {
   background: #000;
 }
 
+.navbar-brand {
+  bottom: -23px;
+  position: relative;
+}
+
 header.banner {
   background-color: black;
   padding-top: 10px;
@@ -332,10 +337,6 @@ header.banner {
 
 div.navbar-header > a > img {
   margin-top: -18px;
-}
-
-ul#menu-primary-navigation {
-text-align: center;
 }
 
 ul.nav a {
@@ -377,7 +378,11 @@ a.contact {
 }
 
 .navbar-toggle {
-  bottom: 8px;
+  bottom: -16px;
+}
+
+nav.navbar-collapse.in {
+  text-align: center;
 }
 
 /*-------- MINI NAV --------*/
