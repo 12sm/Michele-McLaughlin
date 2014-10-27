@@ -314,12 +314,17 @@ ul.songs-list {
   color: #fff;
   width: 100%;
 }
-.button.add_to_cart_button{
+.button.add_to_cart_button {
   background: rgba(255, 255, 255, 0.1) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
   color: #fff !important;
   width: 100% !important;
+  text-align: center;
+  border: 0px solid !important;
+  box-shadow: none !important;
+  font-weight: 500 !important;
+  font-family: "franklin-gothic-urw", sans-serif;
 }
 /* ==========================================================================
    Navbars
