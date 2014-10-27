@@ -581,7 +581,7 @@ div#head {
 }
 
 .nav>li>a {
-padding: 33px 10px;
+padding: 33px 10px 10px 10px;
 }
 
 ul.nav a {
@@ -636,7 +636,7 @@ ul.nav a {
 }
 
 .nav>li>a {
-  padding: 33px 10px;
+  padding: 33px 10px 10px 10px;
 }
 
 
@@ -661,7 +661,7 @@ ul.nav a {
 }
 
 .nav>li>a {
-  padding: 33px 14px;
+  padding: 33px 14px 10px 14px;
 }
 
 nav.collapse.navbar-collapse,
