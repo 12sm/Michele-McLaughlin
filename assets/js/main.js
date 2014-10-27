@@ -39,7 +39,6 @@
     });
   }
 
-
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -66,36 +65,35 @@
       }
     },
     post_type_archive_product: {
-    init: function() {
+      init: function() {
 
-      //wrap woocommerce images in relevant <a/> tags
-      $(".sheet-img").each(function() {
-        var $this = $(this);
-        var child = $(this).children('img');
-        var src = child.attr('src');
-        child.addClass('image');
-        var a = $('<a class="colorbox"></a>').attr('href', src);
-        $this.wrap(a);
-      });
+        //wrap woocommerce images in relevant <a/> tags
+        $(".sheet-img").each(function() {
+          var $this = $(this);
+          var child = $(this).children('img');
+          var src = child.attr('src');
+          child.addClass('image');
+          var a = $('<a class="colorbox"></a>').attr('href', src);
+          $this.wrap(a);
+        });
 
-      //Adds Cart icon to buttons
-      $('.add_to_cart_button').each(function(){
+        //Adds Cart icon to buttons
+        $('.add_to_cart_button').each(function(){
           text = $(this).html();
           console.log(text);
           $(this).html(function(){
             return '<i class="fa fa-shopping-cart"></i> ' + text;
           });
         });
-      function prodLiquid(){
-        $('.sheet-img').imgLiquid({
-          verticalAlign: 'top'
-        });
-        $('.sheet-album').imgLiquid();
+        function prodLiquid(){
+          $('.sheet-img').imgLiquid({
+            verticalAlign: 'top'
+          });
+          $('.sheet-album').imgLiquid();
+        }
+        prodLiquid();
       }
-      prodLiquid();
-
-  }
-},
+    },
     post_type_archive_albums: {
       init: function() {
         smSetup();

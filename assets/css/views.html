@@ -19,24 +19,22 @@
                 [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
               </div>
               <div class="row">
-                  <div class="col-sm-6">
-                    <a href="[types field="amazon-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
-                  </div>
-                  <div class="col-sm-6">
-                    <a href="[types field="itunes-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-music"></i>  iTunes</a>
-                  </div>
+                <div class="col-sm-6">
+                  <a href="[types field=" amazon-url " output="raw "][/types]" class="btn btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
                 </div>
+                <div class="col-sm-6">
+                  <a href="[types field=" itunes-url " output="raw "][/types]" class="btn btn-sm"><i class="fa fa-music"></i>  iTunes</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-8">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class='col-sm-12 songs-view'>
+              [wpv-view name='songs']
               <div class="row">
-                <div class='col-sm-12 songs-view'>
-                  [wpv-view name='songs']
-                  <div class="row">
-                    [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
-                  </div>
-                </div>
+                [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
               </div>
             </div>
           </div>
