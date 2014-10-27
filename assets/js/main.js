@@ -45,7 +45,6 @@
     // All pages
     common: {
       init: function() {
-        $(".imgLiquidFill").imgLiquid();
       }
     },
     concerts: {
