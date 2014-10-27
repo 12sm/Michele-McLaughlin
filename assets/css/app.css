@@ -332,6 +332,10 @@ div.navbar-header > a > img {
   margin-top: -18px;
 }
 
+ul#menu-primary-navigation {
+text-align: center;
+}
+
 ul.nav a {
   display: inline-block;
   font-family: "franklin-gothic-urw-comp", sans-serif;
@@ -490,8 +494,30 @@ div.mini h2:hover:after {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 80%;
+  width: 100%;
   background:transparent;
+}
+
+.navbar-nav {
+  float: none;
+}
+
+.navbar-nav>li>a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  line-height:32px;
+}
+
+.nav>li>a {
+  padding: 5px 10px;
+}
+
+ul.nav a {
+  font-size: 13px;
+}
+
+ul#menu-primary-navigation {
+  float: left;
 }
 
 /* -- SLIDER -- */
@@ -529,12 +555,17 @@ div.mini h2 {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 80%;
+  width: 85%;
   background:transparent;
 }
 
+ul.nav a {
+  font-size: 16px;
+}
+
+
 h1.bandit {
-    padding: 15px 3%;
+  padding: 15px 3%;
 }
 
 }
