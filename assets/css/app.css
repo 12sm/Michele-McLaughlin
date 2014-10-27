@@ -451,7 +451,7 @@ footer div {
 p.credits {
   text-transform: uppercase;
   font-size: 10px;
-  color: #9F9F9F;
+  color: rgb(27, 27, 27);
 }
 
 .credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
