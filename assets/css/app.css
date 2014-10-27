@@ -513,11 +513,33 @@ div.mini h2:hover {
 h1.contact-header {
   color: #780010;
   text-align: center;
+  margin-top: 0;
 }
 
 .modal-dialog {
   width: 400px;
   margin: 5% auto;
+}
+
+.with_frm_style input[type=text], .with_frm_style input[type=password], .with_frm_style input[type=email], .with_frm_style input[type=number], .with_frm_style input[type=url], .with_frm_style input[type=tel], .with_frm_style select, .with_frm_style textarea, .frm_form_fields_style, .with_frm_style .frm_scroll_box .frm_opt_container, .frm_form_fields_active_style, .frm_form_fields_error_style, .with_frm_style .chosen-container-multi .chosen-choices, .with_frm_style .chosen-container-single .chosen-single {
+color: #444444;
+background-color: #EAEAEA;
+border: none;
+/* border-width: 1px; */
+/* border-style: solid; */
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+width: 100%;
+max-width: 100%;
+font-size: 13px;
+padding: 8px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+outline: none;
+font-weight: normal;
+/* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; */
 }
 
 /* ==========================================================================
