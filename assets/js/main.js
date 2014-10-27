@@ -81,7 +81,6 @@
       //Adds Cart icon to buttons
       $('.add_to_cart_button').each(function(){
           text = $(this).html();
-          console.log(text);
           $(this).html(function(){
             return '<i class="fa fa-shopping-cart"></i> ' + text;
           });
