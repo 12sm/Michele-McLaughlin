@@ -378,6 +378,9 @@ content: "\f04c";
     min-height: 500px;
     padding: 25px;
   }
+  .store-title h1 {
+    font-size: 32px;
+  }
 /* ==========================================================================
    Navbars
    ========================================================================== */
@@ -703,6 +706,11 @@ div.tri-link:hover {
 
 div.mini h2 {
   font-size: 35px;
+}
+
+/* -- STORE -- */
+.store-title h1 {
+  margin-top: 0px;
 }
 
 }

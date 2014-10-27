@@ -1,51 +1,61 @@
-<!-- MUSIC <!-->
 [wpv-layout-start]
   [wpv-items-found]
-  <!-- wpv-loop-start -->
-    <wpv-loop>
-      <div class="album-block row">
-        <div class="player col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+    <div class="row" id='#store-cd'>
+      <wpv-loop>
+        <div class="col-lg-6 col-md-6 col-sm-6 store-section">
           <div class="row">
-            <div class="col-xs-12">
-              <h1>
-                [wpv-post-title]
-              </h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="art col-sm-4">
-              [wpv-post-featured-image]
-              <div class="row">
-                [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
-              </div>
-              <div class="row">
-                  <div class="col-sm-6">
-                    <a href="[types field="amazon-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
-                  </div>
-                  <div class="col-sm-6">
-                    <a href="[types field="itunes-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-music"></i>  iTunes</a>
-                  </div>
+            <div class="col-lg-6">
+              <a href="[wpv-post-url id="$albums"]" class="album-img">
+                <div class='album-image img-container'>
+                  <img src="[wpv-post-featured-image size="thumbnail" raw="true" id="$albums"]" class="img-responsive">
                 </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-9 store-title">
+                  <a href='[wpv-post-url]'>
+                    <h1>[wpv-post-title id="$albums"]</h1>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <h3 class="prod-price alignright"><b>[wpv-woo-product-price]</b></h3>
                 </div>
               </div>
-            </div>
-            <div class="col-sm-8">
-              <div class="row">
-                <div class='col-sm-12 songs-view'>
-                  [wpv-view name='songs']
+              <div class="row album-excerpt">
+                <div class="col-sm-12">
+                  [types field="short-excerpt" id="$albums"][/types]
+                </div>
+              </div>
+              <div class="row center buy-options">
+                <div class="col-sm-12">
+                  <a href="[wpv-post-url id="$albums"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
+                </div>
+                <div class="col-sm-12">
+                  <div class="buy-now-cd buy-now center">
+                    [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+                  </div>
+                </div>
+              </div>
+              <div class="buy-options row">
+                <div class="col-md-12">
                   <div class="row">
-                    [wpv-view name="ALBUMS | PRODUCTS| BUTTONS"]
+                    <div class="col-sm-6 center">
+                      <a href="[types field="amazon-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+                    </div>
+                    <div class="col-sm-6 center">
+                      <a href="[types field="itunes-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </wpv-loop>
-  <!-- wpv-loop-end -->
+      </wpv-loop>
+    </div>
   [/wpv-items-found]
   [wpv-no-items-found]
-    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+    [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]
