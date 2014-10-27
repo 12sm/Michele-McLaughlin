@@ -314,6 +314,9 @@ ul.songs-list {
   color: #fff;
   width: 100%;
 }
+.btn-sm:hover, .button.add_to_cart_button {
+  background: #fff;
+}
 .button.add_to_cart_button {
   background: rgba(255, 255, 255, 0.1) !important;
   margin-top: 5px !important;
