@@ -618,4 +618,8 @@ nav.collapse.navbar-collapse {
   float:right;
 }
 
+ul.nav.navbar-nav {
+float: right;
+}
+
  }
