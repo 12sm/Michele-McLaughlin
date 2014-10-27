@@ -400,7 +400,7 @@ h1.listen-heading {
   font-size:30px;
 }
 
-body.albums .art h3 {
+h3.album-listen-price {
 text-align: center;
 font-size: 18px;
 color: #CCC;
