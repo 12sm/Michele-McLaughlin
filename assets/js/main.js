@@ -68,6 +68,16 @@
     post_type_archive_product: {
     init: function() {
 
+      //wrap woocommerce images in relevant <a/> tags
+      $(".sheet-img").each(function() {
+        var $this = $(this);
+        var child = $(this).children('img');
+        var src = child.attr('src');
+        child.addClass('image');
+        var a = $('<a class="colorbox"></a>').attr('href', src);
+        $this.wrap(a);
+      });
+
       //Adds Cart icon to buttons
       $('.add_to_cart_button').each(function(){
           text = $(this).html();
@@ -76,28 +86,13 @@
             return '<i class="fa fa-shopping-cart"></i> ' + text;
           });
         });
-
-      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
-        prodLiquid();
-        sheetImg();
-        soundManager.reset();
-        soundManager.setup({
-          // disable or enable debug output
-          debugMode: true,
-          // use HTML5 audio for MP3/MP4, if available
-          preferFlash: false,
-          useFlashBlock: true,
-          // path to directory containing SM2 SWF
-          url: '/swf',
-          // optional: enable MPEG-4/AAC support (requires flash 9)
-          flashVersion: 9
+      function prodLiquid(){
+        $('.sheet-img').imgLiquid({
+          verticalAlign: 'top'
         });
-
-soundManager.onready(function() {
-  // soundManager.createSound() etc. may now be called
-  inlinePlayer = new InlinePlayer();
-});
-});
+        $('.sheet-album').imgLiquid();
+      }
+      prodLiquid();
 
   }
 },
