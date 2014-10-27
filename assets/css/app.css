@@ -340,9 +340,13 @@ div.navbar-header > a > img {
 }
 
 ul#menu-primary-navigation, {
-text-align: center;
+  text-align: center;
 }
 
+.navbar-collapse.in {
+  overflow-y: visible;
+  margin-bottom:50px;
+}
 
 ul.nav a {
   display: inline-block;
