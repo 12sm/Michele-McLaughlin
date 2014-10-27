@@ -381,7 +381,7 @@ i.nextTo.fa.fa-play {
 
 .button.add_to_cart_button:hover, .added_to_cart.wc-forward:hover {
   background: #780010 !important;
-  color:#FFF;
+  color:#FFF!important;
 }
 
 .sm2_playing .fa-play:before {
