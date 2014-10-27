@@ -316,6 +316,8 @@ ul.songs-list {
    Navbars
    ========================================================================== */
 
+.navbar {min-height: 80px;}
+
 div#head {
   width: 100%;
   margin: 0 auto;
@@ -509,7 +511,7 @@ div#head {
 }
 
 .nav>li>a {
-  padding: 5px 10px;
+padding: 10px 10px;
 }
 
 ul.nav a {
@@ -584,5 +586,8 @@ ul.nav a {
   font-size: 20px;
 }
 
+.nav>li>a {
+  padding: 10px 11px;
+}
 
  }
