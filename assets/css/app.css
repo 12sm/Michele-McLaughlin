@@ -316,8 +316,9 @@ ul.songs-list {
    ========================================================================== */
 
 div#head {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  background: #000;
 }
 
 header.banner {
@@ -362,6 +363,14 @@ ul.nav a:after {
 ul.nav a:hover:after {
   width: 100%;
   background: #79030b;
+}
+
+a.contact {
+  cursor:pointer;
+}
+
+.navbar-toggle {
+  bottom: 8px;
 }
 
 /*-------- MINI NAV --------*/
@@ -451,62 +460,91 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-  div.mini h2:hover {
-    color: #FFF !important;
-    text-decoration: none;
+
+div.mini h2:hover {
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+div.mini h2:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+  text-decoration: none;
+}
+
+div.mini h2:hover:after {
+  width: 100%;
+  background: #79030b;
+  text-decoration: none;
   }
 
-  div.mini h2:after {
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-    text-decoration: none;
-  }
-
-  div.mini h2:hover:after {
-    width: 100%;
-    background: #79030b;
-    text-decoration: none;
-  }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .flex-direction-nav li .next {right: 18%;}
-  .flex-direction-nav li .prev {left: 18%;}
 
-  div.slide:before {
-    border: 20px solid rgba(255, 255, 255, 0.1);
-  }
+/* -- NAV & BASE -- */
 
-  div.tri-link {
-    position: relative;
-    background-image: url("../img/filigree-sprite.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center top;
-    height: 0;
-    padding-bottom: 13.7%;
-  }
+div#head {
+  width: 80%
+}
 
-  div.tri-link:hover {
-    background-position: center bottom;
-  }
+/* -- SLIDER -- */
 
-  div.mini h2 {
-    font-size: 35px;
-  }
+.flex-direction-nav li .next {right: 18%;}
+.flex-direction-nav li .prev {left: 18%;}
+
+div.slide:before {
+  border: 20px solid rgba(255, 255, 255, 0.1);
+}
+
+div.tri-link {
+  position: relative;
+  background-image: url("../img/filigree-sprite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  height: 0;
+  padding-bottom: 13.7%;
+}
+
+div.tri-link:hover {
+  background-position: center bottom;
+}
+
+div.mini h2 {
+  font-size: 35px;
+}
+  
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  h1.bandit {
+
+/* -- NAV & BASE -- */
+
+div#head {
+  width: 80%
+}
+
+h1.bandit {
     padding: 15px 3%;
-  }
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: @screen-lg) {
+  
+/* -- NAV & BASE -- */
+
+div#head {
+  width: 80%
+}
+  
+  
+ }
