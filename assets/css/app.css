@@ -391,6 +391,10 @@ a.contact {
   bottom: -16px;
 }
 
+li.active a {
+  color: #FFF!important;
+}
+
 
 /*-------- MINI NAV --------*/
 div.tri-link {
