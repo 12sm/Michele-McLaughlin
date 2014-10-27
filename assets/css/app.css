@@ -431,7 +431,7 @@ div.mini h2:hover {
 p.credits {
   text-transform: uppercase;
   font-size: 10px;
-
+  color: #9F9F9F;
 }
 
 .credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
