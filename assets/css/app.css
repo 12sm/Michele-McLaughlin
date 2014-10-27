@@ -75,7 +75,10 @@ h6 {}
 
 a {transiton:color .3s ease;!important}
 
-.max-wrap {max-width:1170px;}
+.max-wrap {
+  max-width:1170px;
+  margin:0 auto;
+}
 
 /* ==========================================================================
    Headers
