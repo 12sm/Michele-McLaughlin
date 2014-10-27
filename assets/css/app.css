@@ -293,6 +293,13 @@ ul.songs-list {
   -moz-column-count: 2;
   column-count: 2;
 }
+.songs-list li {
+  display: block;
+  width: 100%;
+  float: left;
+  clear: both;
+  background: rgba(255, 255, 255, 0.1);
+}
 
 /* ==========================================================================
    Navbars
