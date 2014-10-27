@@ -339,7 +339,8 @@ div.navbar-header > a > img {
   margin-top: -18px;
 }
 
-ul#menu-primary-navigation, {
+ul#menu-primary-navigation,
+ul.nav.navbar-nav {
   text-align: center;
 }
 
@@ -390,9 +391,6 @@ a.contact {
   bottom: -16px;
 }
 
-nav.navbar-collapse.in {
-  text-align: center;
-}
 
 /*-------- MINI NAV --------*/
 div.tri-link {
