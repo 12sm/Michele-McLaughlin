@@ -290,7 +290,8 @@ ul.songs-list {
   padding-left: 0px;
   list-style: none;
   -webkit-column-count: 2;
-  columns: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 
 /* ==========================================================================
