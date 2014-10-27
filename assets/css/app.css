@@ -614,4 +614,8 @@ ul.nav a {
   padding: 33px 10px;
 }
 
+ul.nav.navbar-nav {
+float: right;
+}
+
  }
