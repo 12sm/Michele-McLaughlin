@@ -490,7 +490,8 @@ div.mini h2:hover:after {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 80%
+  width: 80%;
+  background:transparent;
 }
 
 /* -- SLIDER -- */
@@ -528,7 +529,8 @@ div.mini h2 {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 80%
+  width: 80%;
+  background:transparent;
 }
 
 h1.bandit {
@@ -543,7 +545,8 @@ h1.bandit {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 80%
+  width: 80%;
+  background: transparent;
 }
   
   
