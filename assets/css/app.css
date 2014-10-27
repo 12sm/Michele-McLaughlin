@@ -97,6 +97,7 @@ div.banners {
   background-size: cover;
   background-position: center top;
   height: 111px;
+  width:99%;
 }
 
 h1.bandit {
@@ -290,7 +291,7 @@ div.player {
 }
 
 div.art > img {
-  border: 20px solid rgba(255, 255, 255, 0.1);
+  border: 10px solid rgba(255, 255, 255, 0.1);
 }
 
 
@@ -320,6 +321,7 @@ div.concerto {
 /* ==========================================================================
    Albums
    ========================================================================== */
+   
 ul.songs-list {
   padding-left: 0px;
   list-style: none;
@@ -327,6 +329,7 @@ ul.songs-list {
   -moz-column-count: 2;
   column-count: 2;
 }
+
 .songs-list li {
   display: block;
   width: 100%;
@@ -336,9 +339,11 @@ ul.songs-list {
   margin: 5px 0px;
   padding: 5px 10px;
 }
+
 .mp3play a {
   color: #fff;
 }
+
 .btn-sm{
   background: rgba(255, 255, 255, 0.1);
   margin-top: 5px;
@@ -346,28 +351,47 @@ ul.songs-list {
   color: #fff;
   width: 100%;
 }
+
 .btn-sm:hover, .button.add_to_cart_button:hover {
   background: #fff !important;
   color: #333 !important;
 }
+
 i.nextTo.fa.fa-play {
   padding: 0px 5px;
   margin-top: 2px;
 }
+
 .button.add_to_cart_button, .added_to_cart.wc-forward {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, .8) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
-  color: #fff !important;
+  color: #780010 !important;
   width: 100% !important;
   text-align: center;
+  padding: 10px!important;
+  font-size: 16px!important;
+  text-shadow: none!important;
   border: 0px solid !important;
   box-shadow: none !important;
   font-weight: 500 !important;
   font-family: "franklin-gothic-urw", sans-serif;
+  transition:background .3s ease, color .3s ease;
 }
+
+.button.add_to_cart_button:hover, .added_to_cart.wc-forward:hover {
+  background: #780010 !important;
+  color:#FFF!important;
+}
+
 .sm2_playing .fa-play:before {
-content: "\f04c";
+  content: "\f04c";
+}
+
+h1.listen-heading {
+  color:#FFF;
+  text-transform:Capitalize; 
+  font-size:30px;
 }
 
 /* ==========================================================================
@@ -377,6 +401,24 @@ content: "\f04c";
     background: rgba(255, 255, 255, 0.1) !important;
     min-height: 500px;
     padding: 25px;
+  }
+  .store-title h1 {
+    font-size: 32px;
+    color: #fff;
+  }
+  .prod-price {
+    margin-top: 0px;
+  }
+  .store-nav{
+    padding-left: 0px;
+    list-style: none;
+  }
+  .store-nav li{
+    display: inline-block;
+  }
+  .store-nav .btn-sm{
+    width: initial;
+    font-size: 18px;
   }
 /* ==========================================================================
    Navbars
@@ -703,6 +745,11 @@ div.tri-link:hover {
 
 div.mini h2 {
   font-size: 35px;
+}
+
+/* -- STORE -- */
+.store-title h1 {
+  margin-top: 0px;
 }
 
 }
