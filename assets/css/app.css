@@ -339,6 +339,9 @@ i.nextTo.fa.fa-play {
   font-weight: 500 !important;
   font-family: "franklin-gothic-urw", sans-serif;
 }
+.sm2_playing .fa-play:before {
+content: "\f04c";
+}
 /* ==========================================================================
    Navbars
    ========================================================================== */
