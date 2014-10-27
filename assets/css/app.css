@@ -119,6 +119,13 @@ div.container-fluid.content {
   text-align: right;
 }
 
+.flight button {
+  background: #780010;
+  height: 22px;
+  padding: 0 8px;
+  border: none!important;
+}
+
 input#fieldName,
 input#fieldEmail {
   border: none!important;
