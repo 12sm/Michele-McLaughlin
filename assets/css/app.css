@@ -329,6 +329,7 @@ ul.songs-list {
   -moz-column-count: 2;
   column-count: 2;
 }
+
 .songs-list li {
   display: block;
   width: 100%;
@@ -338,9 +339,11 @@ ul.songs-list {
   margin: 5px 0px;
   padding: 5px 10px;
 }
+
 .mp3play a {
   color: #fff;
 }
+
 .btn-sm{
   background: rgba(255, 255, 255, 0.1);
   margin-top: 5px;
@@ -348,21 +351,27 @@ ul.songs-list {
   color: #fff;
   width: 100%;
 }
+
 .btn-sm:hover, .button.add_to_cart_button:hover {
   background: #fff !important;
   color: #333 !important;
 }
+
 i.nextTo.fa.fa-play {
   padding: 0px 5px;
   margin-top: 2px;
 }
+
 .button.add_to_cart_button, .added_to_cart.wc-forward {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, .8) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
-  color: #fff !important;
+  color: #911515 !important;
   width: 100% !important;
   text-align: center;
+  padding: 10px!important;
+  font-size: 16px!important;
+  text-shadow: none!important;
   border: 0px solid !important;
   box-shadow: none !important;
   font-weight: 500 !important;
