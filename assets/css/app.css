@@ -407,11 +407,12 @@ h1.listen-heading {
     padding-left: 0px;
     list-style: none;
   }
-  .store-nav{
+  .store-nav li{
     display: inline-block;
   }
   .store-nav .btn-sm{
     width: initial;
+    font-size: 18px;
   }
 /* ==========================================================================
    Navbars
