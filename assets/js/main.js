@@ -45,7 +45,7 @@
     // All pages
     common: {
       init: function() {
-        // JavaScript to be fired on all pages
+        $(".imgLiquidFill").imgLiquid();
       }
     },
     concerts: {
