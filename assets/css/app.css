@@ -339,6 +339,11 @@ div.navbar-header > a > img {
   margin-top: -18px;
 }
 
+ul#menu-primary-navigation, {
+text-align: center;
+}
+
+
 ul.nav a {
   display: inline-block;
   font-family: "franklin-gothic-urw-comp", sans-serif;
