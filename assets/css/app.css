@@ -598,8 +598,8 @@ ul#menu-primary-navigation {
 
 /* -- SLIDER -- */
 
-.flex-direction-nav li .next {right: 18%;}
-.flex-direction-nav li .prev {left: 18%;}
+.flex-direction-nav li .next {right: 3%;}
+.flex-direction-nav li .prev {left: 3%;}
 
 div.slide:before {
   border: 20px solid rgba(255, 255, 255, 0.1);
