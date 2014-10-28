@@ -25,13 +25,13 @@
         inlinePlayer.stopSound(inlinePlayer.lastSound);
       };
     }
+    whileplaying: function() {$(".progBar").css('width', ((this.position/this.duration) * 100) + '%');},
   }
   function smInit(){
     inlinePlayer = new InlinePlayer();
   }
   function smSetup(){
     soundManager.setup({
-      whileplaying  : function() { $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');},
       debugMode     : true,
       preferFlash   : false,
       useFlashBlock : true,
