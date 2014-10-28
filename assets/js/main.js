@@ -28,7 +28,6 @@
   }
   function smInit(){
     inlinePlayer = new InlinePlayer();
-    whileplaying: function() {$(".progBar").css('width', ((this.position/this.duration) * 100) + '%');};
   }
   function smSetup(){
     soundManager.setup({
@@ -38,7 +37,9 @@
       url           : ' '
     });
   }
-
+  function progBar(){
+    $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+  }
 
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
@@ -63,6 +64,7 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        soundmanager.whileplaying(progBar);
       }
     },
     post_type_archive_product: {
@@ -99,6 +101,7 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        soundmanager.whileplaying(progBar);
       }
     }
   };
