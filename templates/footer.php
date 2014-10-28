@@ -36,7 +36,7 @@
         Main Nav
       </div>
       <div class="row">
-        <div class="col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-4">
+        <div class="formoso">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
             <div class="row formoso">
               <div class="flight">
