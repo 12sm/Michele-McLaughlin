@@ -26,19 +26,6 @@
       };
     }
   }
-  function smSetup(){
-    soundManager.setup({
-      debugMode     : true,
-      preferFlash   : false,
-      useFlashBlock : true,
-      url           : ' ',
-      onready       : function(){
-        inlinePlayer = new InlinePlayer();},
-      whileplaying  : function(){
-        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
-    });
-  }
-
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -46,6 +33,16 @@
     common: {
       init: function() {
         $(".imgLiquidFill").imgLiquid();
+        soundManager.setup({
+          debugMode     : true,
+          preferFlash   : false,
+          useFlashBlock : true,
+          url           : ' ',
+          onready       : function(){
+            inlinePlayer = new InlinePlayer();},
+          whileplaying  : function(){
+            $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
+        });
       }
     },
     concerts: {
@@ -59,7 +56,6 @@
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
-        smSetup();
         $('.play').on('click', playMusic);
       }
     },
@@ -94,7 +90,6 @@
     },
     post_type_archive_albums: {
       init: function() {
-        smSetup();
         $('.play').on('click', playMusic);
       }
     }
