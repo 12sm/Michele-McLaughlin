@@ -716,7 +716,18 @@ li.bullet > a > h4 {
   text-decoration: none;
 }
 
+ul#foot-socials {
+  margin: 0 auto;
+}
 
+ul#foot-socials > li {
+  display: inline-block;
+}
+
+ul#foot-socials > li > i {
+  color: rgb(27, 27, 27);
+  font-size: 30px
+}
 
 /* ==========================================================================
    WordPress Generated Classes

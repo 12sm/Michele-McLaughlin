@@ -83,7 +83,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="emails row">
         <div class="col-xs-12">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
             <div class="row">
