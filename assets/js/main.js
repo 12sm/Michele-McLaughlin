@@ -38,6 +38,7 @@
     });
   }
 
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -61,6 +62,9 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        whileplaying: function() {
+          $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+        },
       }
     },
     post_type_archive_product: {
@@ -97,6 +101,9 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        whileplaying: function() {
+          $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+        },
       }
     }
   };
