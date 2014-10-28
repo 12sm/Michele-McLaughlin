@@ -2,8 +2,9 @@
   <div class="row imgLiquidFill imgLiquid">
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
-      <div class="row">
-        <div class="">
+
+      <div class="mini-foot row">
+        <div class="col-xs-12">
           <ul id="foot-mini">
             <li class="bullet">
               <a href="/store">
@@ -32,13 +33,60 @@
           </ul>
         </div>
       </div>
-      <div class="row">
-        Main Nav
+
+      <div class="main-foot row">
+        <div class="col-xs-12">
+          <ul id="foot-main">
+            <li>
+              <a href="/listen">
+                <h3>
+                  LISTEN
+                </h3>
+              </a>
+            </li>
+            <li>
+              <a href="/concerts">
+                <h3>
+                  CONCERTS
+                </h3>
+              </a>
+            </li>
+            <li>
+              <a href="/store">
+                <h3>
+                  STORE
+                </h3>
+              </a>
+            </li>
+            <li>
+              <a href="/awards-and-credits">
+                <h3>
+                  AWARDS & CREDITS
+                </h3>
+              </a>
+            </li>
+            <li>
+              <a href="/about">
+                <h3>
+                  ABOUT
+                </h3>
+              </a>
+            </li>
+            <li>
+              <a class="contact" data-target="#contact-form" data-toggle="modal">
+                <h3>
+                  CONTACT
+                </h3>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+
       <div class="row">
-        <div class="formoso">
+        <div class="col-xs-12">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
-            <div class="row formoso">
+            <div class="row">
               <div class="flight">
                 <button type="submit"><i class="fa fa-caret-right"></i></button>
               </div>
@@ -55,9 +103,11 @@
           </form>
         </div>
       </div>
+
       <div class="row">
         Socials
       </div>
+
       <div class="row">
         <div class="col-lg-12">
 
