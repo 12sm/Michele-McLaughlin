@@ -666,7 +666,7 @@ p.credits {
   color: rgb(27, 27, 27);
 }
 
-.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
+.credits a:link, .credits a:visited, .credits a:hover, .credits a:active, div.bullet > a > h4 {
   color: rgb(27, 27, 27);
   text-decoration: none;
 }
