@@ -127,14 +127,16 @@ div.container-fluid.content {
   text-align: right;
 }
 
-.flight button {
+.flight button,
+.flights button {
   background: #780010;
   height: 22px;
   padding: 0 8px;
   border: none!important;
 }
 
-.flight button:hover {
+.flight button:hover,
+.flights button:hover {
   background: #BE1D32;
 }
 
