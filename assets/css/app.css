@@ -147,6 +147,21 @@ input#fieldEmail {
   color: #000;
 }
 
+/* -- Email Sign Up Footer -- */
+
+#joint {
+  margin: 0;
+  font-size: 18px;
+  color: #292828;
+  text-align: center;
+}
+
+.flights {
+  display: inline;
+  float: right;
+  text-align: center;
+}
+
 /* ==========================================================================
    Slider
    ========================================================================== */

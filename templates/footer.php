@@ -87,16 +87,16 @@
         <div class="col-xs-12">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
             <div class="row">
-              <div class="flight">
+              <div class="flights">
                 <button type="submit"><i class="fa fa-caret-right"></i></button>
               </div>
-              <div class="flight">
+              <div class="flights">
                 <input size="30" id="fieldEmail" name="cm-xdif-xdif" type="email" placeholder="email address" required />
               </div>
-              <div class="flight">
+              <div class="flights">
                 <input size="20" id="fieldName" name="cm-name" type="text" placeholder="name" required />
               </div>
-              <h3 id="join">
+              <h3 id="joint">
                 JOIN THE MAILING LIST:
               </h3>
             </div>
