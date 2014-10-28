@@ -717,16 +717,17 @@ li.bullet > a > h4 {
 }
 
 ul#foot-socials {
-  margin: 0 auto;
+  margin: 14px auto;
 }
 
 ul#foot-socials > li {
   display: inline-block;
+  padding: 0 5px;
 }
 
 ul#foot-socials > li > i {
   color: rgb(27, 27, 27);
-  font-size: 30px
+  font-size: 45px;
 }
 
 /* ==========================================================================
