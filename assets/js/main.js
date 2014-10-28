@@ -64,7 +64,7 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
-        soundmanager.whileplaying(progBar);
+        soundManager.whileplaying(progBar);
       }
     },
     post_type_archive_product: {
@@ -101,7 +101,7 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
-        soundmanager.whileplaying(progBar);
+        soundManager.whileplaying(progBar);
       }
     }
   };
