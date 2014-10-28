@@ -4,33 +4,27 @@
     <div class="col-xs-12">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-3">
+          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
           <a href="/store">
-            <div class="">
-              <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-              <h4>
-                BUY MUSIC
-              </h4>
-            </div>
+            <h4>
+              BUY MUSIC
+            </h4>
           </a>
         </div>
         <div class="col-xs-2">
+          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
           <a href="/concerts">
-            <div class="">
-              <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-              <h4>
-                CONCERTS
-              </h4>
-            </div>
+            <h4>
+              CONCERTS
+            </h4>
           </a>
         </div>
         <div class="col-xs-2">
+          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
           <a href="/booking">
-            <div class="">
-              <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-              <h4>
-                BOOK A SHOW
-              </h4>
-            </div>
+            <h4>
+              BOOK A SHOW
+            </h4>
           </a>
         </div>
       </div>
