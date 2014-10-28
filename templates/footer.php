@@ -2,10 +2,10 @@
   <div class="row imgLiquidFill imgLiquid">
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
-      <div class="row mininav">
+      <div class="row">
         <div class="col-xs-2 col-xs-offset-3">
           <a href="/store">
-            <div class="mini">
+            <div class="">
               <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
               <h4>
                 BUY MUSIC
@@ -15,7 +15,7 @@
         </div>
         <div class="col-xs-2">
           <a href="/concerts">
-            <div class="mini">
+            <div class="">
               <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
               <h4>
                 CONCERTS
@@ -25,7 +25,7 @@
         </div>
         <div class="col-xs-2">
           <a href="/booking">
-            <div class="mini">
+            <div class="">
               <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
               <h4>
                 BOOK A SHOW
