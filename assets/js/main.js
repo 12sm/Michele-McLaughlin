@@ -31,13 +31,11 @@
   }
   function smSetup(){
     soundManager.setup({
+      whileplaying  : function() { $(".progBar").css('width', ((this.position/this.duration) * 100) + '%'); },
       debugMode     : true,
       preferFlash   : false,
       useFlashBlock : true,
-      url           : ' ',
-      whileplaying: function() {
-        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-      }
+      url           : ' '
     });
   }
 
@@ -101,6 +99,9 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        soundManager.whileplaying: function() {
+          $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+        }
       }
     }
   };
