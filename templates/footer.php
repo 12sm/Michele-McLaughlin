@@ -38,7 +38,7 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-4">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
-            <div class="row formosa">
+            <div class="row formoso">
               <div class="flight">
                 <button type="submit"><i class="fa fa-caret-right"></i></button>
               </div>
