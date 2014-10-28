@@ -13,4 +13,5 @@ if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
 }
 
+echo "taxonomy-product.php";
 wc_get_template( 'archive-product.php' );
