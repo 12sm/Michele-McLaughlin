@@ -64,7 +64,7 @@
         $('.play').on('click', playMusic);
         whileplaying: function() {
           $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-        },
+        };
       }
     },
     post_type_archive_product: {
@@ -103,7 +103,7 @@
         $('.play').on('click', playMusic);
         whileplaying: function() {
           $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-        },
+        };
       }
     }
   };
