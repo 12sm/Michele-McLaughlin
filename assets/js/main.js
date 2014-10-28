@@ -64,6 +64,7 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
+        debugger;
         soundManager.whileplaying(progBar);
       }
     },
