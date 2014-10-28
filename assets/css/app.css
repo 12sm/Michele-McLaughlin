@@ -672,12 +672,12 @@ p.credits {
 }
 
 div.bullet > a > h4 {
-  display: inline-block;
+  display: inline-block !important;
   visibility: visible !important;
 }
 
 div.bullet > a > img {
-  display: block;
+  display: block !important;
   visibility: visible !important;
 }
 
