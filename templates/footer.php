@@ -4,35 +4,54 @@
     <div class="col-xs-12">
       <div class="row">
         <div class="bullet col-xs-2 col-xs-offset-3">
-          <a href="/store">
-            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-            <h4>
-              BUY MUSIC
-            </h4>
-          </a>
-        </div>
-        <div class="bullet col-xs-2">
-          <a href="/concerts">
-            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-            <h4>
-              CONCERTS
-            </h4>
-          </a>
-        </div>
-        <div class="bullet col-xs-2">
-          <a href="/booking">
-            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
-            <h4>
-              BOOK A SHOW
-            </h4>
-          </a>
+            <li>
+              <a href="/store">
+                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <h4>
+                  BUY MUSIC
+                </h4>
+              </a>
+            </li>
+            <li>
+              <a href="/concerts">
+                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <h4>
+                  CONCERTS
+                </h4>
+              </a>
+            </li>
+            <li>
+              <a href="/booking">
+                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <h4>
+                  BOOK A SHOW
+                </h4>
+              </a>
+            </li>
         </div>
       </div>
       <div class="row">
         Main Nav
       </div>
       <div class="row">
-        Email
+        <div class="col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-4">
+          <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
+            <div class="row formosa">
+              <div class="flight">
+                <button type="submit"><i class="fa fa-caret-right"></i></button>
+              </div>
+              <div class="flight">
+                <input size="30" id="fieldEmail" name="cm-xdif-xdif" type="email" placeholder="email address" required />
+              </div>
+              <div class="flight">
+                <input size="20" id="fieldName" name="cm-name" type="text" placeholder="name" required />
+              </div>
+              <h3 id="join">
+                JOIN THE MAILING LIST:
+              </h3>
+            </div>
+          </form>
+        </div>
       </div>
       <div class="row">
         Socials
