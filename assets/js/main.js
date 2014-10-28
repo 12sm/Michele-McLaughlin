@@ -26,20 +26,16 @@
       };
     }
   }
-  function smInit(){
-    inlinePlayer = new InlinePlayer();
-  }
-  function progBar(){
-    $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-  }
   function smSetup(){
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
       useFlashBlock : true,
       url           : ' ',
-      onready       : smInit(),
-      whileplaying  : progBar()
+      onready       : function(){
+        inlinePlayer = new InlinePlayer();},
+      whileplaying  : function(){
+        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
     });
   }
 
