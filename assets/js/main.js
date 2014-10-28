@@ -29,16 +29,18 @@
   function smInit(){
     inlinePlayer = new InlinePlayer();
   }
+  function progBar(){
+    $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+  }
   function smSetup(){
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
       useFlashBlock : true,
-      url           : ' '
+      url           : ' ',
+      onready       : sminit(),
+      whileplaying  : progBar()
     });
-  }
-  function progBar(){
-    $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
   }
 
   // Use this variable to set up the common and page specific functions. If you
@@ -62,10 +64,7 @@
           $('.flexslider').flexslider();
         });
         smSetup();
-        soundManager.onready(smInit);
         $('.play').on('click', playMusic);
-        debugger;
-        soundManager.whileplaying(progBar);
       }
     },
     post_type_archive_product: {
@@ -100,10 +99,7 @@
     post_type_archive_albums: {
       init: function() {
         smSetup();
-        soundManager.onready(smInit);
         $('.play').on('click', playMusic);
-        debugger;
-        soundManager.whileplaying(progBar);
       }
     }
   };
