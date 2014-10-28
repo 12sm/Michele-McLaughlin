@@ -432,7 +432,7 @@ h3.album-listen-price {
 /*-------- PLAYER --------*/
 .progBar {
   background-color: #79030b;
-  height: 10px;
+  height: 30px;
 }
 
 .progBar:hover {
