@@ -38,7 +38,7 @@
       preferFlash   : false,
       useFlashBlock : true,
       url           : ' ',
-      onready       : sminit(),
+      onready       : smInit(),
       whileplaying  : progBar()
     });
   }
