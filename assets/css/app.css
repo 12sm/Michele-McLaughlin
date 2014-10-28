@@ -677,7 +677,7 @@ div.bullet > a > h4 {
 }
 
 div.bullet > a > img {
-  display: block !important;
+  display: inline-block !important;
   visibility: visible !important;
 }
 
