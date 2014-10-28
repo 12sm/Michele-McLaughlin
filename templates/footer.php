@@ -106,8 +106,29 @@
         </div>
       </div>
 
-      <div class="row">
-        Socials
+      <div class="socials-foot row">
+        <div class="col-xs-12">
+          <ul id="foot-socials">
+            <li>
+              <i class="fa fa-facebook-square"></i>
+            </li>
+            <li>
+              <i class="fa fa-twitter-square"></i>
+            </li>
+            <li>
+              <i class="fa fa-google-plus-square"></i>
+            </li>
+            <li>
+              <i class="fa fa-linkedin-square"></i>
+            </li>
+            <li>
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa fa-youtube-square"></i>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="row">
