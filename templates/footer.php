@@ -3,7 +3,7 @@
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
       <div class="row">
-        <div class="bullet col-xs-3 col-xs-offset-2">
+        <div class="bullet col-xs-2 col-xs-offset-3">
           <a href="/store">
             <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
@@ -11,7 +11,7 @@
             </h4>
           </a>
         </div>
-        <div class="bullet col-xs-3">
+        <div class="bullet col-xs-2">
           <a href="/concerts">
             <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
@@ -19,7 +19,7 @@
             </h4>
           </a>
         </div>
-        <div class="bullet col-xs-3">
+        <div class="bullet col-xs-2">
           <a href="/booking">
             <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>

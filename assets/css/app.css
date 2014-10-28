@@ -671,8 +671,13 @@ p.credits {
   text-decoration: none;
 }
 
-div.bullet > a > img, div.bullet > a > h4 {
+div.bullet > a > h4 {
   display: inline-block;
+  visibility: visible !important;
+}
+
+div.bullet > a > img {
+  display: block;
   visibility: visible !important;
 }
 
