@@ -671,6 +671,10 @@ p.credits {
   text-decoration: none;
 }
 
+li.bullet {
+  display: inline-block;
+}
+
 li.bullet > a > h4 {
   display: inline-block !important;
   visibility: visible !important;
