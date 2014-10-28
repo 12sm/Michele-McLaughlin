@@ -660,17 +660,6 @@ footer div {
   text-align: center;
 }
 
-p.credits {
-  text-transform: uppercase;
-  font-size: 10px;
-  color: rgb(27, 27, 27);
-}
-
-.credits a:link, .credits a:visited, .credits a:hover, .credits a:active, li.bullet > a > h4 {
-  color: rgb(27, 27, 27);
-  text-decoration: none;
-}
-
 ul#foot-mini, div.formoso {
   margin: 0 auto;
 }
@@ -679,15 +668,33 @@ li.bullet {
   display: inline-block;
 }
 
-li.bullet > a > h4 {
-  display: inline-block !important;
-  visibility: visible !important;
-}
-
+li.bullet > a > h4,
 li.bullet > a > img {
   display: inline-block !important;
   visibility: visible !important;
 }
+
+ul.foot-main > li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+p.credits {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: rgb(27, 27, 27);
+}
+
+.credits a:link,
+.credits a:visited,
+.credits a:hover,
+.credits a:active,
+li.bullet > a > h4 {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+
+
 
 /* ==========================================================================
    WordPress Generated Classes
