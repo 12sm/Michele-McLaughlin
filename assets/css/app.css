@@ -674,12 +674,12 @@ li.bullet {
 
 li.bullet > a > h4,
 li.bullet > a > img,
-ul.foot-main > li > h3 {
+ul#foot-main > li > h3 {
   display: inline-block !important;
   visibility: visible !important;
 }
 
-ul.foot-main > li {
+ul#foot-main > li {
   display: inline-block !important;
   text-decoration: none !important;
 }
