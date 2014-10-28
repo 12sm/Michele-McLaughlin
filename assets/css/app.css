@@ -435,7 +435,31 @@ h3.album-listen-price {
   height: 20px;
 }
 
+.progBar:hover {
+  color: #FFF !important;
+}
 
+.progbar:after {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 100%;
+  background: #79030b;
+}
+
+.progbar:after {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.progbar:hover:after {
+  width: 100%;
+  background: #79030b;
+}
 
 /* ==========================================================================
    Store
