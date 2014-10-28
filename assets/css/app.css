@@ -673,7 +673,8 @@ li.bullet {
 }
 
 li.bullet > a > h4,
-li.bullet > a > img {
+li.bullet > a > img,
+ul.foot-main > li > h3 {
   display: inline-block !important;
   visibility: visible !important;
 }
