@@ -24,8 +24,8 @@
         // Blow away the last played track
         inlinePlayer.stopSound(inlinePlayer.lastSound);
       };
-    }
-    whileplaying: function() {$(".progBar").css('width', ((this.position/this.duration) * 100) + '%');},
+    };
+    whileplaying: function() {$(".progBar").css('width', ((this.position/this.duration) * 100) + '%');};
   }
   function smInit(){
     inlinePlayer = new InlinePlayer();
