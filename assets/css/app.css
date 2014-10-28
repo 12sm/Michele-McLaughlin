@@ -156,6 +156,7 @@ input#fieldEmail {
   font-size: 18px;
   color: #292828;
   text-align: center;
+  display:  inline-block;
 }
 
 .flights {
