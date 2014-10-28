@@ -3,8 +3,9 @@
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
       <div class="row">
-        <div class="bullet col-xs-2 col-xs-offset-3">
-            <li>
+        <div class="bullet col-sm-4 col-sm-offset-4">
+          <ul>
+            <li class="bullet">
               <a href="/store">
                 <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
@@ -12,7 +13,7 @@
                 </h4>
               </a>
             </li>
-            <li>
+            <li class="bullet">
               <a href="/concerts">
                 <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
@@ -20,7 +21,7 @@
                 </h4>
               </a>
             </li>
-            <li>
+            <li class="bullet">
               <a href="/booking">
                 <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
@@ -28,6 +29,7 @@
                 </h4>
               </a>
             </li>
+          </ul>
         </div>
       </div>
       <div class="row">

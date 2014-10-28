@@ -671,12 +671,12 @@ p.credits {
   text-decoration: none;
 }
 
-div.bullet > a > h4 {
+li.bullet > a > h4 {
   display: inline-block !important;
   visibility: visible !important;
 }
 
-div.bullet > a > img {
+li.bullet > a > img {
   display: inline-block !important;
   visibility: visible !important;
 }
