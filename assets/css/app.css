@@ -321,7 +321,7 @@ div.concerto {
 /* ==========================================================================
    Albums
    ========================================================================== */
-   
+
 ul.songs-list {
   padding-left: 0px;
   list-style: none;
@@ -342,7 +342,7 @@ ul.songs-list {
 }
 
 .songs-list li:hover {
-background: rgba(255,255,255,.3);
+  background: rgba(255,255,255,.3);
 }
 
 .mp3play a {
@@ -396,44 +396,44 @@ i.nextTo.fa.fa-play {
 
 h1.listen-heading {
   color:#FFF;
-  text-transform:Capitalize; 
+  text-transform:Capitalize;
   font-size:30px;
 }
 
 h3.album-listen-price {
-text-align: center;
-font-size: 18px;
-color: #CCC;
-letter-spacing: .5px;
-text-shadow: 1px 1px 1px #4A4A4A;
+  text-align: center;
+  font-size: 18px;
+  color: #CCC;
+  letter-spacing: .5px;
+  text-shadow: 1px 1px 1px #4A4A4A;
 }
 
 /* ==========================================================================
    Store
    ========================================================================== */
-  .store-section{
-    background: rgba(255, 255, 255, 0.1) !important;
-    min-height: 500px;
-    padding: 25px;
-  }
-  .store-title h1 {
-    font-size: 32px;
-    color: #fff;
-  }
-  .prod-price {
-    margin-top: 0px;
-  }
-  .store-nav{
-    padding-left: 0px;
-    list-style: none;
-  }
-  .store-nav li{
-    display: inline-block;
-  }
-  .store-nav .btn-sm{
-    width: initial;
-    font-size: 18px;
-  }
+.store-section{
+  background: rgba(255, 255, 255, 0.1) !important;
+  min-height: 500px;
+  padding: 25px;
+}
+.store-title h1 {
+  font-size: 32px;
+  color: #fff;
+}
+.prod-price {
+  margin-top: 0px;
+}
+.store-nav{
+  padding-left: 0px;
+  list-style: none;
+}
+.store-nav li{
+  display: inline-block;
+}
+.store-nav .btn-sm{
+  width: initial;
+  font-size: 18px;
+}
 /* ==========================================================================
    Navbars
    ========================================================================== */
@@ -573,7 +573,7 @@ h3.fa-h3 {
 
 .album {
   background:rgba(255,255,255,.1);
-  padding:10px; 
+  padding:10px;
 }
 
 /* ==========================================================================
@@ -671,6 +671,10 @@ p.credits {
   text-decoration: none;
 }
 
+div.bullet > a > img, div.bullet > a > h4 {
+  display: inline-block;
+  visibility: visible !important;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
@@ -713,7 +717,7 @@ div.mini h2:hover:after {
   background: #79030b;
   text-decoration: none;
 }
-  
+
 .art {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -721,7 +725,6 @@ div.mini h2:hover:after {
   background: rgba(68, 68, 68, 0.3);
   padding-top: 20px;
 }
-
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -787,7 +790,6 @@ div.mini h2 {
 .store-title h1 {
   margin-top: 0px;
 }
-
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -812,7 +814,6 @@ ul.nav a {
 h1.bandit {
   padding: 15px 3%;
 }
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -837,6 +838,4 @@ nav.collapse.navbar-collapse,
 ul.nav.navbar-nav {
   float:right;
 }
-
-
- }
+}

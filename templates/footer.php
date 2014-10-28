@@ -3,25 +3,25 @@
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
       <div class="row">
-        <div class="col-xs-3 col-xs-offset-2">
-          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+        <div class="bullet col-xs-3 col-xs-offset-2">
           <a href="/store">
+            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               BUY MUSIC
             </h4>
           </a>
         </div>
-        <div class="col-xs-3">
-          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+        <div class="bullet col-xs-3">
           <a href="/concerts">
+            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               CONCERTS
             </h4>
           </a>
         </div>
-        <div class="col-xs-3">
-          <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+        <div class="bullet col-xs-3">
           <a href="/booking">
+            <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
             <h4>
               BOOK A SHOW
             </h4>
