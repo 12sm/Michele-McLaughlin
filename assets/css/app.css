@@ -666,12 +666,12 @@ p.credits {
   color: rgb(27, 27, 27);
 }
 
-.credits a:link, .credits a:visited, .credits a:hover, .credits a:active, div.bullet > a > h4 {
+.credits a:link, .credits a:visited, .credits a:hover, .credits a:active, li.bullet > a > h4 {
   color: rgb(27, 27, 27);
   text-decoration: none;
 }
 
-ul#foot-mini {
+ul#foot-mini, div.formoso {
   margin: 0 auto;
 }
 
