@@ -671,6 +671,10 @@ p.credits {
   text-decoration: none;
 }
 
+ul#foot-mini {
+  margin: 0 auto;
+}
+
 li.bullet {
   display: inline-block;
 }

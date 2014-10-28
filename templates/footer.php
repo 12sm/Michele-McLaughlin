@@ -3,8 +3,8 @@
     <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
       <div class="row">
-        <div class="bullet col-sm-4 col-sm-offset-4">
-          <ul>
+        <div class="">
+          <ul id="foot-mini">
             <li class="bullet">
               <a href="/store">
                 <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
