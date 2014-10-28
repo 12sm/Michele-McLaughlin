@@ -679,8 +679,8 @@ li.bullet > a > img {
 }
 
 ul.foot-main > li {
-  display: inline-block;
-  text-decoration: none;
+  display: inline-block !important;
+  text-decoration: none !important;
 }
 
 p.credits {
