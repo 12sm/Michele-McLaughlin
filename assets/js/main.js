@@ -99,9 +99,6 @@
         smSetup();
         soundManager.onready(smInit);
         $('.play').on('click', playMusic);
-        soundManager.whileplaying: function() {
-          $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-        }
       }
     }
   };
