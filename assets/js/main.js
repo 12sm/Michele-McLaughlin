@@ -39,8 +39,7 @@
           useFlashBlock : true,
           url           : ' ',
           onready       : function(){
-            inlinePlayer = new InlinePlayer();},
-          whileplaying  : function(){
+            inlinePlayer = new InlinePlayer();
             $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
         });
       }
