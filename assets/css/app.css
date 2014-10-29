@@ -746,6 +746,10 @@ ul#foot-socials > li > i {
   font-size: 45px;
 }
 
+footer a:hover {
+  color: #9F9F9F;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
