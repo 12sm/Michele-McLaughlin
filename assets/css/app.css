@@ -774,8 +774,9 @@ ul#foot-socials > li {
 }
 
 ul#foot-socials li a i {
-font-size: 38px;
-color: #252525;
+  font-size: 38px;
+  color: #252525;
+  transition:color .3s ease;
 }
 
 footer li:hover {
