@@ -707,9 +707,13 @@ li.bullet {
 
 li.bullet > a > h4,
 li.bullet > a > img,
+li.bullet > a > h4, 
+li.bullet > a > img, 
 ul#foot-main > li > h3 {
   display: inline-block !important;
   visibility: visible !important;
+  padding-bottom: 10px;
+  padding-right: 3px;
 }
 
 ul#foot-mini a h4 {
@@ -720,7 +724,7 @@ ul#foot-mini a h4 {
 }
 
 ul#foot-mini a h4:hover {
-  color: #FFFFFF;
+  color: #9D9D9D;
 }
 
 ul#foot-main > li {
