@@ -693,6 +693,10 @@ h1.contact-header {
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
+footer .row.imgLiquidFill.imgLiquid.imgLiquid_bgSize.imgLiquid_ready {
+  padding: 30px 0px;
+}
+
 footer div {
   text-align: center;
 }
@@ -714,6 +718,11 @@ ul#foot-main > li > h3 {
   visibility: visible !important;
   padding-bottom: 10px;
   padding-right: 3px;
+}
+
+ul#foot-mini a h4 {
+  margin: 0;
+  padding-bottom: 0;
 }
 
 ul#foot-mini a h4 {
