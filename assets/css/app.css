@@ -712,6 +712,17 @@ ul#foot-main > li > h3 {
   visibility: visible !important;
 }
 
+ul#foot-mini a h4 {
+  color: #302E2F;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+  font-size:21px;
+  transition:color .3s ease;
+}
+
+ul#foot-mini a h4:hover {
+  color: #FFFFFF;
+}
+
 ul#foot-main > li {
   display: inline-block !important;
   text-decoration: none !important;
