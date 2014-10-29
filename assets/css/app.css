@@ -694,7 +694,8 @@ footer .row.imgLiquidFill.imgLiquid.imgLiquid_bgSize.imgLiquid_ready {
 }
 
 .mini-foot.row {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 footer div {
