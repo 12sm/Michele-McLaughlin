@@ -110,32 +110,32 @@
         <div class="col-xs-12">
           <ul id="foot-socials">
             <li>
-              <a href="">
+              <a href="facebook.com">
                 <i class="fa fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="twitter.com">
                 <i class="fa fa-twitter-square"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="google.com">
                 <i class="fa fa-google-plus-square"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="linkedin.com">
                 <i class="fa fa-linkedin-square"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="instagram.com">
                 <i class="fa fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="youtube.com">
                 <i class="fa fa-youtube-square"></i>
               </a>
             </li>
