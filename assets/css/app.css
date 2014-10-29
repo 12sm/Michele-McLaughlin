@@ -724,7 +724,7 @@ ul#foot-mini a h4 {
 }
 
 ul#foot-mini a h4 {
-  color: #333;
+  color: #252525;
   font-family: "franklin-gothic-urw-comp", sans-serif;
   font-size:22px;
   transition:color .3s ease;
@@ -736,7 +736,7 @@ ul#foot-main li a h3:hover {
 }
 
 ul#foot-main li a h3, h3#joint {
-  color: #333;
+  color: #252525;
   font-size: 16px;
   padding: 0px 10px;
   margin: 0;
