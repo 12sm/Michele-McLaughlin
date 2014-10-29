@@ -725,14 +725,22 @@ ul#foot-mini a h4 {
 }
 
 ul#foot-mini a h4 {
-  color: #302E2F;
+  color: #333;
   font-family: "franklin-gothic-urw-comp", sans-serif;
   font-size:21px;
   transition:color .3s ease;
 }
 
-ul#foot-mini a h4:hover {
+ul#foot-mini a h4:hover,
+ul#foot-main li a h3:hover {
   color: #9D9D9D;
+}
+
+ul#foot-main li a h3 {
+  color: #333;
+  font-size: 20px;
+  padding: 0px 10px;
+  transition:color .3s ease;
 }
 
 ul#foot-main > li {
