@@ -6,10 +6,14 @@
 
 <!-- /*-------- BOOKING BANNER --------*/ -->
 
-<?php get_template_part('templates/page', 'header'); ?>
+<div class="max-wrap">
+  <?php get_template_part('templates/page', 'header'); ?>
+</div>
 
 <!-- /*-------- BOOKING VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='booking']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='booking']"); ?>
+</div>
 
 <!-- /*-------- FOOTER --------*/ -->

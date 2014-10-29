@@ -6,10 +6,12 @@
 
 <!-- /*-------- LISTEN BANNER --------*/ -->
 
-<?php get_template_part('templates/page', 'header'); ?>
+<div class="max-wrap">
+  <?php get_template_part('templates/page', 'header'); ?>
+</div>
 
 <!-- /*-------- ALBUM VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='music']"); ?>
-
-<!-- /*-------- FOOTER --------*/ -->
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='music']"); ?>
+</div>

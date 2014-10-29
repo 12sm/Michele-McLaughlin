@@ -6,14 +6,20 @@
 
 <!-- /*-------- CONCERTS BANNER --------*/ -->
 
-<?php get_template_part('templates/page', 'header'); ?>
+<div class="max-wrap">
+  <?php get_template_part('templates/page', 'header'); ?>
+</div>
 
 <!-- /*-------- NEXT SHOW VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='next-concert']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='next-concert']"); ?>
+</div>
 
 <!-- /*-------- SHOWs VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='concerts']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='concerts']"); ?>
+</div>
 
 <!-- /*-------- FOOTER --------*/ -->

@@ -6,10 +6,14 @@
 
 <!-- /*-------- ABOUT BANNER --------*/ -->
 
-<?php get_template_part('templates/page', 'header'); ?>
+<div class="max-wrap">
+  <?php get_template_part('templates/page', 'header'); ?>
+</div>
 
 <!-- /*-------- ABOUT VIEW --------*/ -->
 
-<?php echo do_shortcode("[wpv-view name='about']"); ?>
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='about']"); ?>
+</div>
 
 <!-- /*-------- FOOTER --------*/ -->
