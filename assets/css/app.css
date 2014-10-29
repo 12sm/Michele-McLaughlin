@@ -772,9 +772,9 @@ ul#foot-socials > li {
   padding: 0 5px;
 }
 
-ul#foot-socials > li > i {
-  color: rgb(27, 27, 27);
-  font-size: 45px;
+ul#foot-socials li a i {
+font-size: 38px;
+color: #252525;
 }
 
 footer li:hover {
