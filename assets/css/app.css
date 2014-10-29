@@ -746,7 +746,7 @@ ul#foot-socials > li > i {
   font-size: 45px;
 }
 
-footer a:hover {
+footer li:hover {
   color: #9F9F9F;
 }
 
