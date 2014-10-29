@@ -731,7 +731,8 @@ ul#foot-mini a h4 {
 }
 
 ul#foot-mini a h4:hover,
-ul#foot-main li a h3:hover {
+ul#foot-main li a h3:hover,
+ul#foot-socials li a i:hover {
   color: #9D9D9D;
 }
 
