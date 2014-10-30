@@ -944,6 +944,11 @@ p.mini-nav-subtitle {
   margin-top: 8px;
 }
 
+.store-section .album-image.img-container.art img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
