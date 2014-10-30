@@ -584,15 +584,16 @@ div.mini h2 {
   transition:color .3s ease;
 }
 
-div.mini h2:hover {
-  color: #FFF !important;
-  text-decoration: none;
+div.mini h2:hover,
+p.mini-nav-subtitle:hover,
+div.tri-link a:hover {
+  text-shadow: 0 0 10px #141414;
 }
 
 p.mini-nav-subtitle {
 font-family: "franklin-gothic-urw-comp", sans-serif;
 text-transform: uppercase;
-color: #CCC;
+color: #ABABAB;
 font-size: 18px;
 transition:color .3s ease;
 }
