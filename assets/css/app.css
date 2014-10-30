@@ -18,6 +18,7 @@ body {
   font-family: "franklin-gothic-urw", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
+  text-rendering: geometricPrecision;
 }
 
 h1 {
@@ -263,7 +264,13 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 #bio {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px 0px;
-  line-height: 1.4em;
+  line-height: 1.6em;
+}
+
+#bio h2 {
+  letter-spacing: .5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 /* ==========================================================================
