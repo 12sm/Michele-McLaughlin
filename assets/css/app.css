@@ -467,26 +467,34 @@ div.progBar {
 /* ==========================================================================
    Store
    ========================================================================== */
-.store-section{
-  background: rgba(255, 255, 255, 0.1) !important;
+.store-section {
   min-height: 500px;
   padding: 25px;
 }
+
+.store-section:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+ }
+ 
 .store-title h1 {
   font-size: 32px;
   color: #fff;
 }
+
 .prod-price {
   margin-top: 0px;
 }
-.store-nav{
+
+.store-nav {
   padding-left: 0px;
   list-style: none;
 }
-.store-nav li{
+
+.store-nav li {
   display: inline-block;
 }
-.store-nav .btn-sm{
+
+.store-nav .btn-sm {
   width: initial;
   font-size: 18px;
 }
