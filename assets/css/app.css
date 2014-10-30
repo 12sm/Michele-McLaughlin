@@ -855,7 +855,6 @@ p.mini-nav-subtitle {
   letter-spacing: 1px;
 }
 
-
 .art {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -863,6 +862,13 @@ p.mini-nav-subtitle {
   background: rgba(68, 68, 68, 0.3);
   padding-top: 20px;
 }
+
+.tri-link {
+  margin: 0px;
+  background-color: rgba(0,0,0,.2);
+  height: 102px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
