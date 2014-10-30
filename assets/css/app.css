@@ -846,8 +846,13 @@ div.mini h2:hover:after {
 }
 
 div.mini h2 {
-  font-size: 36px;
+  font-size: 46px;
   margin-top: 10px;
+}
+
+p.mini-nav-subtitle {
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 
@@ -918,6 +923,11 @@ div.tri-link:hover {
 div.mini h2 {
   font-size: 36px;
   margin-top: 10px;
+}
+
+p.mini-nav-subtitle {
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 /* -- STORE -- */
