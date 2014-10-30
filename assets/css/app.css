@@ -961,6 +961,12 @@ p.mini-nav-subtitle {
   font-size: 10px;
 }
 
+div#about-content {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
