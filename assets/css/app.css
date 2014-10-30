@@ -481,6 +481,7 @@ div.progBar {
   font-size: 28px;
   line-height: .9;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .prod-price {
@@ -508,6 +509,23 @@ span.amount {
   color: #acacac;
   font-weight: bold;
   margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.amazon .btn-sm {
+  background: none;
+  text-align: left;
+  padding: 0;
+  font-size:16px;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+}
+
+.itunes .btn-sm {
+  background: none;
+  text-align: right;
+  padding: 0;
+  font-size:16px;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
 }
 
 /* ==========================================================================
