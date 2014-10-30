@@ -531,7 +531,8 @@ span.amount {
 }
 .itunes .btn-sm:hover,
 .amazon .btn-sm:hover {
-  color:#79030b;
+  color:#79030b!important;
+  background:none!important;
 }
 
 /* ==========================================================================
