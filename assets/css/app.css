@@ -845,6 +845,12 @@ div.mini h2:hover:after {
   text-decoration: none;
 }
 
+div.mini h2 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+
 .art {
   padding-bottom: 20px;
   margin-bottom: 20px;
