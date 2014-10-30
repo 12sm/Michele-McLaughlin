@@ -1015,6 +1015,12 @@ p.mini-nav-subtitle {
 .store-title h1 {
   margin-top: 0px;
 }
+
+.store-section .album-image.img-container.art img {
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1049,6 +1055,10 @@ div.mini h2 {
   min-height: 270px;
 }
 
+.store-section .album-image.img-container.art img {
+margin: 0;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1077,6 +1087,10 @@ ul.nav.navbar-nav {
 div.mini h2 {
   font-size: 46px;
   margin-top: 10px;
+}
+
+.store-section .album-image.img-container.art img {
+margin: 0;
 }
 
 }
