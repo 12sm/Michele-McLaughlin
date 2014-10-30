@@ -699,6 +699,7 @@ h3.fa-h3 {
 .album-block h1 {
   color: #FFF;
   margin-top: 0;
+  text-transform: capitalize;
 }
 
 /* ==========================================================================
