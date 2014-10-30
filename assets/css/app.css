@@ -468,7 +468,7 @@ div.progBar {
    Store
    ========================================================================== */
 .store-section {
-  min-height: 500px;
+  min-height: 330px;
   padding: 25px;
   transition:background .3s ease;
 }
@@ -1007,6 +1007,10 @@ h1.bandit {
 div.mini h2 {
   font-size: 46px;
   margin-top: 10px;
+}
+
+.store-section {
+  min-height: 600px;
 }
 
 }
