@@ -262,6 +262,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 #bio {
   background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 0px;
+  line-height: 1.4em;
 }
 
 /* ==========================================================================
