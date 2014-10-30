@@ -846,7 +846,7 @@ div.mini h2:hover:after {
 }
 
 div.mini h2 {
-  font-size: 26px;
+  font-size: 36px;
   margin-top: 10px;
 }
 
@@ -916,7 +916,7 @@ div.tri-link:hover {
 }
 
 div.mini h2 {
-  font-size: 46px;
+  font-size: 36px;
   margin-top: 10px;
 }
 
@@ -948,6 +948,12 @@ ul.nav a {
 h1.bandit {
   padding: 15px 3%;
 }
+
+div.mini h2 {
+  font-size: 46px;
+  margin-top: 10px;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -972,4 +978,10 @@ nav.collapse.navbar-collapse,
 ul.nav.navbar-nav {
   float:right;
 }
+
+div.mini h2 {
+  font-size: 46px;
+  margin-top: 10px;
+}
+
 }
