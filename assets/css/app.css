@@ -552,6 +552,11 @@ li.active a {
 
 
 /*-------- MINI NAV --------*/
+
+div#mini-nav {
+  margin: 60px 0px;
+}
+
 div.tri-link {
   text-decoration: none;
 }
