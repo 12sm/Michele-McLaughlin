@@ -478,7 +478,8 @@ div.progBar {
  }
  
 .store-title h1 {
-  font-size: 32px;
+  font-size: 28px;
+  line-height: .9;
   color: #fff;
 }
 
@@ -1011,7 +1012,7 @@ div.mini h2 {
 }
 
 .store-section {
-  min-height: 600px;
+  min-height: 270px;
 }
 
 }
