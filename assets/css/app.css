@@ -470,6 +470,7 @@ div.progBar {
 .store-section {
   min-height: 500px;
   padding: 25px;
+  transition:background .3s ease;
 }
 
 .store-section:hover {
