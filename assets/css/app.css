@@ -273,6 +273,16 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
   margin-bottom: 20px;
 }
 
+#bio a h2 {
+  font-size: 22px;
+  margin-top: 20px;
+  transition:color .3s ease;
+}
+
+#bio a h2:hover {
+color: #CCC;
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
