@@ -595,7 +595,7 @@ font-family: "franklin-gothic-urw-comp", sans-serif;
 text-transform: uppercase;
 color: #ABABAB;
 font-size: 18px;
-transition:color .3s ease;
+transition:text-shadow 1s ease;
 }
 
 /* ==========================================================================
