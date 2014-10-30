@@ -948,6 +948,11 @@ p.mini-nav-subtitle {
   margin: 0 auto;
 }
 
+.songs-list li {
+  overflow: hidden;
+  font-size: 10px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
