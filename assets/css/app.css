@@ -501,6 +501,15 @@ div.progBar {
   font-size: 18px;
   border-radius: 0px;
 }
+
+span.amount {
+  font-size: 18px;
+  color: rgba(232, 232, 232, 1);
+  padding: 6px;
+  border-radius: 50px;
+  background: rgba(255,255,255,.2);
+}
+
 /* ==========================================================================
    Navbars
    ========================================================================== */
