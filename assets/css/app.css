@@ -304,15 +304,13 @@ div#about-content {
 div#about-short {
   background-color: rgba(255, 255, 255, 0.1);
   border-left: 10px solid #79030b;
-  margin: 15px;
 }
 
 div#about-short > div {
   font-family: "franklin-gothic-urw-comp", sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0 10px;
+  font-size: 22px;
+  margin: 20px;
+  line-height: 1.2;
   padding: 10px 0;
 }
 
