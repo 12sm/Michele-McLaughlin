@@ -280,7 +280,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 
 #bio a h2:hover {
-color: #CCC;
+  color: #CCC;
+}
+
+#bio a h2 img {
+  padding-bottom: 5px;
 }
 
 /* ==========================================================================
