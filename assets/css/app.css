@@ -869,6 +869,12 @@ p.mini-nav-subtitle {
   height: 102px;
 }
 
+#join {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
