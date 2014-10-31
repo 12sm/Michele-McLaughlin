@@ -8,7 +8,7 @@
           <ul id="foot-mini">
             <li class="bullet">
               <a href="/store">
-                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <img src="/assets/img/bullet-footer.png">
                 <h4>
                   BUY MUSIC
                 </h4>
@@ -16,7 +16,7 @@
             </li>
             <li class="bullet">
               <a href="/concerts">
-                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <img src="/assets/img/bullet-footer.png">
                 <h4>
                   CONCERTS
                 </h4>
@@ -24,7 +24,7 @@
             </li>
             <li class="bullet">
               <a href="/booking">
-                <img src="../wp-content/themes/michele/assets/img/bullet-footer.png">
+                <img src="/assets/img/bullet-footer.png">
                 <h4>
                   BOOK A SHOW
                 </h4>
@@ -110,32 +110,32 @@
         <div class="col-xs-12">
           <ul id="foot-socials">
             <li>
-              <a href="https://www.facebook.com/michelemclaughlinmusic" target="_blank">
+              <a href="facebook.com">
                 <i class="fa fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/michelemclaughl" target="_blank">
+              <a href="twitter.com">
                 <i class="fa fa-twitter-square"></i>
               </a>
             </li>
             <li>
-              <a href="https://plus.google.com/+MicheleMcLaughlinmusic" target="_blank">
+              <a href="google.com">
                 <i class="fa fa-google-plus-square"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/profile/view?id=11168700" target="_blank">
+              <a href="linkedin.com">
                 <i class="fa fa-linkedin-square"></i>
               </a>
             </li>
             <li>
-              <a href="http://instagram.com/michelemclaughlin" target="_blank">
+              <a href="instagram.com">
                 <i class="fa fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/user/nali22btm" target="_blank">
+              <a href="youtube.com">
                 <i class="fa fa-youtube-square"></i>
               </a>
             </li>
