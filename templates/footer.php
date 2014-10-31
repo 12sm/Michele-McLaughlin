@@ -110,32 +110,32 @@
         <div class="col-xs-12">
           <ul id="foot-socials">
             <li>
-              <a href="facebook.com">
+              <a href="https://www.facebook.com/michelemclaughlinmusic" target="_blank">
                 <i class="fa fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a href="twitter.com">
+              <a href="https://twitter.com/michelemclaughl" target="_blank">
                 <i class="fa fa-twitter-square"></i>
               </a>
             </li>
             <li>
-              <a href="google.com">
+              <a href="https://plus.google.com/+MicheleMcLaughlinmusic" target="_blank">
                 <i class="fa fa-google-plus-square"></i>
               </a>
             </li>
             <li>
-              <a href="linkedin.com">
+              <a href="https://www.linkedin.com/profile/view?id=11168700" target="_blank">
                 <i class="fa fa-linkedin-square"></i>
               </a>
             </li>
             <li>
-              <a href="instagram.com">
+              <a href="http://instagram.com/michelemclaughlin" target="_blank">
                 <i class="fa fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="youtube.com">
+              <a href="https://www.youtube.com/user/nali22btm" target="_blank">
                 <i class="fa fa-youtube-square"></i>
               </a>
             </li>
