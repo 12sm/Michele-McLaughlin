@@ -10,18 +10,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-
-get_header( 'shop' ); ?>
-
-  <?php
-    /**
-     * woocommerce_before_main_content hook
-     *
-     * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
-     * @hooked woocommerce_breadcrumb - 20
-     */
-    do_action( 'woocommerce_before_main_content' );
-  ?>
+?>
 
     <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
@@ -29,19 +18,7 @@ get_header( 'shop' ); ?>
 
     <?php endif; ?>
 
-    <?php do_action( 'woocommerce_archive_description' ); ?>
-
     <?php if ( have_posts() ) : ?>
-
-      <?php
-        /**
-         * woocommerce_before_shop_loop hook
-         *
-         * @hooked woocommerce_result_count - 20
-         * @hooked woocommerce_catalog_ordering - 30
-         */
-        do_action( 'woocommerce_before_shop_loop' );
-      ?>
 
       <?php woocommerce_product_loop_start(); ?>
 
