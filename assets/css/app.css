@@ -299,7 +299,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
   padding-bottom: 100%;
 }
 .mp3contdg.mp3play {
-background: rgba(125,125,125,.8);
+background: rgba(0,0,0,.3);
 height: 70px;
 top: 70px;
 position: relative;
