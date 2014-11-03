@@ -1089,17 +1089,23 @@ div.slide:before {
 }
 
 div.tri-link {
-  position: relative;
-  background-image: url("../img/filigree-sprite.png");
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-position: center top;
-  height: 0;
-  padding-bottom: 13%;
+position: relative;
+background-image: url("../img/filigree-off.png");
+background-repeat: no-repeat;
+background-size: 95%;
+background-position: center;
+height: 0;
+padding-bottom: 13%;
 }
 
 div.tri-link:hover {
-  background-position: center bottom;
+position: relative;
+background-image: url("../img/filigree-on.png");
+background-repeat: no-repeat;
+background-size: 95%;
+background-position: center;
+height: 0;
+padding-bottom: 13%;
 }
 
 div.mini h2 {
