@@ -302,9 +302,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 .mp3contdg.mp3play {
 background: rgba(0,0,0,.3);
-height: 70px;
+height: auto;
 position: relative;
-padding: 25px;
+padding: 10px;
 z-index: 1;
 }
 /* ==========================================================================
