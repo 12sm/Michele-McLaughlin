@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
     <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-      <h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+      <?php get_template_part('templates/page', 'header'); ?>
 
     <?php endif; ?>
 
