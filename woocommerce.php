@@ -18,22 +18,26 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
     <?php endif; ?>
 
-    <?php if ( have_posts() ) : ?>
+    <div class="max-wrap">
 
-      <?php woocommerce_product_loop_start(); ?>
+      <?php if ( have_posts() ) : ?>
 
-        <?php woocommerce_product_subcategories(); ?>
+        <?php woocommerce_product_loop_start(); ?>
 
-        <?php while ( have_posts() ) : the_post(); ?>
+          <?php woocommerce_product_subcategories(); ?>
 
-          <?php wc_get_template_part( 'content', 'product' ); ?>
+          <?php while ( have_posts() ) : the_post(); ?>
 
-        <?php endwhile; // end of the loop. ?>
+            <?php wc_get_template_part( 'content', 'product' ); ?>
 
-      <?php woocommerce_product_loop_end(); ?>
+          <?php endwhile; // end of the loop. ?>
 
-    <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
+        <?php woocommerce_product_loop_end(); ?>
 
-      <?php wc_get_template( 'loop/no-products-found.php' ); ?>
+      <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
 
-    <?php endif; ?>
+        <?php wc_get_template( 'loop/no-products-found.php' ); ?>
+
+      <?php endif; ?>
+
+    </div>
