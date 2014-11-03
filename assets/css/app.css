@@ -537,7 +537,23 @@ span.amount {
   color:#79030b!important;
   background:none!important;
 }
+body.sheet-music .bootstrap-table img,
+body.sheet-music .bootstrap-table img {
+  height: 45px!important;
+  max-width: 100%!important;
+  max-height: 50px!important;
+  width: auto;
+  float: left;
+}
 
+body.sheet-music .inline-playable {
+  padding: 3px 8px;
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 5px 0px;
+  display: inline-block;
+  float: left;
+}
 /* ==========================================================================
    Navbars
    ========================================================================== */
