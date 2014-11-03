@@ -2,24 +2,16 @@
   [wpv-items-found]
   <!-- wpv-loop-start -->
     <wpv-loop>
-      <div class='row art'>
-        <div class="col-xs-12">
-          <div class="mp3contdg mp3play">
-            <a href='[types field="audio-file" output="raw"][/types]' class='sm2_link'>
-              <i class='nextTo fa fa-play'></i>
-              <div class="nextTo mp3numb">
-                [types field="track-number" format="FIELD_VALUE"][/types].
-              </div>
-              <div class="nextTo mp3title">
-                [wpv-post-title]
-              </div>
+      <div class="row">
+        <div id="book-btn" class="col-sm-5 col-md-4 col-md-push-8 col-sm-push-7">
+          <a href="">
+            <a class="contact" data-target="#contact-form" data-toggle="modal">
+              [wpv-post-featured-image size="full"]
             </a>
-          </div>
-          <a href="[wpv-post-url id='$albums']">
-            <div class="home-album imgLiquidFill">
-              <img src="[wpv-post-featured-image id='$albums' raw='true']">
-            </div>
           </a>
+        </div>
+        <div id="book-body" class="col-sm-7 col-md-8 col-md-pull-4 col-sm-pull-5">
+          [wpv-post-body view_template="None"]
         </div>
       </div>
     </wpv-loop>
