@@ -503,7 +503,9 @@ div.progBar {
   padding: 25px;
   transition:background .3s ease;
 }
-
+.term-songbooks .store-section {
+height: 550px;
+}
 .store-section:hover {
   background: rgba(255, 255, 255, 0.1) !important;
  }
@@ -1168,7 +1170,9 @@ div.mini h2 {
   height: 375px;
   min-height: 1px;
 }
-
+.term-songbooks .store-section {
+height: 525px;
+}
 .store-section .album-image.img-container.art img {
 margin: 0;
 }
