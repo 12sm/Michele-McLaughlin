@@ -32,15 +32,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
       <?php woocommerce_product_loop_end(); ?>
 
-      <?php
-        /**
-         * woocommerce_after_shop_loop hook
-         *
-         * @hooked woocommerce_pagination - 10
-         */
-        do_action( 'woocommerce_after_shop_loop' );
-      ?>
-
     <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
 
       <?php wc_get_template( 'loop/no-products-found.php' ); ?>
