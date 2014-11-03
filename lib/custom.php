@@ -22,6 +22,7 @@ if ( $view_id == '68' ) {
   $ids = $wpdb->get_results( "SELECT meta_value FROM wp_postmeta WHERE meta_key = '_wpcf_belongs_albums_id'" );
   $query['post__in'] = array($ids);
 }
+echo $query;
 return $query;
 }
 ?>
