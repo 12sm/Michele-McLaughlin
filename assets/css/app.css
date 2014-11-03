@@ -128,7 +128,8 @@ div.container-fluid.content {
   margin: 0;
   font-size: 18px;
   color: #292828;
-  text-align:right;
+  text-align: left;
+  display: inline;
 }
 
 .flight {
