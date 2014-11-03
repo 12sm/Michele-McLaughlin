@@ -666,8 +666,11 @@ li.active a {
 }
 
 .navbar-brand {
-height: initial;
-width: 75%;
+  height: initial;
+  width: 75%;
+}
+.right.cart-tab {
+  top: 115px;
 }
 
 /*-------- MINI NAV --------*/
