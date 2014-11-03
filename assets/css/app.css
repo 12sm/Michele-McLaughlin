@@ -1115,6 +1115,7 @@ div.mini h2 {
 
 .store-section {
   height: 375px;
+  min-height: 1px;
 }
 
 .store-section .album-image.img-container.art img {
