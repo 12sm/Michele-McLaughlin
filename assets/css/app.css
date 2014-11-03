@@ -1014,6 +1014,11 @@ p.mini-nav-subtitle {
   margin-top: 8px;
 }
 
+input#fieldName, input#fieldEmail {
+width: 40%;
+text-align: center;
+}
+
 .store-section .album-image.img-container.art img {
   margin: 0 auto;
 }
