@@ -1174,6 +1174,16 @@ div.mini h2 {
 margin: 0;
 }
 
+div.mini h2 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+p.mini-nav-subtitle {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1206,6 +1216,16 @@ div.mini h2 {
 
 .store-section .album-image.img-container.art img {
 margin: 0;
+}
+
+div.mini h2 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+p.mini-nav-subtitle {
+  font-size: 16px!important;
+  letter-spacing: 1px;
 }
 
 }
