@@ -8,7 +8,7 @@
           <ul id="foot-mini">
             <li class="bullet">
               <a href="/store">
-                <img src="/assets/img/bullet-footer.png">
+                <img src="/wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
                   BUY MUSIC
                 </h4>
@@ -16,7 +16,7 @@
             </li>
             <li class="bullet">
               <a href="/concerts">
-                <img src="/assets/img/bullet-footer.png">
+                <img src="/wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
                   CONCERTS
                 </h4>
@@ -24,7 +24,7 @@
             </li>
             <li class="bullet">
               <a href="/booking">
-                <img src="/assets/img/bullet-footer.png">
+                <img src="/wp-content/themes/michele/assets/img/bullet-footer.png">
                 <h4>
                   BOOK A SHOW
                 </h4>
