@@ -10,6 +10,6 @@
         <?php echo do_shortcode('[wpv-view name="store-navigation"]'); ?>
       </div>
     </div>
-      <?php echo do_shortcode('[wpv-view name="STORE-OTHER"]'); ?>
+      <?php echo do_shortcode('[wpv-view name="Sheet Music"]'); ?>
   </div>
 </div>
