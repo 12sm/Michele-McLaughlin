@@ -665,6 +665,10 @@ li.active a {
   color: #FFF!important;
 }
 
+.navbar-brand {
+height: initial;
+width: 75%;
+}
 
 /*-------- MINI NAV --------*/
 
@@ -1107,7 +1111,10 @@ p.mini-nav-subtitle {
 .store-section {
   min-height: 600px;
 }
-
+.navbar-brand {
+height: 50px;
+width: initial;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
