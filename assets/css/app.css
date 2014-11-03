@@ -419,7 +419,7 @@ i.nextTo.fa.fa-play {
 }
 
 .button.add_to_cart_button, .added_to_cart.wc-forward {
-  background: rgba(205, 205, 205, .8) !important;
+  background: rgba(185, 185, 185, .8) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
   color: #780010 !important;
