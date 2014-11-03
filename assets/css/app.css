@@ -297,6 +297,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 .home-album {
   padding-bottom: 100%;
+  top: -70px;
+  position: relative;
 }
 .mp3contdg.mp3play {
 background: rgba(0,0,0,.3);
@@ -304,6 +306,7 @@ height: 70px;
 top: 70px;
 position: relative;
 padding: 25px;
+z-index: 1;
 }
 /* ==========================================================================
    Primary Content
