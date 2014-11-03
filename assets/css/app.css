@@ -79,7 +79,7 @@ a {transiton:color .3s ease;!important}
 ul {
   list-style-type: none;
 }
-option, select {
+option, select, input{
   color: #000;
 }
 /* ==========================================================================
