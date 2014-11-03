@@ -1015,8 +1015,12 @@ p.mini-nav-subtitle {
 }
 
 input#fieldName, input#fieldEmail {
-width: 40%;
-text-align: center;
+  width: 40%;
+  text-align: center;
+}
+
+.formosa {
+  text-align: center;
 }
 
 .store-section .album-image.img-container.art img {
