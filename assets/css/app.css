@@ -403,8 +403,11 @@ ul.songs-list {
   color: #fff;
   width: 100%;
   transition:background .3s ease, color .3s ease;
+  padding: 2px 10px;
 }
-
+.store-nav li {
+  margin-right: 10px;
+}
 .btn-sm:hover, .button.add_to_cart_button:hover {
   background: #fff !important;
   color: #333 !important;
