@@ -14,6 +14,7 @@ function trim_shortcode($atts, $content = '') {
 }
 
 //filter by child posts
+add_action('pre_get_posts', 'parent_has_childs_func', 101, 3);
 add_filter('wpv_filter_query', 'parent_has_childs_func', 101, 3);
  
 function parent_has_childs_func($query, $view_settings, $view_id) {
