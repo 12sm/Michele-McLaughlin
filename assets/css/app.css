@@ -1043,6 +1043,12 @@ column-count: 1;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar-nav {
+  margin: initial;
+}
+.no-marg{
+  margin-top: initial;
+}
 
 /* -- NAV & BASE -- */
 
