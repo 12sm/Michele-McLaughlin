@@ -1082,7 +1082,7 @@ div.mini h2 {
 }
 
 .store-section {
-  min-height: 270px;
+  height: 375px;
 }
 
 .store-section .album-image.img-container.art img {
