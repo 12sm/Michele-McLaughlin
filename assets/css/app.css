@@ -297,12 +297,12 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 .home-album {
   padding-bottom: 100%;
-  top: -70px;
+  top: -40px;
   position: relative;
 }
 .mp3contdg.mp3play {
 background: rgba(0,0,0,.3);
-height: auto;
+height: 40px;
 position: relative;
 padding: 10px;
 z-index: 1;
