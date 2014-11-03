@@ -672,7 +672,12 @@ li.active a {
 .right.cart-tab {
   top: 115px;
 }
-
+.navbar-nav {
+  margin: 15.5px -15px;
+}
+.no-marg{
+  margin-top: 0px;
+}
 /*-------- MINI NAV --------*/
 
 div#mini-nav {
