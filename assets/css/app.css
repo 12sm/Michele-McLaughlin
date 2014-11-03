@@ -1012,6 +1012,8 @@ p.mini-nav-subtitle {
   display: block;
   text-align:center;
   margin-top: 8px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 input#fieldName, input#fieldEmail {
