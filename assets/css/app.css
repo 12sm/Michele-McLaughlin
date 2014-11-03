@@ -472,6 +472,10 @@ h3.album-listen-price {
   text-shadow: 1px 1px 1px #4A4A4A;
 }
 
+a.button.add_to_cart_button.product_type_simple {
+ font-weight:100!important; 
+}
+
 /*-------- PLAYER --------*/
 .progBar {
   background-color: #79030b;
