@@ -419,7 +419,7 @@ i.nextTo.fa.fa-play {
 }
 
 .button.add_to_cart_button, .added_to_cart.wc-forward {
-  background: rgba(255, 255, 255, .8) !important;
+  background: rgba(225, 225, 225, .8) !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
   color: #780010 !important;
@@ -434,7 +434,11 @@ i.nextTo.fa.fa-play {
   font-family: "franklin-gothic-urw", sans-serif;
   transition:background .3s ease, color .3s ease;
 }
-
+a.button.add_to_cart_button.product_type_simple {
+  text-transform: uppercase;
+  font-weight: 900 !important;
+  color: #fff !important;
+}
 .button.add_to_cart_button:hover, .added_to_cart.wc-forward:hover {
   background: #780010 !important;
   color:#FFF!important;
