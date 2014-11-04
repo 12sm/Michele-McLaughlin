@@ -83,28 +83,31 @@
         </div>
       </div>
 
-      <div class="emails row">
-        <div class="col-xs-12">
+      <div class="row emails">
+        <div class="col-md-12 col-lg-12">
           <form action="http://newsletter.michelemclaughlin.com/t/d/s/xdif/" method="post">
-            <div class="row">
-              <div class="col-xs-12">
-                <h3 id="joint">
-                  JOIN THE MAILING LIST:
-                </h3>
-                <div class="flights">
-                  <input size="20" id="fieldName" name="cm-name" type="text" placeholder="name" required />
-                </div>
-                <div class="flights">
-                  <input size="30" id="fieldEmail" name="cm-xdif-xdif" type="email" placeholder="email address" required />
-                </div>
-                <div class="flights">
-                  <button type="submit"><i class="fa fa-caret-right"></i></button>
-                </div>
+            <div class="row formosa">
+              <div class="flight">
+                <h3 id="join">
+                JOIN THE MAILING LIST:
+              </h3>
+                <input size="20" id="fieldName" name="cm-name" type="text" placeholder="name" required />
               </div>
+              <div class="flight">
+                <input size="30" id="fieldEmail" name="cm-xdif-xdif" type="email" placeholder="email address" required />
+              </div>
+              <div class="flight">
+                <button type="submit"><i class="fa fa-caret-right"></i></button>
+              </div>
+              
             </div>
           </form>
         </div>
       </div>
+
+
+
+
 
       <div class="socials-foot row">
         <div class="col-xs-12">
