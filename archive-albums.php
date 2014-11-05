@@ -11,7 +11,9 @@
 </div>
 
 <!-- /*-------- ALBUM VIEW --------*/ -->
-
+<div class="max-wrap">
+  <?php echo do_shortcode("[wpv-view name='Music-Carousel']"); ?>
+</div>
 <div class="max-wrap">
   <?php echo do_shortcode("[wpv-view name='music']"); ?>
 </div>
