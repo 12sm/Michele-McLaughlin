@@ -382,9 +382,6 @@ height: 0px;
 color: #fff!important;
 }
 
-.owl-item{
-  padding: 5px;
-}
 .owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;opacity:.3;transition:opacity .3s ease;}
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:3%;opacity:.3;transition:opacity .3s ease;}
 .owl-theme .owl-controls .owl-buttons .owl-next:hover {opacity:1;}
