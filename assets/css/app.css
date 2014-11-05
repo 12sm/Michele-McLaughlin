@@ -89,7 +89,7 @@ option, select, input{
 }
 
 div.dont-see {
-  visibility: hidden;
+display: none;
 }
 
 /* ==========================================================================
