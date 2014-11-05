@@ -90,6 +90,20 @@
     post_type_archive_albums: {
       init: function() {
         $('.play').on('click', playMusic);
+
+        $('.music-carousel').owlCarousel({
+                  itemsCustom : [
+         [0, 2],
+         [480, 3],
+         [768, 4],
+         [1200, 4],
+         [1600, 4]
+         ],
+         navigation : true,
+         navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
+         pagination: false,
+         scrollPerPage : true
+        });
       }
     }
   };
