@@ -26,6 +26,18 @@
     }
   ?>
 
+  <div class="see-live dont-see">
+    <a href="http://michelemclaughlinmusic.12southdev.com/concerts/">
+      <div>
+        <h1 style="text-align: center;">
+          SEE<br>
+          MICHELE<br>
+          LIVE
+        </h1>
+      </div>
+    </a>
+  </div>
+
   <div class="wrap container-fluid" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
