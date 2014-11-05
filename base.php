@@ -26,13 +26,25 @@
     }
   ?>
 
-  <div class="see-live">
+  <div class="see-live dont-see">
     <a href="http://michelemclaughlinmusic.12southdev.com/concerts/">
       <div>
         <h1 style="text-align: center;">
-          SEE<br>
-          MICHELE<br>
-          LIVE
+          See<br>
+          Michele<br>
+          Live
+        </h1>
+      </div>
+    </a>
+  </div>
+
+  <div class="see-book dont-see">
+    <a class="contact" data-target="#contact-form" data-toggle="modal">
+      <div>
+        <h1 style="text-align: center;">
+          Book<br>
+          Michele<br>
+          Today
         </h1>
       </div>
     </a>
