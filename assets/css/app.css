@@ -356,7 +356,25 @@ div.player {
 div.art > img {
   border: 10px solid rgba(255, 255, 255, 0.1);
 }
+/*Owl Control positioning*/
+.owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
+.owl-theme .owl-controls {
+text-align: center;
+position: absolute;
+top: 50%;
+width: 100%;
+height: 0px;
+color: #fff!important;
+}
 
+.owl-item{
+  padding: 5px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;opacity:.3;transition:opacity .3s ease;}
+.owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:3%;opacity:.3;transition:opacity .3s ease;}
+.owl-theme .owl-controls .owl-buttons .owl-next:hover {opacity:1;}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover {opacity:1;}
 
 /*-------- CONCERTS PAGE --------*/
 body.concerts tr:nth-child(1), tr:nth-child(2) {
