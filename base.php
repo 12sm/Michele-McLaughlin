@@ -39,7 +39,7 @@
   </div>
 
   <div class="see-book dont-see">
-    <a href="http://michelemclaughlinmusic.12southdev.com/concerts/">
+    <a class="contact" data-target="#contact-form" data-toggle="modal">
       <div>
         <h1 style="text-align: center;">
           Book<br>
