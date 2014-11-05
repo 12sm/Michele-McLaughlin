@@ -92,12 +92,12 @@ div.dont-see {
   display: none;
 }
 
-div.see-live {
+div.see-live, div.see-book {
   z-index: 1000;
   background-color: orange;
   position: fixed;
   right: 0;
-  top:
+  top: 190px;
 }
 
 /* ==========================================================================
