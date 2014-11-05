@@ -107,6 +107,7 @@
       },
       single_albums: {
         init: function(){
+          console.log('single albums');
           $('.play').on('click', playMusic);
           $('.music-carousel').owlCarousel({
             itemsCustom : [
