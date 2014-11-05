@@ -87,6 +87,11 @@ option, select, input{
   float: left;
   padding: 0px 25px;
 }
+
+div.dont-see {
+  visibility: hidden;
+}
+
 /* ==========================================================================
    Headers
    ========================================================================== */
@@ -375,7 +380,7 @@ color: #fff!important;
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:3%;opacity:.3;transition:opacity .3s ease;}
 .owl-theme .owl-controls .owl-buttons .owl-next:hover {opacity:1;}
 .owl-theme .owl-controls .owl-buttons .owl-prev:hover {opacity:1;}
-/* 
+/*
  *  Core Owl Carousel CSS File
  *  v1.3.2
  */
@@ -413,7 +418,7 @@ color: #fff!important;
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
-  
+
 .owl-carousel .owl-item{
   float: left;
 }
@@ -431,7 +436,7 @@ color: #fff!important;
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -567,7 +572,7 @@ h3.album-listen-price {
 }
 
 a.button.add_to_cart_button.product_type_simple {
- font-weight:100!important; 
+ font-weight:100!important;
 }
 
 /*-------- PLAYER --------*/
@@ -603,7 +608,7 @@ height: 550px;
 .store-section:hover {
   background: rgba(255, 255, 255, 0.1) !important;
  }
- 
+
 .store-title h1 {
   font-size: 28px;
   line-height: .9;
