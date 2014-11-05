@@ -90,6 +90,7 @@
     },
     sheet_music: {
       init: function(){
+        console.log('sheet-music');
         var options = {
           valueNames: [ 'title', 'type', 'key', 'level' ]
         };
