@@ -1,21 +1,58 @@
 [wpv-layout-start]
   [wpv-items-found]
-  <!-- wpv-loop-start -->
-    <wpv-loop>
-      <div class="row">
-        <div id="book-btn" class="col-sm-5 col-md-4 col-md-push-8 col-sm-push-7">
-          <a href="">
-            <a class="contact" data-target="#contact-form" data-toggle="modal">
-              [wpv-post-featured-image size="full"]
-            </a>
-          </a>
-        </div>
-        <div id="book-body" class="col-sm-7 col-md-8 col-md-pull-4 col-sm-pull-5">
-          [wpv-post-body view_template="None"]
-        </div>
-      </div>
-    </wpv-loop>
-  <!-- wpv-loop-end -->
+<div class="row">
+<div class="col-sm-12 col-md-12">
+   <table data-toggle="table" data-sort-name="title" data-sort-order="asc">
+            <thead class="hidden-xs"><tr>
+              <th class="col-sm-2 col-md-1 col-xs-12" data-field="play" data-align="right" data-sortable="false"></th> 
+              <th class="col-sm-3 col-md-4 col-xs-12" data-field="title" data-align="right" data-sortable="true">Title</th>
+               <th class="col-sm-3 col-xs-12" data-field="type" data-align="right" data-sortable="true">Type</th>
+               <th class="col-sm-2 col-xs-12" data-field="price" data-align="right" data-sortable="true">Price</th>
+              <th class="col-sm-2 col-xs-12" data-field="buy" data-align="center" data-sortable="false">Buy Now</th>
+            </tr></thead>
+      <tbody>
+      <wpv-loop>
+            <tr>
+              <td class="col-sm-2 col-md-1 col-xs-12" >
+                <div class="row">
+                <div class="col-sm-6">
+          [wpv-woo-product-image size="thumbnail" output=""]
+                </div>
+                <div class="col-sm-6">
+                    <a href='[types field="mp3-upload" link="true" output="raw" id="$tracks"][/types]' class="inline-playable"><i class='fa fa-play'></i></a>
+                </div>
+              </div>
+              </td>
+              <td class="col-sm-3 col-md-4 col-xs-12" >
+               <h4 class="hidden-sm hidden-md hidden-lg">
+                Title:
+               </h4>
+               <a href="[wpv-post-url]">
+                <h4>[wpv-post-title]</h4>
+               </a>
+              </td>
+               <td class="col-sm-3 col-xs-12" >
+                <h4 class="hidden-sm hidden-md hidden-lg">
+                Type:
+               </h4>
+                 [wpv-post-taxonomy type="product_cat" separator=", " format="text" show="name" order="asc"]
+               </td>
+               <td class="col-sm-1 col-xs-12">
+                <h4 class="hidden-sm hidden-md hidden-lg">
+                  Price:
+                </h4>
+                 [wpv-woo-product-price]
+               </td>
+               <td class="col-sm-1 col-xs-12">
+                 [wpv-woo-buy-or-select add_to_cart_text="Buy Now" link_to_product_text="Buy Now"] 
+               </td> 
+               
+            </tr>
+      </wpv-loop>
+   </tbody>
+   </table>
+  </div>
+</div>
   [/wpv-items-found]
   [wpv-no-items-found]
     [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]

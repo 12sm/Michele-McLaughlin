@@ -87,6 +87,15 @@
         prodLiquid();
       }
     },
+    sheet_music: {
+      init: function(){
+        var options = {
+          valueNames: [ 'title', 'type', 'key', 'level' ]
+        };
+
+        var hackerList = new List('hacker-list', options);
+      }
+    },
     post_type_archive_albums: {
       init: function() {
         $('.play').on('click', playMusic);
