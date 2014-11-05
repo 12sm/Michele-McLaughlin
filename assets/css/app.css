@@ -118,6 +118,7 @@ div.banners {
   background-position: center top;
   height: 111px;
   width:100%;
+  float: left;
 }
 
 h1.bandit {
