@@ -94,7 +94,7 @@
           valueNames: [ 'title', 'type', 'key', 'level' ]
         };
 
-        var hackerList = new List('hacker-list', options);
+        var hackerList = new List('tablet-list', options);
       }
     },
     post_type_archive_albums: {
