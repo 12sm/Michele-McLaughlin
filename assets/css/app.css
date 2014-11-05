@@ -89,7 +89,15 @@ option, select, input{
 }
 
 div.dont-see {
-display: none;
+  display: none;
+}
+
+div.see-live {
+  z-index: 1000;
+  background-color: orange;
+  position: fixed;
+  right: 0;
+  top:
 }
 
 /* ==========================================================================

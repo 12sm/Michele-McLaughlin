@@ -26,7 +26,7 @@
     }
   ?>
 
-  <div class="see-live dont-see">
+  <div class="see-live">
     <a href="http://michelemclaughlinmusic.12southdev.com/concerts/">
       <div>
         <h1 style="text-align: center;">
