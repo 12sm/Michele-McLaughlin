@@ -904,6 +904,3 @@ endif;
 function WC() {
   return WooCommerce::instance();
 }
-
-// Global for backwards compatibility.
-$GLOBALS['woocommerce'] = WC();
