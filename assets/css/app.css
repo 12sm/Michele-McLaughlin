@@ -730,12 +730,13 @@ border-top: none!important;
 border-left: none!important;
 }
 
+
 i.fa.fa-search-plus {
-position: absolute;
+position:absolute;
 left: 40%;
-top: 29%;
-color: #FFF;
-text-shadow: 0 0 3px #000000;
+top: 36%;
+font-size: 76px;
+opacity: .3;
 }
 
 /* ==========================================================================
@@ -1304,9 +1305,9 @@ width: initial;
 
 i.fa.fa-search-plus {
 left: 40%;
-top: 36%;
-font-size: 76px;
-opacity: .3;
+top: 29%;
+font-size:13px;
+opacity:.9;
 }
 
 }
