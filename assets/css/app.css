@@ -1596,6 +1596,13 @@ i.fa.fa-search-plus {
   opacity:.9;
 }
 
+.cart-tab a.cart-parent {
+ padding:3px; 
+}
+
+.cart-tab.right a.cart-parent {
+left: -5.402328em;
+}
 
 }
 
