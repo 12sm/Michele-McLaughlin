@@ -94,10 +94,18 @@ div.dont-see {
 
 div.see-live, div.see-book {
   z-index: 1000;
-  background-color: orange;
+  background-color: #FFF;
   position: fixed;
   right: 0;
   top: 190px;
+}
+
+.see-live h1 {
+font-size: 18px;
+padding: 5px;
+line-height: 1.2;
+margin: 0;
+border-bottom: 5px solid #780010;
 }
 
 /* ==========================================================================
