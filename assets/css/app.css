@@ -1510,6 +1510,14 @@ div.see-live, div.see-book {
 top: 80px;
 }
 
+#sort-list input.search {
+float: left;
+border: none;
+padding: 5px;
+opacity: .2;
+text-align: left;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
