@@ -865,7 +865,7 @@ box-shadow: none;
 overflow: visible;
 }
 
-.woocommerce .quantity .plus {
+.woocommerce .quantity .minus {
 float: left;
 position: absolute;
 left: -40px;
@@ -873,10 +873,11 @@ width: 30px;
 height: 30px;
 }
 
-.woocommerce .quantity .minus {
+.woocommerce .quantity .plus {
 float: right;
 position: absolute;
-left: 80px;
+left: 60px;
+top: 0px;
 width: 30px;
 height: 30px;
 }
