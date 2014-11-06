@@ -790,7 +790,7 @@ opacity: .5;
 font-weight: bold;
 }
 
-.product-remove:hover {
+.product-remove a:hover {
 color:red;
 }
 
