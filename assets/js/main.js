@@ -95,7 +95,7 @@
           valueNames: [ 'rtitle', 'rtype', 'rkey', 'rlevel' ]
         };
 
-        var hackerList = new List('search', options);
+        var hackerList = new List('sort-list', options);
       }
     },
     post_type_archive_albums: {
