@@ -1420,6 +1420,10 @@ font-size:13px;
 opacity:.9;
 }
 
+.music-carousel-item h3 {
+font-size: 21px;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1469,6 +1473,10 @@ left: 40%;
 top: 29%;
 font-size:13px;
 opacity:.9;
+}
+
+.music-carousel-item h3 {
+font-size: 22px;
 }
 
 }
