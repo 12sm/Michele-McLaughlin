@@ -20,7 +20,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
 <div class="row">
-<div class="shop_table cart col-sm-12 table table-hover table-striped max-wrap">
+<div class="max-wrap">
+<div class="shop_table cart col-sm-12 table table-hover table-striped">
 	<div class="row hidden-xs border">
 			<div class="product-remove col-sm-1">&nbsp;</div>
 			<div class="product-thumbnail col-sm-1">&nbsp;</div>
@@ -134,6 +135,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 		<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 	</div>
+</div>
 </div>
 </div>
 </div>
