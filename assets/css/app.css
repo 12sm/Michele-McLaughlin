@@ -1498,6 +1498,10 @@ column-count: 1;
 left: -5.402328em;
 }
 
+div.see-live, div.see-book {
+display:none;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
