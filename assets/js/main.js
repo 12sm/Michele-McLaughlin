@@ -92,7 +92,7 @@
       init: function(){
         console.log('sheet-music');
         var fuzzyOptions = {
-          searchClass: "fuzzy-search",
+          searchClass: "search",
           location: 0,
           distance: 100,
           threshold: 0.4,
