@@ -711,6 +711,13 @@ input.search {
 }
 #sort-list input.search {
 float: right;
+float: right;
+position: relative;
+top: -40px;
+border: none;
+padding: 5px;
+opacity: .2;
+text-align: right;
 }
 
 /* Store nav active states */
@@ -1365,7 +1372,7 @@ div.mini h2 {
 }
 
 .store-section {
-  height: 375px;
+  height: 400px;
   min-height: 1px;
 }
 .term-songbooks .store-section {
