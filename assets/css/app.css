@@ -1249,7 +1249,12 @@ column-count: 1;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar-nav {
+
+h1.bandit {
+padding: 11px 6%;
+}
+
+.navbar-nav {
   margin: initial;
 }
 .no-marg{
