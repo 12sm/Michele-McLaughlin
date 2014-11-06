@@ -707,7 +707,6 @@ body.sheet-music .inline-playable {
 }
 
 input.search {
-  float: left;
   margin-bottom: 15px;
 }
 #sort-list input.search {
