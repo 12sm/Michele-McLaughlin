@@ -90,22 +90,16 @@
     },
     sheet_music: {
       init: function(){
-        console.log('sheet-music');
-        var fuzzyOptions = {
-          searchClass: "search",
-          location: 0,
-          distance: 100,
-          threshold: 0.4,
-            multiSearch: true
-        };
 
-        var options = {
-          valueNames: [ 'title', 'type', 'key', 'level' ],
-           plugins: [
-            [  ListFuzzySearch() ]
-          ]
-        };
-        var hackerList = new List('sort-list', options);
+        $('.search').keyup(function () {
+
+            var rex = new RegExp($(this).val(), 'i');
+            $('#table-list tr').hide();
+            $('#table-list tr').filter(function () {
+                return rex.test($(this).text());
+            }).show();
+
+        });
       }
     },
     post_type_archive_albums: {
