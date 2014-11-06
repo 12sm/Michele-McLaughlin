@@ -935,6 +935,7 @@ border-bottom: none;
 
 .cart-contents {
 margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .cart_totals h2 {
@@ -990,6 +991,13 @@ height: auto;
 background-color: #780010;
 }
 
+.cart_totals table {
+width: 100%;
+}
+
+.col-md-6.actions {
+text-align: right;
+}
 
 /* ==========================================================================
    Navbars
