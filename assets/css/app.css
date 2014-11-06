@@ -24,6 +24,7 @@ body {
 .newbg {
   background-image: url('../img/top-piano-bg.png');
   background-repeat: no-repeat;
+  background-position: top center;
   background-attachment: scroll;
   margin-top: -20px;
 }
