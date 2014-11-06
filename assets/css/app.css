@@ -802,6 +802,57 @@ transition:color .1s ease;
 color: rgb(218, 218, 218);
 }
 
+.woocommerce .quantity input.qty,
+.woocommerce-page .quantity input.qty {
+width: 50px;
+height: 29px;
+float: left;
+padding: 0;
+opacity: .7;
+margin: 0;
+text-align: center;
+border: none;
+border-right: 0;
+-webkit-border-top-right-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+box-shadow: none;
+-webkit-box-shadow: none;
+font-weight: bold;
+-webkit-border-top-left-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+-moz-appearance: textfield;
+}
+
+.woocommerce .quantity .plus, 
+.woocommerce .quantity .minus, 
+.woocommerce-page .quantity .plus, 
+.woocommerce-page .quantity .minus {
+display: block;
+vertical-align: text-top;
+width: 20px;
+height: 20px;
+text-decoration: none;
+overflow: visible;
+font-weight: bold;
+color: #FFF;
+cursor: pointer;
+line-height: 13px;
+font-size: 22px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+color: #FFF;
+text-shadow: none;
+border: none;
+background:rgba(255,255,255,.1)!important;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
 
 /* ==========================================================================
    Navbars
