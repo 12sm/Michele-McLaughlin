@@ -15,11 +15,17 @@ font-family: "franklin-gothic-urw-comp", sans-serif;
 body {
   background-image: url('../img/bg-tile.jpg');
   background-repeat: repeat;
-  background-attachment: scroll;
   font-family: "franklin-gothic-urw", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
   text-rendering: geometricPrecision;
+}
+
+.newbg {
+  background-image: url('../img/bg-tile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 h1 {
