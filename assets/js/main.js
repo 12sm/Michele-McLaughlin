@@ -91,8 +91,19 @@
     sheet_music: {
       init: function(){
         console.log('sheet-music');
+        var fuzzyOptions = {
+          searchClass: "fuzzy-search",
+          location: 0,
+          distance: 100,
+          threshold: 0.4,
+            multiSearch: true
+        };
+
         var options = {
-          valueNames: [ 'title', 'type', 'key', 'level' ]
+          valueNames: [ 'title', 'type', 'key', 'level' ],
+           plugins: [
+            [  ListFuzzySearch() ]
+          ]
         };
         debugger;
         var hackerList = new List('sort-list', options);
