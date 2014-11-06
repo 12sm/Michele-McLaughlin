@@ -1,4 +1,9 @@
 <div class="col">
+
+<div class="max-wrap">
+  <?php get_template_part('templates/page', 'header'); ?>
+</div>
+
 <div class="page-header">
   <h1>
     <?php echo roots_title(); ?>
