@@ -873,6 +873,14 @@ width: 30px;
 height: 30px;
 }
 
+.woocommerce .quantity .minus {
+float: right;
+position: absolute;
+left: 80px;
+width: 30px;
+height: 30px;
+}
+
 
 /* ==========================================================================
    Navbars
