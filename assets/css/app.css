@@ -986,6 +986,9 @@ content: "";
 height: auto;
 }
 
+.woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before {
+background-color: #780010;
+}
 
 
 /* ==========================================================================
