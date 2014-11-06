@@ -1,15 +1,16 @@
 <div class="col">
-<div class="page-header">
-  <h1>
-    <?php echo roots_title(); ?>
-  </h1>
-</div>
-  <div class="col-md-12">
-    <div class="row">
-      <div class="col-md-12">
-        <?php echo do_shortcode('[wpv-view name="store-navigation"]'); ?>
+  <div class="max-wrap">
+    <?php get_template_part('templates/page', 'header'); ?>
+  </div>
+  
+  <div class="max-wrap">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
+          <?php echo do_shortcode('[wpv-view name="store-navigation"]'); ?>
+        </div>
       </div>
+        <?php echo do_shortcode('[wpv-view name="Sheet Music"]'); ?>
     </div>
-      <?php echo do_shortcode('[wpv-view name="Sheet Music"]'); ?>
   </div>
 </div>
