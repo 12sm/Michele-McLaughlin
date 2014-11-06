@@ -706,6 +706,9 @@ body.sheet-music .inline-playable {
   float: left;
 }
 
+#sort-list input.search {
+float: right;
+}
 
 /* Store nav active states */
 
