@@ -88,7 +88,7 @@
         prodLiquid();
       }
     },
-    single_products: {
+    single_product: {
       init: function(){
         $('.add_to_cart_button').each(function(){
           text = $(this).html();
