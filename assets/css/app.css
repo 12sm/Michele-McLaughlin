@@ -109,7 +109,7 @@ div.see-live, div.see-book {
   background-color: #FFF;
   position: fixed;
   right: 0;
-  top: 190px;
+  top: 230px;
 }
 
 .see-live h1,
@@ -1278,6 +1278,11 @@ footer div {
 
 ul#foot-mini, div.formoso {
   margin: 0 auto;
+  padding:0;
+}
+
+ul#foot-main {
+  padding: 0;
 }
 
 li.bullet {
@@ -1341,10 +1346,12 @@ p.credits a {
 li.bullet > a > h4 {
   color: rgb(27, 27, 27);
   text-decoration: none;
+
 }
 
 ul#foot-socials {
   margin: 14px auto;
+  padding:none;
 }
 
 ul#foot-socials > li {
@@ -1384,13 +1391,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 767px) {
 
 .music-carousel-item h3 {
-font-size: 16px;
+  font-size: 16px;
 }
 
-
 h1.bandit {
-padding:0;
-text-align: center;
+  padding:0;
+  text-align: center;
 }
 
 div.mini h2:hover {
@@ -1428,7 +1434,7 @@ p.mini-nav-subtitle {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(68, 68, 68, 0.2);
-  background: rgba(68, 68, 68, 0.3);
+  /* background: rgba(68, 68, 68, 0.3); */
   padding-top: 20px;
 }
 
@@ -1465,20 +1471,20 @@ input#fieldName, input#fieldEmail {
 }
 
 .mp3contdg.mp3play {
-height:40px;
-padding: 5px;
+  height:40px;
+  padding: 5px;
 }
 
 div#about-content {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
 }
 
 ul.songs-list {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
 }
 
 .cart-tab a.cart-parent {
@@ -1486,7 +1492,25 @@ column-count: 1;
 }
 
 .cart-tab.right a.cart-parent {
-left: -5.402328em;
+  left: -4.402328em;
+}
+
+div.see-live, div.see-book {
+  display:none;
+}
+
+.cart-tab span.amount {
+  font-size: 13px;
+}
+
+.right.cart-tab {
+top: 80px;
+}
+
+#sort-list input.search {
+float: left;
+position:static;
+text-align: left;
 }
 
 }
