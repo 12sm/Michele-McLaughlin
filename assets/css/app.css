@@ -711,7 +711,8 @@ body.sheet-music .inline-playable {
 
 body.post-type-archive-product li.cd-link a,
 body.sheet-music li.sheet-music-link a,
-body.page-template-template-songbk-php li.digital-songbooks-link a {
+body.page-template-template-songbk-php li.digital-songbooks-link a,
+body.term-printed-songbooks li.other-link a {
 color: rgb(45, 45, 45);
 background: #FFF;
 opacity: 1;
