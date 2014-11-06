@@ -20,7 +20,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
 <div class="row">
-<div class="shop_table cart col-sm-12 table table-hover table-striped">
+<div class="shop_table cart col-sm-12 table table-hover table-striped max-wrap">
 	<div class="row hidden-xs border">
 			<div class="product-remove col-sm-1">&nbsp;</div>
 			<div class="product-thumbnail col-sm-1">&nbsp;</div>
