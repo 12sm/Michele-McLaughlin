@@ -92,7 +92,7 @@
       init: function(){
         console.log('sheet-music');
         var options = {
-          valueNames: [ 'rtitle', 'rtype', 'rkey', 'rlevel' ]
+          valueNames: [ 'title', 'type', 'key', 'level' ]
         };
 
         var hackerList = new List('sort-list', options);
