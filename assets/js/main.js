@@ -94,7 +94,7 @@
         var options = {
           valueNames: [ 'title', 'type', 'key', 'level' ]
         };
-
+        debugger;
         var hackerList = new List('sort-list', options);
       }
     },
