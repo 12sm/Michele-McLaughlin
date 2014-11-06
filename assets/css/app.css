@@ -1301,6 +1301,14 @@ p.mini-nav-subtitle {
 height: 50px;
 width: initial;
 }
+
+i.fa.fa-search-plus {
+left: 40%;
+top: 36%;
+font-size: 76px;
+opacity: .3;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
