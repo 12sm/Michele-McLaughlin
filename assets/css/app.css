@@ -707,6 +707,15 @@ body.sheet-music .inline-playable {
 }
 
 
+/* Store nav active states */
+
+body.post-type-archive-product li.cd-link a,
+body.sheet-music li.sheet-music-link a {
+color: rgb(45, 45, 45);
+background: #FFF;
+opacity: 1;
+}
+
 /* Sheet Music and Table sections */
 
 .fixed-table-container {
