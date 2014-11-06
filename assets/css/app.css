@@ -782,6 +782,18 @@ margin: 10px 0px;
 padding: 10px;
 }
 
+.product-remove {
+text-align: center;
+font-size: 32px;
+margin: 0;
+opacity: .5;
+font-weight: bold;
+}
+
+.product-remove:hover {
+color:red;
+}
+
 
 /* ==========================================================================
    Navbars
