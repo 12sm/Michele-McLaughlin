@@ -1506,6 +1506,10 @@ div.see-live, div.see-book {
   font-size: 13px;
 }
 
+.right.cart-tab {
+top: 80px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
