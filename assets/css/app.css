@@ -1585,15 +1585,32 @@ font-size: 16px;
   min-height: 700px;
 }
 .navbar-brand {
-height: 50px;
-width: initial;
+  height: 50px;
+  width: initial;
 }
 
 i.fa.fa-search-plus {
-left: 40%;
-top: 29%;
-font-size:13px;
-opacity:.9;
+  left: 40%;
+  top: 29%;
+  font-size:13px;
+  opacity:.9;
+}
+
+.cart-tab.right a.cart-parent {
+  width: 100%;
+  -moz-transition: left ease .5s;
+  -o-transition: left ease .5s;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  height: auto;
+  padding: 5px;
+  text-align: right;
+}
+
+.cart-tab.right {
+  -moz-transition: right ease .5s;
+  -o-transition: right ease .5s;
+  width: 100%;
 }
 
 }
