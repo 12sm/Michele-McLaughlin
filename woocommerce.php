@@ -18,15 +18,21 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
     <?php endif; ?>
 
-    <div class="max-wrap righto">
+    <div class="max-wrap">
 
       <?php if ( have_posts() ) : ?>
 
+        <?php woocommerce_product_loop_start(); ?>
+
+          <?php woocommerce_product_subcategories(); ?>
+
           <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'templates/content', 'page' ); ?>
+            <?php wc_get_template_part( 'content', 'product' ); ?>
 
           <?php endwhile; // end of the loop. ?>
+
+        <?php woocommerce_product_loop_end(); ?>
 
       <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
 
