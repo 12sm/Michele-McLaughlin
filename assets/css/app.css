@@ -100,7 +100,8 @@ div.see-live, div.see-book {
   top: 190px;
 }
 
-.see-live h1 {
+.see-live h1,
+.see-book h1 {
 font-size: 18px;
 padding: 5px;
 line-height: 1.2;
@@ -109,7 +110,8 @@ border-bottom: 5px solid #780010;
 transition:color .3s ease, padding .3s ease;
 }
 
-.see-live h1:hover {
+.see-live h1:hover,
+.see-book h1:hover {
 color: #780010;
 padding-right: 20px;
 }
