@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
     <?php endif; ?>
 
-    <div class="max-wrap">
+    <div class="max-wrap righto">
 
       <?php if ( have_posts() ) : ?>
 
