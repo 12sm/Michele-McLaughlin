@@ -950,6 +950,20 @@ color: #fcfcfc;
 text-shadow: none;
 }
 
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+float:none;
+width: 48%;
+margin: 0 auto;
+text-align: right;
+}
+
+tr.cart-subtotal:hover,
+tr.order-total:hover {
+color: #FFF;
+}
+
+
+
 /* ==========================================================================
    Navbars
    ========================================================================== */
