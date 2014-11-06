@@ -883,6 +883,15 @@ width: 30px;
 height: 30px;
 }
 
+.border .product-name, 
+.border .product-price, 
+.border .product-quantity, 
+.border .product-subtotalcol-sm-2 {
+font-family: "franklin-gothic-urw-comp", sans-serif;
+font-size: 19px;
+text-transform: uppercase;
+}
+
 
 /* ==========================================================================
    Navbars
