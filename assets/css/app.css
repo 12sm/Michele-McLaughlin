@@ -15,6 +15,7 @@ font-family: "franklin-gothic-urw-comp", sans-serif;
 body {
   background-image: url('../img/bg-tile.jpg');
   background-repeat: repeat;
+  background-attachment: scroll;
   font-family: "franklin-gothic-urw", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
@@ -744,11 +745,11 @@ opacity: 1;
 border-left: none!important;
 }
 
-.table>thead>tr>th, 
-.table>tbody>tr>th, 
-.table>tfoot>tr>th, 
-.table>thead>tr>td, 
-.table>tbody>tr>td, 
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
 .table>tfoot>tr>td {
 border-top: none!important;
 }
@@ -827,9 +828,9 @@ border-bottom-left-radius: 0;
 -moz-appearance: textfield;
 }
 
-.woocommerce .quantity .plus, 
-.woocommerce .quantity .minus, 
-.woocommerce-page .quantity .plus, 
+.woocommerce .quantity .plus,
+.woocommerce .quantity .minus,
+.woocommerce-page .quantity .plus,
 .woocommerce-page .quantity .minus {
 display: block;
 vertical-align: text-top;
