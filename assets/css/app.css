@@ -24,10 +24,8 @@ body {
 .newbg {
   background-image: url('../img/top-piano-bg.png');
   background-repeat: no-repeat;
-  background-size: 100% 60%;
   background-attachment: scroll;
   margin-top: -20px;
-  min-width: 1100px;
 }
 
 div.emailrow {
