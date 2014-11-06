@@ -694,11 +694,11 @@ body.sheet-music .inline-playable {
 /* Sheet Music and Table sections */
 
 .fixed-table-container {
-  border: none;
+  border: none!important;
 }
 
 .fixed-table-container tbody td {
-border-left: none;
+border-left: none!important;
 }
 
 .table>thead>tr>th, 
@@ -707,7 +707,7 @@ border-left: none;
 .table>thead>tr>td, 
 .table>tbody>tr>td, 
 .table>tfoot>tr>td {
-border-top: none;
+border-top: none!important;
 }
 
 
