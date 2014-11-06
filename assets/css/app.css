@@ -1278,6 +1278,11 @@ footer div {
 
 ul#foot-mini, div.formoso {
   margin: 0 auto;
+  padding:0;
+}
+
+ul#foot-main {
+  padding: 0;
 }
 
 li.bullet {
@@ -1341,10 +1346,12 @@ p.credits a {
 li.bullet > a > h4 {
   color: rgb(27, 27, 27);
   text-decoration: none;
+
 }
 
 ul#foot-socials {
   margin: 14px auto;
+  padding:none;
 }
 
 ul#foot-socials > li {
