@@ -707,6 +707,16 @@ body.sheet-music .inline-playable {
 }
 
 
+/* Store nav active states */
+
+body.post-type-archive-product li.cd-link a,
+body.sheet-music li.sheet-music-link a,
+body.page-template-template-songbk-php li.digital-songbooks-link a {
+color: rgb(45, 45, 45);
+background: #FFF;
+opacity: 1;
+}
+
 /* Sheet Music and Table sections */
 
 .fixed-table-container {
@@ -737,6 +747,13 @@ left: 40%;
 top: 36%;
 font-size: 76px;
 opacity: .3;
+}
+thead {
+background-color: rgba(255,255,255,.3);
+color: #FFF;
+font-size: 22px;
+font-weight: 100;
+text-align: center;
 }
 
 /* ==========================================================================
