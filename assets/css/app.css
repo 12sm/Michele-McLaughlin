@@ -706,7 +706,10 @@ body.sheet-music .inline-playable {
   float: left;
 }
 
-
+input.search {
+  float: left;
+  margin-bottom: 15px;
+}
 /* Store nav active states */
 
 body.post-type-archive-product li.cd-link a,
