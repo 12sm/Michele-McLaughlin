@@ -22,7 +22,7 @@ body {
 }
 
 .newbg {
-  background-image: url('../img/bg-tile.jpg');
+  background-image: url('../img/top-piano-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
