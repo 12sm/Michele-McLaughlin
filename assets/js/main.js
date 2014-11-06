@@ -105,7 +105,6 @@
             [  ListFuzzySearch() ]
           ]
         };
-        debugger;
         var hackerList = new List('sort-list', options);
       }
     },
