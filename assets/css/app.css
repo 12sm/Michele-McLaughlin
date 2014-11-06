@@ -1391,15 +1391,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 767px) {
 
 .music-carousel-item h3 {
-font-size: 16px;
+  font-size: 16px;
 }
 
 div.banners {
-height: 88px;
+  height: 88px;
 }
 h1.bandit {
-padding:0;
-text-align: center;
+  padding:0;
+  text-align: center;
 }
 
 div.mini h2:hover {
@@ -1474,20 +1474,20 @@ input#fieldName, input#fieldEmail {
 }
 
 .mp3contdg.mp3play {
-height:40px;
-padding: 5px;
+  height:40px;
+  padding: 5px;
 }
 
 div#about-content {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
 }
 
 ul.songs-list {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
 }
 
 .cart-tab a.cart-parent {
@@ -1495,11 +1495,15 @@ column-count: 1;
 }
 
 .cart-tab.right a.cart-parent {
-left: -5.402328em;
+  left: -5.402328em;
 }
 
 div.see-live, div.see-book {
-display:none;
+  display:none;
+}
+
+.cart-tab span.amount {
+  font-size: 13px;
 }
 
 }
