@@ -1483,6 +1483,14 @@ ul.songs-list {
 column-count: 1;
 }
 
+.cart-tab a.cart-parent {
+ padding:3px; 
+}
+
+.cart-tab.right a.cart-parent {
+left: -5.402328em;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1594,14 +1602,6 @@ i.fa.fa-search-plus {
   top: 29%;
   font-size:13px;
   opacity:.9;
-}
-
-.cart-tab a.cart-parent {
- padding:3px; 
-}
-
-.cart-tab.right a.cart-parent {
-left: -5.402328em;
 }
 
 }
