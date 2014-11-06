@@ -52,7 +52,7 @@
     },
     home: {
       init: function() {
-        $.backstretch('../wp-content/themes/michele/assets/img/top-piano-bg.png');
+        $('main').addClass('newbg');
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
