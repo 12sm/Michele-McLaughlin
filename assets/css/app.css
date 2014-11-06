@@ -719,7 +719,9 @@ padding: 5px;
 opacity: .2;
 text-align: right;
 }
-
+a.added_to_cart{
+  margin-left: 0;
+}
 /* Store nav active states */
 
 body.post-type-archive-product li.cd-link a,
