@@ -28,5 +28,5 @@ get_header( 'shop' ); ?>
       <div class="entry-content">
         <?php the_content(); ?>
       </div>
-
+<?php echo "in wooommerce folder"; ?>
     <?php endwhile; // end of the loop. ?>
