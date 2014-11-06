@@ -19,6 +19,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
+<div class="max-width">
+
 <div class="row">
 <div class="shop_table cart col-sm-12 table table-hover table-striped">
 	<div class="row hidden-xs border">
@@ -149,6 +151,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 	<?php woocommerce_cart_totals(); ?>
 
 	<?php woocommerce_shipping_calculator(); ?>
+
+</div>
 
 </div>
 
