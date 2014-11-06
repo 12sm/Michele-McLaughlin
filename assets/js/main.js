@@ -96,8 +96,9 @@
             return '<i class="fa fa-shopping-cart"></i> ' + text;
           });
         });
-      },
-    }
+      }
+    },
+    
     sheet_music: {
       init: function(){
 
