@@ -1149,6 +1149,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+div.banners {
+height: 88px;
+}
+h1.bandit {
+paddding:0;
+text-align: center;
+}
+
 div.mini h2:hover {
   color: #FFF !important;
   text-decoration: none;
