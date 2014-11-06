@@ -730,6 +730,14 @@ border-top: none!important;
 border-left: none!important;
 }
 
+i.fa.fa-search-plus {
+position: absolute;
+left: 40%;
+top: 29%;
+color: #FFF;
+text-shadow: 0 0 3px #000000;
+}
+
 /* ==========================================================================
    Navbars
    ========================================================================== */
@@ -1342,6 +1350,11 @@ div.mini h2 {
 p.mini-nav-subtitle {
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+i.fa.fa-search-plus {
+left: 40%;
+top: 29%;
 }
 
 }

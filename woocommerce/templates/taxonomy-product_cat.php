@@ -16,10 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 ?>
 
-<div class="max-wrap">
-  <?php get_template_part('templates/page', 'header'); ?>
-</div>
-
 
 <div class="col">
 <div class="page-header">
