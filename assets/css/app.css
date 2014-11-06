@@ -689,6 +689,28 @@ body.sheet-music .inline-playable {
   display: inline-block;
   float: left;
 }
+
+
+/* Sheet Music and Table sections */
+
+.fixed-table-container {
+  border: none;
+}
+
+.fixed-table-container tbody td {
+border-left: none;
+}
+
+.table>thead>tr>th, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>tbody>tr>td, 
+.table>tfoot>tr>td {
+border-top: none;
+}
+
+
 /* ==========================================================================
    Navbars
    ========================================================================== */
