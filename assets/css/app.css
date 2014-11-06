@@ -975,6 +975,17 @@ text-align: center;
 margin: 50px auto;
 }
 
+.woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message {
+border-top: 3px solid #780010;
+width: 300px;
+margin: 50px auto!important;
+}
+
+.woocommerce .woocommerce-message:before, .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-message:before, .woocommerce-page .woocommerce-error:before, .woocommerce-page .woocommerce-info:before {
+content: "";
+height: auto;
+}
+
 
 
 /* ==========================================================================
