@@ -1597,20 +1597,14 @@ i.fa.fa-search-plus {
 }
 
 .cart-tab.right a.cart-parent {
-  width: 100%;
-  -moz-transition: left ease .5s;
-  -o-transition: left ease .5s;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  height: auto;
-  padding: 5px;
-  text-align: right;
+  width: 100%!important;
+  height: auto!important;
+  padding: 5px!important;
+  text-align: right!important;
 }
 
 .cart-tab.right {
-  -moz-transition: right ease .5s;
-  -o-transition: right ease .5s;
-  width: 100%;
+  width: 100%!important;
 }
 
 }
