@@ -862,11 +862,7 @@ box-shadow: none;
 
 .woocommerce .quantity,
 .woocommerce-page .quantity {
-width: 60px;
-position: relative;
-margin: 0 auto;
-overflow: hidden;
-zoom: 1;
+overflow: visible;
 }
 
 .woocommerce .quantity .plus {
