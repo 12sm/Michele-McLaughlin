@@ -933,6 +933,22 @@ box-shadow: none;
 border-bottom: none;
 }
 
+.cart-contents {
+margin-top: 50px;
+}
+
+.cart_totals h2 {
+text-align: left;
+margin-top: 50px;
+}
+
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt {
+background: rgba(0,0,0,.3);
+border:none;
+color: #fcfcfc;
+text-shadow: none;
+}
 
 /* ==========================================================================
    Navbars
