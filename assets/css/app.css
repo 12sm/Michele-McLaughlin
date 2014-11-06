@@ -26,6 +26,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  margin-top: -20px;
+}
+
+div.emailrow {
+  padding-top: 20px;
 }
 
 h1 {
