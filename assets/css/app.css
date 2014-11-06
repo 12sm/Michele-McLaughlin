@@ -710,6 +710,9 @@ border-left: none!important;
 border-top: none!important;
 }
 
+.fixed-table-container thead th {
+border-left: none!important;
+}
 
 /* ==========================================================================
    Navbars
