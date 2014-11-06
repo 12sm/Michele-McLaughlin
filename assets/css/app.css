@@ -721,6 +721,7 @@ text-align: right;
 }
 a.added_to_cart{
   margin-left: 0;
+  font-size: 16px !important;
 }
 /* Store nav active states */
 
