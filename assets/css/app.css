@@ -1512,9 +1512,7 @@ top: 80px;
 
 #sort-list input.search {
 float: left;
-border: none;
-padding: 5px;
-opacity: .2;
+position:static;
 text-align: left;
 }
 
