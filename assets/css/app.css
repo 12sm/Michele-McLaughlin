@@ -509,7 +509,7 @@ div.concerto {
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
-div#bit-events[data-bit-widget-id="1416509381373"] a.bit-track-artist-header {
+div#bit-events a.bit-track-artist-header {
   display: none!important;
 }
 
