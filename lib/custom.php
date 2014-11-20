@@ -58,7 +58,8 @@ function woo_get_key_pa(){
 
                 foreach ( $terms as $term ) {
 
-                    $out .= $term->name + '<br />';
+                    $out .= $term->name;
+                    $out .= '<br />';
 
                 }
 
