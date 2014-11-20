@@ -509,8 +509,14 @@ div.concerto {
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
+
+/* Bands in Town */
 div#bit-widget-0 div#bit-events a.bit-track-artist-header {
   display: none!important;
+}
+
+#bit-events[data-bit-widget-id='1416509610975'] td {
+  color: #D53636!important;
 }
 
 
