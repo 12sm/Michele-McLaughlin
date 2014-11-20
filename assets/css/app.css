@@ -1672,6 +1672,12 @@ div.mini h2 {
   height: 475px;
   min-height: 1px;
 }
+
+.store-section.store-album {
+  height: auto;
+  min-height: 340px;
+}
+
 .term-songbooks .store-section {
 height: 525px;
 }
