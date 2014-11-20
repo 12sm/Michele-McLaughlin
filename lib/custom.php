@@ -58,8 +58,7 @@ function woo_get_key_pa(){
 
                 foreach ( $terms as $term ) {
 
-                    $out .= $tax_label . ': ';
-                    $out .= $term->name . '<br />';
+                    $out .= $term->name;
 
                 }
 
@@ -79,7 +78,7 @@ function woo_get_key_pa(){
 
     }
 
-    echo $out;
+    return $out;
 }
 add_shortcode('product-att-key', 'isa_woo_get_key_pa');
 
@@ -125,8 +124,7 @@ function woo_get_level_pa(){
 
                 foreach ( $terms as $term ) {
 
-                    $out .= $tax_label . ': ';
-                    $out .= $term->name . '<br />';
+                    $out .= $term->name;
 
                 }
 
@@ -146,7 +144,7 @@ function woo_get_level_pa(){
 
     }
 
-    echo $out;
+    return $out;
 }
 add_shortcode('product-att-level', 'woo_get_level_pa');
 
