@@ -35,7 +35,7 @@ function woo_get_key_pa(){
         if ( $attribute['is_taxonomy'] ) {
 
             // sanitize the desired attribute into a taxonomy slug
-            $tax_slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $desired_att)));
+            $tax_slug = 'key-signature';
 
             // if this is desired att, get value and label
 
