@@ -727,9 +727,9 @@ input.search {
   position: relative;
   top: -40px;
   border: none;
-  padding: 5px;
-  opacity: .2;
-  text-align: right;
+  padding: 10px;
+  opacity: .7;
+  text-align: left;
 }
 a.added_to_cart{
   margin-left: 0;
@@ -1488,7 +1488,7 @@ ul.songs-list {
 }
 
 .cart-tab a.cart-parent {
- padding:3px; 
+ padding:3px;
 }
 
 .cart-tab.right a.cart-parent {
