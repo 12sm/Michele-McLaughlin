@@ -80,7 +80,7 @@ function woo_get_key_pa(){
 
     return $out;
 }
-add_shortcode('product-att-key', 'isa_woo_get_key_pa');
+add_shortcode('product-att-key', 'woo_get_key_pa');
 
 function woo_get_level_pa(){
 
