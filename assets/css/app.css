@@ -606,7 +606,7 @@ h1.listen-heading {
   color:#FFF;
   text-transform:Capitalize;
   font-size:30px;
-  margin-top: 10px;
+  margin-top: 10px!important;
 }
 
 h3.album-listen-price {
