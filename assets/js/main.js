@@ -134,6 +134,7 @@
     },
     single_albums: {
       init: function(){
+        $('.see-live').removeClass('dont-see');
         console.log('single albums');
         $('.play').on('click', playMusic);
         $('.music-carousel').owlCarousel({
