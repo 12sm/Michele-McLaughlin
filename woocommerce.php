@@ -13,8 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 ?>
 
     <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-
-      <?php get_template_part('templates/page', 'header'); ?>
+      <div class="max-wrap">
+        <?php get_template_part('templates/page', 'header'); ?>
+      </div>
 
     <?php endif; ?>
 
