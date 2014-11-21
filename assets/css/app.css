@@ -666,7 +666,9 @@ height: 550px;
 .store-section:hover {
   background: rgba(255, 255, 255, 0.1) !important;
  }
-
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+ background-color: transparent !important; 
+}
 .store-title h1 {
   font-size: 28px;
   line-height: .9;
@@ -1777,5 +1779,8 @@ font-size: 22px;
 }
 tr:hover {
   color: rgb(98, 98, 98);
+}
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+background-color: #f5f5f5;
 }
 }
