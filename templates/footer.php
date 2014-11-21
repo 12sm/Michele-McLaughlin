@@ -1,6 +1,6 @@
 <footer class="content-info container-fluid" role="contentinfo">
   <div class="row imgLiquidFill imgLiquid">
-    <img src="../wp-content/themes/michele/assets/img/footer-bg.png">
+    <img src="/wp-content/themes/michele/assets/img/footer-bg.png">
     <div class="col-xs-12">
 
       <div class="mini-foot row">
@@ -99,7 +99,7 @@
               <div class="flight">
                 <button type="submit"><i class="fa fa-caret-right"></i></button>
               </div>
-              
+
             </div>
           </form>
         </div>
