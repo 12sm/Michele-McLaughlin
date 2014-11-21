@@ -746,14 +746,12 @@ input.search {
   margin-bottom: 15px;
 }
 #sort-list input.search {
-  float: right;
-  float: right;
-  position: relative;
-  top: -45px;
-  border: none;
-  padding: 5px 10px;
-  opacity: .7;
-  text-align: left;
+float: left;
+position: relative;
+border: none;
+padding: 5px 10px;
+opacity: .7;
+text-align: left;
 }
 a.added_to_cart{
   margin-left: 0;
@@ -1541,7 +1539,14 @@ text-align: left;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+#sort-list input.search {
+  float: right;
+  top: -45px;
+  border: none;
+  padding: 5px 10px;
+  opacity: .7;
+  text-align: left;
+}
 h1.bandit {
 padding: 11px 6%;
 }
