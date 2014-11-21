@@ -808,13 +808,6 @@ thead {
   text-align: center;
 }
 
-tr:hover {
-  color: rgb(98, 98, 98);
-}
-tr:active {
-  color: transparent;
-}
-
 /* CART */
 
 .cart_item {
@@ -1726,6 +1719,9 @@ font-size: 21px;
   padding: 5px 10px;
   opacity: .7;
   text-align: left;
+}
+tr:hover {
+  color: rgb(98, 98, 98);
 }
 }
 
