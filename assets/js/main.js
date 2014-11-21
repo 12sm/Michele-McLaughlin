@@ -108,7 +108,7 @@
             var rex = new RegExp($(this).val(), 'i');
             $('#table-list tr').hide();
             $('#table-list tr').filter(function () {
-                return rex.test($(this).text());
+              return rex.test($(this).text());
             }).show();
 
         });
@@ -119,7 +119,7 @@
         $('.play').on('click', playMusic);
         $('.see-live').removeClass('dont-see');
         $('.music-carousel').owlCarousel({
-          itemsCustom    : [
+          itemsCustom : [
             [0, 2],
             [480, 3],
             [768, 4],
@@ -140,11 +140,11 @@
         $('.play').on('click', playMusic);
         $('.music-carousel').owlCarousel({
           itemsCustom : [
-          [0, 2],
-          [480, 3],
-          [768, 4],
-          [1200, 4],
-          [1600, 4]
+            [0, 2],
+            [480, 3],
+            [768, 4],
+            [1200, 4],
+            [1600, 4]
           ],
           navigation : true,
           navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],

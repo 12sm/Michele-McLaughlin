@@ -1372,7 +1372,7 @@ li.bullet > a > h4 {
 
 ul#foot-socials {
   margin: 14px auto;
-  padding:none;
+  padding: 0 0 0 0 !important;
 }
 
 ul#foot-socials > li {
