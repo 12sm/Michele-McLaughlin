@@ -19,9 +19,11 @@ echo "archive-product";
 
 <div class="col">
 <div class="page-header">
-  <h1>
-    <?php echo roots_title(); ?>
-  </h1>
+  <div class="max-wrap">
+    <h1>
+      <?php echo roots_title(); ?>
+    </h1>
+  </div>
 </div>
   <div class="col-md-12">
     <div class="row">
