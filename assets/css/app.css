@@ -82,7 +82,11 @@ a:hover{
   text-align: right;
 }
 
-a {transiton:color .3s ease;!important}
+a {
+  transiton:color .3s ease;!important;
+  -webkit-transiton:color .3s ease;!important;
+  -moz-transiton:color .3s ease;!important;
+}
 
 .max-wrap {
   max-width:1170px;
@@ -348,11 +352,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
   position: relative;
 }
 .mp3contdg.mp3play {
-background: rgba(0,0,0,.3);
-height: 40px;
-position: relative;
-padding: 10px;
-z-index: 1;
+  background: rgba(0,0,0,.3);
+  height: auto;
+  position: relative;
+  padding: 0px;
+  z-index: 1;
 }
 /* ==========================================================================
    Primary Content
@@ -524,6 +528,10 @@ div#bit-widget-0 div#bit-events a.bit-track-artist-header {
    Albums
    ========================================================================== */
 
+body.single-albums .entry-title {
+  display:none;
+}
+
 ul.songs-list {
   padding-left: 0px;
   list-style: none;
@@ -548,6 +556,10 @@ ul.songs-list {
 
 .mp3play a {
   color: #fff;
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
 }
 
 .btn-sm{
