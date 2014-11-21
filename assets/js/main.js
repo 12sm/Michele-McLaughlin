@@ -32,6 +32,7 @@
     // All pages
     common: {
       init: function() {
+        $('body').on('touchstart.click', '.navbar', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         soundManager.setup({
           debugMode     : true,
@@ -98,7 +99,7 @@
         });
       }
     },
-    
+
     sheet_music: {
       init: function(){
 
