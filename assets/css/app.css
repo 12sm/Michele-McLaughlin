@@ -1025,7 +1025,9 @@ text-align: right;
 a.shipping-calculator-button:hover {
 color: #CCC;
 }
-
+.woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message{
+  display: none;
+}
 /* ==========================================================================
    Navbars
    ========================================================================== */
