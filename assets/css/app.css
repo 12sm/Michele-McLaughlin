@@ -811,7 +811,9 @@ thead {
 tr:hover {
   color: rgb(98, 98, 98);
 }
-
+tr:active {
+  color: transparent;
+}
 
 /* CART */
 
