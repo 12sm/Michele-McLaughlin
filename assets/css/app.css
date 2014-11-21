@@ -1539,14 +1539,7 @@ text-align: left;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-#sort-list input.search {
-  float: right;
-  top: -45px;
-  border: none;
-  padding: 5px 10px;
-  opacity: .7;
-  text-align: left;
-}
+
 h1.bandit {
 padding: 11px 6%;
 }
@@ -1722,7 +1715,14 @@ opacity:.9;
 .music-carousel-item h3 {
 font-size: 21px;
 }
-
+#sort-list input.search {
+  float: right;
+  top: -45px;
+  border: none;
+  padding: 5px 10px;
+  opacity: .7;
+  text-align: left;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
