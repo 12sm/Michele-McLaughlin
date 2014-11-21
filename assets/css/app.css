@@ -1720,9 +1720,7 @@ font-size: 21px;
   opacity: .7;
   text-align: left;
 }
-tr:hover {
-  color: rgb(98, 98, 98);
-}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1777,5 +1775,7 @@ opacity:.9;
 .music-carousel-item h3 {
 font-size: 22px;
 }
-
+tr:hover {
+  color: rgb(98, 98, 98);
+}
 }
