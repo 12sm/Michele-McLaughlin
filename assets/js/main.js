@@ -32,7 +32,7 @@
     // All pages
     common: {
       init: function() {
-        $('body').on('touchstart.click', '.navbar', function (e) { e.stopPropagation(); });
+        $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         soundManager.setup({
           debugMode     : true,
