@@ -801,7 +801,10 @@ thead {
   font-weight: 100;
   text-align: center;
 }
-
+.fixed-table-body {
+overflow-x: visible;
+overflow-y: visible;
+}
 /* CART */
 
 .cart_item {
