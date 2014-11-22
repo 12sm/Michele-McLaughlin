@@ -1525,7 +1525,9 @@ float: left;
 position:static;
 text-align: left;
 }
-
+tr {
+border-bottom: 1px solid #fff;
+}
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1538,7 +1540,7 @@ body.sheet-music .bootstrap-table img {
   width: auto;
   float: left;
 }
-  
+
   .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
