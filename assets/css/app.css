@@ -1108,7 +1108,7 @@ li.active a {
   top: 135px;
 }
 .navbar-nav {
-  margin: 15.5px -15px;
+  /*margin: 15.5px -15px;*/
 }
 .no-marg{
   margin-top: 0px;
