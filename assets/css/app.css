@@ -1528,6 +1528,9 @@ text-align: left;
 tr {
 border-bottom: 1px solid #fff;
 }
+tr td:first-child {
+margin-top: 15px !important;
+}
 }
 
 /* Small devices (tablets, 768px and up) */
