@@ -784,6 +784,8 @@ body.term-printed-songbooks li.other-link a {
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
   border-top: none!important;
+  float: left!important;
+  text-align: left !important;
 }
 
 .fixed-table-container thead th {
@@ -1535,6 +1537,16 @@ text-align: left;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  border-top: none!important;
+  float: none !important;
+  text-align: right !important;
+}
 
 h1.bandit {
 padding: 11px 6%;
