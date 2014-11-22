@@ -723,14 +723,7 @@ span.amount {
   color:#79030b!important;
   background:none!important;
 }
-body.sheet-music .bootstrap-table img,
-body.sheet-music .bootstrap-table img {
-  height: 45px!important;
-  max-width: 100%!important;
-  max-height: 50px!important;
-  width: auto;
-  float: left;
-}
+
 
 body.sheet-music .inline-playable {
   padding: 3px 8px;
@@ -1537,6 +1530,15 @@ text-align: left;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+body.sheet-music .bootstrap-table img,
+body.sheet-music .bootstrap-table img {
+  height: 45px!important;
+  max-width: 100%!important;
+  max-height: 50px!important;
+  width: auto;
+  float: left;
+}
+  
   .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
