@@ -116,7 +116,7 @@
     },
      digital_songbooks: {
       init: function(){
-
+        console.log('songbooks js firing');
         $('.search').keyup(function () {
 
             var rex = new RegExp($(this).val(), 'i');
