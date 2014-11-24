@@ -1405,6 +1405,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+  ul.nav.navbar-nav {
+    text-align: center;
+    background: #000;
+  }
+
 .music-carousel-item h3 {
   font-size: 16px;
 }
