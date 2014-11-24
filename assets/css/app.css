@@ -1537,7 +1537,16 @@ margin-top: 5px !important;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .store-nav li {
+
+a.navbar-brand img {
+  width: 80%;
+}
+
+div.navbar-header > a > img {
+  margin-top: -7px;
+}
+
+.store-nav li {
   width: initial;
   display: inline-block;
 }
@@ -1589,7 +1598,7 @@ div#head {
 }
 
 .nav>li>a {
-padding: 33px 10px 10px 10px;
+padding: 33px 0px 10px 7px;
 }
 
 ul.nav a {
@@ -1680,7 +1689,7 @@ i.fa.fa-search-plus {
 /* -- NAV & BASE -- */
 
 div#head {
-  width: 85%;
+  width: 100%;
   background:transparent;
 }
 
