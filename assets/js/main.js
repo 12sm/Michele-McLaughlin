@@ -32,6 +32,12 @@
     // All pages
     common: {
       init: function() {
+        var nav = location.href.toLowerCase();
+        var item  = $('.store-nav li a[href="' + nav  + '"]');
+        if(item.length){
+          item.parent().addClass("active");
+        }
+
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         soundManager.setup({
