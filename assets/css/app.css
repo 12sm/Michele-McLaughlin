@@ -1209,7 +1209,7 @@ h1.contact-header {
 }
 
 .modal-dialog {
-  width: 100%;
+  width: 90%;
   margin: 5% auto;
 }
 
@@ -1550,7 +1550,7 @@ body.sheet-music .bootstrap-table img {
   float: left;
 }
 
-  .table>thead>tr>th,
+.table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
 .table>thead>tr>td,
@@ -1668,6 +1668,10 @@ i.fa.fa-search-plus {
   opacity:.9;
 }
 
+.modal-dialog {
+  width: 56%;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1742,6 +1746,10 @@ font-size: 21px;
   padding: 5px 10px;
   opacity: .7;
   text-align: left;
+}
+
+.modal-dialog {
+  width: 40%;
 }
 
 }
