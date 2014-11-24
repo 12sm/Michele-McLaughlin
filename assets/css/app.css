@@ -752,7 +752,9 @@ a.added_to_cart{
 /* Store nav active states */
 
 body.post-type-archive-product li.cd-link a,
-.store-nav li.active {
+body.sheet-music li.sheet-music-link a,
+body.page-template-template-songbk-php li.digital-songbooks-link a,
+.store-nav li.active a {
   color: rgb(45, 45, 45);
   background: #FFF;
   opacity: 1;
