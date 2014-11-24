@@ -114,6 +114,20 @@
         });
       }
     },
+     digital_songbooks: {
+      init: function(){
+
+        $('.search').keyup(function () {
+
+            var rex = new RegExp($(this).val(), 'i');
+            $('#table-list tr').hide();
+            $('#table-list tr').filter(function () {
+              return rex.test($(this).text());
+            }).show();
+
+        });
+      }
+    },
     post_type_archive_albums: {
       init: function() {
         $('.play').on('click', playMusic);

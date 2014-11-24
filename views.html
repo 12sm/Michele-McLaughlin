@@ -1,5 +1,7 @@
 [wpv-layout-start]
   [wpv-items-found]
+<div id='sort-list'>
+  <input class="search" placeholder="Search" />      
 <div class="row">
 <div class="col-sm-12 col-md-12">
    <table data-toggle="table" data-sort-name="title" data-sort-order="asc">
@@ -15,11 +17,9 @@
             <tr>
               <td class="col-sm-2 col-md-1 col-xs-12" >
                 <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
+                  <i class="fa fa-search-plus"></i>
           [wpv-woo-product-image size="thumbnail" output=""]
-                </div>
-                <div class="col-sm-6">
-                    <a href='[types field="mp3-upload" link="true" output="raw" id="$tracks"][/types]' class="inline-playable"><i class='fa fa-play'></i></a>
                 </div>
               </div>
               </td>
@@ -28,16 +28,16 @@
                 Title:
                </h4>
                <a href="[wpv-post-url]">
-                <h4 class='name'>[wpv-post-title]</h4>
+                <h4>[wpv-post-title]</h4>
                </a>
               </td>
-               <td class="col-sm-3 col-xs-12 type" >
+               <td class="col-sm-3 col-xs-12" >
                 <h4 class="hidden-sm hidden-md hidden-lg">
                 Type:
                </h4>
                  [wpv-post-taxonomy type="product_cat" separator=", " format="text" show="name" order="asc"]
                </td>
-               <td class="col-sm-1 col-xs-12 price">
+               <td class="col-sm-1 col-xs-12">
                 <h4 class="hidden-sm hidden-md hidden-lg">
                   Price:
                 </h4>
@@ -52,6 +52,7 @@
    </tbody>
    </table>
   </div>
+</div>
 </div>
   [/wpv-items-found]
   [wpv-no-items-found]
