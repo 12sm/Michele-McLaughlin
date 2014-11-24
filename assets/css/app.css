@@ -572,6 +572,8 @@ ul.songs-list {
   padding: 2px 10px;
 }
 .store-nav li {
+  width: 100%;
+  display: inline-block;
   margin-right: 10px;
 }
 .btn-sm:hover, .button.add_to_cart_button:hover {
@@ -667,7 +669,7 @@ height: 550px;
   background: rgba(255, 255, 255, 0.1) !important;
  }
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
- background-color: transparent !important; 
+ background-color: transparent !important;
 }
 .store-title h1 {
   font-size: 28px;
@@ -685,12 +687,7 @@ height: 550px;
   list-style: none;
 }
 
-.store-nav li {
-  display: inline-block;
-}
-
 .store-nav .btn-sm {
-  width: initial;
   font-size: 18px;
   border-radius: 0px;
 }
