@@ -1537,6 +1537,10 @@ margin-top: 5px !important;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .store-nav li {
+  width: initial;
+  display: inline-block;
+}
 body.sheet-music .bootstrap-table img,
 body.sheet-music .bootstrap-table img {
   height: 45px!important;
