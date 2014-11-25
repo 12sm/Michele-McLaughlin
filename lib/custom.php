@@ -8,6 +8,7 @@ function cort_shortcode($atts){
         'url' => 'This is the wrong url sucka!'
     ), $atts);
   $theurl = $a['url'];
+  $theurl = substr($theurl, 35, 100);
   return $theurl;
 }
 add_shortcode('cortado-url', 'cort_shortcode');
