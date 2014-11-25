@@ -30,7 +30,6 @@
         $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
       }
     });
-    playMusic();
   }
 
   function playMusic(){
@@ -44,10 +43,15 @@
     }
   }
 
+  function initialSetVars(){
+    twurl = $('a.play').first.getAttribute("data-thefile");
+    squrl = "http://michelemclaughlin.com/media/" + twurl;
+  }
+
   function setVars(){
     twurl = this.getAttribute("data-thefile");
     squrl = "http://michelemclaughlin.com/media/" + twurl;
-    setupSM();
+    playmusic();
   }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
@@ -55,6 +59,7 @@
     // All pages
     common: {
       init: function() {
+        initialSetVars();
         var nav = location.href.toLowerCase();
         var item  = $('.store-nav li a[href="' + nav  + '"]');
         if(item.length){
@@ -64,6 +69,7 @@
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         $('a.play').click(setVars);
+        setupSM();
       }
     },
     concerts: {
