@@ -304,7 +304,7 @@
         pl.removeClass(this._data.oLink,this._data.className);
         this._data.className = '';
         if (pl.config.playNext) {
-          var nextLink = (pl.indexByURL[this._data.oLink.href]+1);
+          var nextLink = squrl;
           if (nextLink<pl.links.length) {
             pl.handleClick({'target':pl.links[nextLink]});
           }
