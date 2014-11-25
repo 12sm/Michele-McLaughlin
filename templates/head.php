@@ -23,8 +23,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="9qiHdC36zLGxrQiq3IaPRdnIOFvRqG9_XI3aVdkjiMk" />
   <?php wp_head(); ?>
-
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
-  <script async src="//use.typekit.net/ric0jma.js"></script>
+  <script src="//use.typekit.net/ric0jma.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
   <link rel="shortcut icon" href="<?php echo of_get_option('favicon_upload'); ?>" />
 </head>

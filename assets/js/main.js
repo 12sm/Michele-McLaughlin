@@ -32,9 +32,6 @@
     // All pages
     common: {
       init: function() {
-
-        try{Typekit.load();}catch(e){}
-
         var nav = location.href.toLowerCase();
         var item  = $('.store-nav li a[href="' + nav  + '"]');
         if(item.length){
