@@ -20,7 +20,6 @@
   var squrl;
 
   function setupSM(){
-    debugger;
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
@@ -28,12 +27,14 @@
       url           : ' ',
       onready       : function(){
         inlinePlayer = new InlinePlayer();
-        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
+        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+        debugger;
+        playMusic();
+      }
     });
   }
 
   function playMusic(){
-    setupSM();
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
         // Remove Playing Class
@@ -47,7 +48,7 @@
   function setVars(){
     twurl = this.getAttribute("data-thefile");
     squrl = "http://michelemclaughlin.com/media/" + twurl;
-    playMusic();
+    setupSM();
   }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
