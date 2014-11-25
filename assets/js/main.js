@@ -20,6 +20,7 @@
   var squrl;
 
   function setupSM(){
+    debugger;
     soundManager.setup({
       debugMode     : true,
       preferFlash   : false,
@@ -44,7 +45,6 @@
   }
 
   function setVars(){
-    debugger;
     twurl = this.getAttribute("data-thefile");
     squrl = "http://michelemclaughlin.com/media/" + twurl;
     playMusic();
@@ -63,7 +63,6 @@
 
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
-        debugger;
         $('a.play').click(setVars);
       }
     },
