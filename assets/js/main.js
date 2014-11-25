@@ -44,7 +44,7 @@
   }
 
   function initialSetVars(){
-    twurl = $('a.play').first().getAttribute("data-thefile");
+    twurl = $('a.play').first().attr("data-thefile");
     squrl = "http://michelemclaughlin.com/media/" + twurl;
   }
 
