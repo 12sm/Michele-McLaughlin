@@ -19,7 +19,20 @@
   var twurl;
   var squrl;
 
+  function setupSM(){
+    soundManager.setup({
+      debugMode     : true,
+      preferFlash   : false,
+      useFlashBlock : true,
+      url           : ' ',
+      onready       : function(){
+        inlinePlayer = new InlinePlayer();
+        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
+    });
+  }
+
   function playMusic(){
+    setupSM();
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
         // Remove Playing Class
@@ -52,15 +65,6 @@
         $(".imgLiquidFill").imgLiquid();
         debugger;
         $('a.play').click(setVars);
-        soundManager.setup({
-          debugMode     : true,
-          preferFlash   : false,
-          useFlashBlock : true,
-          url           : ' ',
-          onready       : function(){
-            inlinePlayer = new InlinePlayer();
-            $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');}
-        });
       }
     },
     concerts: {
