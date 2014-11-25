@@ -24,6 +24,7 @@
       url           : ' ',
       onready       : function(){
         inlinePlayer = new InlinePlayer();
+        console.log(inlinePlayer);
         $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
       }
     });
