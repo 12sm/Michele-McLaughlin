@@ -170,9 +170,9 @@
     </div>
   </div>
 </footer>
-<!-- FRAGMENT_CACHING mfunc -->
+
 <?php wp_footer(); ?>
-<!-- /mfunc FRAGMENT_CACHING -->
+
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-5080950-3']);
