@@ -16,6 +16,9 @@
 
 (function($) {
 
+  var twurl;
+  var squrl;
+
   function playMusic(){
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
@@ -28,9 +31,8 @@
   }
 
   function setVars(){
-    var mydiv = document.getElementById('alboom');
-    var twurl = this.getAttribute("data-thefile");
-    var squrl = "http://michelemclaughlin.com/media/" + twurl;
+    twurl = this.getAttribute("data-thefile");
+    squrl = "http://michelemclaughlin.com/media/" + twurl;
     playMusic();
   }
   // Use this variable to set up the common and page specific functions. If you
@@ -72,7 +74,7 @@
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
-        $('.play').on('click', playMusic);
+        // $('.play').on('click', playMusic);
       }
     },
     post_type_archive_product: {
@@ -144,7 +146,7 @@
     },
     post_type_archive_albums: {
       init: function() {
-        $('.play').on('click', playMusic);
+        // $('.play').on('click', playMusic);
         $('.see-live').removeClass('dont-see');
         $('.music-carousel').owlCarousel({
           itemsCustom : [
@@ -165,7 +167,7 @@
       init: function(){
         $('.see-live').removeClass('dont-see');
         console.log('single albums');
-        $('.play').on('click', playMusic);
+        // $('.play').on('click', playMusic);
         $('.music-carousel').owlCarousel({
           itemsCustom : [
             [0, 2],
