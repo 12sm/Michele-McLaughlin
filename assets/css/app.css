@@ -1020,6 +1020,14 @@ color: #CCC;
 .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message{
   display: none;
 }
+
+.widget_shopping_cart h2, .payment_method_paypal_pro {
+  color: #999;
+}
+
+.widget_shopping_cart, #order_comments, .chosen-drop .active-result {
+  color: #000;
+}
 /* ==========================================================================
    Navbars
    ========================================================================== */
