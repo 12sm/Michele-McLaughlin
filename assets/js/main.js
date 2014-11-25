@@ -32,10 +32,6 @@
     // All pages
     common: {
       init: function() {
-        var alboom = document.getElementById('alboom');
-        var dasong = $('#alboom').attr("thefile");
-        var twurl = "http://michelemclaughlin.com/" + dasong;
-        $("#alboom").attr({theSong : twurl});
         var nav = location.href.toLowerCase();
         var item  = $('.store-nav li a[href="' + nav  + '"]');
         if(item.length){
