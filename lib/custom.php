@@ -7,8 +7,8 @@ function cort_shortcode($atts){
   $a = shortcode_atts( array(
         'url' => 'This is the wrong url sucka!'
     ), $atts);
-
-    return "url = {$a['url']}";
+  $url = $a['url'];
+  return $url;
 }
 add_shortcode('cortado-url', 'cort_shortcode');
 /**
