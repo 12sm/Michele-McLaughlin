@@ -108,7 +108,11 @@
 
     sheet_music: {
       init: function(){
-
+        //lazy load
+        $('.attachment-thumbnail').lazyload({
+          threshold : 300
+        });
+        
         $('.search').keyup(function () {
 
             var rex = new RegExp($(this).val(), 'i');
