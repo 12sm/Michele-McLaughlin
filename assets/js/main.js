@@ -31,6 +31,7 @@
   }
 
   function setVars(){
+    debugger;
     twurl = this.getAttribute("data-thefile");
     squrl = "http://michelemclaughlin.com/media/" + twurl;
     playMusic();
