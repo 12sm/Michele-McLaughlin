@@ -1585,7 +1585,7 @@ body.sheet-music .bootstrap-table img {
 }
 
 h1.bandit {
-padding: 11px 6%;
+  padding: 11px 6%;
 }
 
 .navbar-nav {
@@ -1633,23 +1633,23 @@ div.slide:before {
 }
 
 div.tri-link {
-position: relative;
-background-image: url("../img/filigree-off.png");
-background-repeat: no-repeat;
-background-size: 95%;
-background-position: center;
-height: 0;
-padding-bottom: 13%;
+  position: relative;
+  background-image: url("../img/filigree-off.png");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+  height: 0;
+  padding-bottom: 13%;
 }
 
 div.tri-link:hover {
-position: relative;
-background-image: url("../img/filigree-on.png");
-background-repeat: no-repeat;
-background-size: 95%;
-background-position: center;
-height: 0;
-padding-bottom: 13%;
+  position: relative;
+  background-image: url("../img/filigree-on.png");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+  height: 0;
+  padding-bottom: 13%;
 }
 
 div.mini h2 {
@@ -1760,8 +1760,9 @@ opacity:.9;
 }
 
 .music-carousel-item h3 {
-font-size: 21px;
+  font-size: 21px;
 }
+
 #sort-list input.search {
   float: right;
   top: -45px;
@@ -1820,19 +1821,21 @@ p.mini-nav-subtitle {
 }
 
 i.fa.fa-search-plus {
-left: 40%;
-top: 29%;
-font-size:13px;
-opacity:.9;
+  left: 40%;
+  top: 29%;
+  font-size:13px;
+  opacity:.9;
 }
 
 .music-carousel-item h3 {
-font-size: 22px;
+  font-size: 22px;
 }
+
 tr:hover {
   color: rgb(98, 98, 98);
 }
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-background-color: #f5f5f5 !important;
+  background-color: #f5f5f5 !important;
 }
+
 }

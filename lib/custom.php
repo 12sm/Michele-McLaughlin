@@ -8,7 +8,7 @@ function trim_shortcode($atts, $content = '') {
   $content = wpv_do_shortcode($content);
   $length = (int)$atts['length'];
   if (strlen($content) > $length) {
-    $content = substr($content, 0, $length) . '&hellip;';
+    $content = substr($content, 29, $length) . '&hellip;';
   }
   return $content;
 }
