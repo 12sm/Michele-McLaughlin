@@ -3,6 +3,16 @@
 define( 'UPLOADS', ''.'media' );
 
 //Length short<code></code>
+function trim_shortcode($atts, $content = '') {
+ $content = wpv_do_shortcode($content);
+ $length = (int)$atts['length'];
+ if (strlen($content) > $length) {
+   $content = substr($content, 0, $length) . '&hellip;';
+ }
+ return $content;
+}
+add_shortcode('trim', 'trim_shortcode');
+
 function cort_shortcode($atts){
   $a = shortcode_atts( array(
         'url' => 'This is the wrong url sucka!'
