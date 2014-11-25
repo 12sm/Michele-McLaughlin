@@ -1536,9 +1536,10 @@ top: 80px;
 }
 
 #sort-list input.search {
-float: left;
-position:static;
+float: none;
+position: static;
 text-align: left;
+width: 100%;
 }
 tr {
 border-bottom: 1px solid #fff;
