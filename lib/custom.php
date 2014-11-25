@@ -3,14 +3,14 @@
 define( 'UPLOADS', ''.'media' );
 
 //Length short<code></code>
-function trim_shortcode($atts){
+function cort_shortcode($atts){
   $a = shortcode_atts( array(
         'url' => 'This is the wrong url sucka!'
     ), $atts);
 
     return "url = {$a['url']}";
 }
-add_shortcode('trim-url', 'trim_shortcode');
+add_shortcode('cortado-url', 'cort_shortcode');
 /**
 * WooCommerce: Show only one custom product attribute above Add-to-cart button on single product page.
 */
