@@ -16,9 +16,6 @@
 
 (function($) {
 
-  var twurl;
-  var squrl;
-
   function setupSM(){
     soundManager.setup({
       debugMode     : true,
@@ -46,8 +43,8 @@
 
 
   function setVars(){
-    twurl = $(this).attr("href");
-    squrl = "http://michelemclaughlin.com/media/" + twurl;
+    var twurl = $(this).attr("href");
+    var squrl = "http://michelemclaughlin.com/media/" + twurl;
     $(this).attr("href", squrl);
 
     playMusic();
