@@ -10,7 +10,7 @@ function trim_shortcode($atts){
 
     return "url = {$a['url']}";
 }
-add_shortcode('trim', 'trim_shortcode');
+add_shortcode('trim-url', 'trim_shortcode');
 /**
 * WooCommerce: Show only one custom product attribute above Add-to-cart button on single product page.
 */
