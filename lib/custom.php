@@ -2,8 +2,7 @@
 
 define( 'UPLOADS', ''.'media' );
 
-//Length shortcode
-add_shortcode('trim', 'trim_shortcode');
+//Length short<code></code>
 function trim_shortcode($atts, $content = '') {
   $content = wpv_do_shortcode($content);
   $length = (int)$atts['length'];
@@ -12,7 +11,7 @@ function trim_shortcode($atts, $content = '') {
   }
   return $content;
 }
-
+add_shortcode('trim', 'trim_shortcode');
 /**
 * WooCommerce: Show only one custom product attribute above Add-to-cart button on single product page.
 */
