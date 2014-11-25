@@ -40,8 +40,6 @@
     }
   }
 
-
-
   function setVars(){
     var twurl = $(this).attr("href");
     var squrl = "http://michelemclaughlin.com/media/" + twurl;
@@ -55,7 +53,7 @@
     // All pages
     common: {
       init: function() {
-        initialSetVars();
+        setupSM();
         var nav = location.href.toLowerCase();
         var item  = $('.store-nav li a[href="' + nav  + '"]');
         if(item.length){
@@ -65,7 +63,6 @@
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         $('a.play').click(setVars);
-        setupSM();
       }
     },
     concerts: {
