@@ -21,8 +21,9 @@ function cort_shortcode($atts){
   $theurl = substr($theurl, 35, 100);
   //$iv_size = mcrypt_get_iv_size('rc2', 'ecb');
   //$iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
-  $encrypted = openssl_encrypt($theurl, 'RC2-ECB', 'shooptie');
+  //$encrypted = openssl_encrypt($theurl, 'RC2-ECB', 'shooptie');
   //$passData = $iv.$encrypted;
+  $encrypted = base64_encode($theurl);
   $encoded = urlencode($encrypted);
   return $encoded;
 }
