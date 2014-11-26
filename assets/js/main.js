@@ -33,7 +33,6 @@
     // All pages
     common: {
       init: function() {
-        setupSM();
         var nav = location.href.toLowerCase();
         var item  = $('.store-nav li a[href="' + nav  + '"]');
         if(item.length){
@@ -42,7 +41,7 @@
 
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
-        $('.play').on('click', playMusic);
+        //$('.play').on('click', playMusic);
         soundManager.setup({
           debugMode     : true,
           preferFlash   : false,
