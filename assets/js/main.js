@@ -41,13 +41,6 @@
     }
   }
 
-  function setVars(){
-    var twurl = $(this).attr("href");
-    var squrl = "http://michelemclaughlin.com/media/" + twurl;
-    $(this).attr("href", squrl);
-
-    playMusic();
-  }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -63,7 +56,7 @@
 
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
-        $('a.play').click(setVars);
+        $('a.play').click(playMusic);
       }
     },
     concerts: {
