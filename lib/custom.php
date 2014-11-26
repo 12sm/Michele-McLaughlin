@@ -28,8 +28,8 @@ function cort_shortcode($atts){
   $theurl = substr($theurl, 35, 100);
   $encrypted = encrypt($theurl, 'shooptie');
   //$encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie');
-  $encoded = urlencode($encrypted);
-  return $encoded;
+  //$encoded = urlencode($encrypted);
+  return $encrypted;
 }
 add_shortcode('cortado-url', 'cort_shortcode');
 /**
