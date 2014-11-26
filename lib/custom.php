@@ -1,7 +1,6 @@
 <?php
 
 define( 'UPLOADS', ''.'media' );
-define('FROM_SITE', TRUE);
 
 //Length short<code></code>
 function trim_shortcode($atts, $content = '') {
