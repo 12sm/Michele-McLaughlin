@@ -20,7 +20,7 @@ function cort_shortcode($atts){
     ), $atts);
   $theurl = $a['url'];
   $theurl = substr($theurl, 35, 100);
-  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie' '1234567812345678');
+  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie', '1234567812345678');
   $encoded = urlencode($encrypted);
   return $encoded;
 }
