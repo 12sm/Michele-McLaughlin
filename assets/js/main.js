@@ -49,7 +49,6 @@
           url           : ' ',
           onready       : function(){
             inlinePlayer = new InlinePlayer();
-            $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
           }
         });
       }
