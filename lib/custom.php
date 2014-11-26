@@ -13,13 +13,21 @@ function trim_shortcode($atts, $content = '') {
 }
 add_shortcode('trim', 'trim_shortcode');
 
+function encrypt($pure_string, $encryption_key) {
+  $iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_ECB);
+  $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+  $encrypted_string = mcrypt_encrypt(MCRYPT_BLOWFISH, $encryption_key, utf8_encode($pure_string), MCRYPT_MODE_ECB, $iv);
+  return $encrypted_string;
+}
+
 function cort_shortcode($atts){
   $a = shortcode_atts( array(
         'url' => 'This is the wrong url sucka!'
     ), $atts);
   $theurl = $a['url'];
   $theurl = substr($theurl, 35, 100);
-  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie');
+  $encrypted = encrypt($theurl, 'shooptie');
+  //$encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie');
   $encoded = urlencode($encrypted);
   return $encoded;
 }
