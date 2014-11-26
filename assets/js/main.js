@@ -41,7 +41,7 @@
 
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
-        //$('.play').on('click', playMusic);
+        $('.play').on('click', playMusic);
         soundManager.setup({
           debugMode     : true,
           preferFlash   : false,
