@@ -21,7 +21,7 @@ function cort_shortcode($atts){
   $theurl = substr($theurl, 35, 100);
   $iv_size = mcrypt_get_iv_size(MCRYPT_SAFER64, MCRYPT_MODE_CBC);
   $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
-  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie', 0, $iv);
+  $encrypted = openssl_encrypt($theurl, 'base64', 'shooptie', 0, $iv);
   $passData = $iv.$encrypted;
   $encoded = urlencode($passData);
   return $encoded;
