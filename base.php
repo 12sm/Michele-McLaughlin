@@ -64,7 +64,6 @@
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
-  <?php define('FROM_SITE', TRUE); ?>
 
 </body>
 </html>
