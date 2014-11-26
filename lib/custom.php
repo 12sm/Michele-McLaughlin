@@ -19,8 +19,11 @@ function cort_shortcode($atts){
     ), $atts);
   $theurl = $a['url'];
   $theurl = substr($theurl, 35, 100);
-  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie');
-  $encoded = urlencode($encrypted);
+  $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_CBC);
+  $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+  $encrypted = openssl_encrypt($theurl, 'BF-CBC', 'shooptie', 0, $iv);
+  $passData = $iv.$encrypted;
+  $encoded = urlencode($passData);
   return $encoded;
 }
 add_shortcode('cortado-url', 'cort_shortcode');
