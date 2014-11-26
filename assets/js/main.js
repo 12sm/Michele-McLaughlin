@@ -16,20 +16,6 @@
 
 (function($) {
 
-  function setupSM(){
-    soundManager.setup({
-      debugMode     : true,
-      preferFlash   : false,
-      useFlashBlock : true,
-      url           : ' ',
-      onready       : function(){
-        inlinePlayer = new InlinePlayer();
-        console.log(inlinePlayer);
-        $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
-      }
-    });
-  }
-
   function playMusic(){
     if (inlinePlayer) {
       inlinePlayer.events.finish = function() {
@@ -57,6 +43,16 @@
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         $(".imgLiquidFill").imgLiquid();
         $('a.play').click(playMusic);
+        soundManager.setup({
+          debugMode     : true,
+          preferFlash   : false,
+          useFlashBlock : true,
+          url           : ' ',
+          onready       : function(){
+            inlinePlayer = new InlinePlayer();
+            $(".progBar").css('width', ((this.position/this.duration) * 100) + '%');
+          }
+        });
       }
     },
     concerts: {
