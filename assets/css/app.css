@@ -491,7 +491,8 @@ color: #fff!important;
 
 
 /*-------- CONCERTS PAGE --------*/
-body.concerts tr:nth-child(1), tr:nth-child(2) {
+body.concerts tr:nth-child(1),
+body.concerts tr:nth-child(2) {
   display: none;
 }
 
