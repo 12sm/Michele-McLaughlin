@@ -1029,6 +1029,14 @@ color: #CCC;
 .widget_shopping_cart, #order_comments, .chosen-drop .active-result {
   color: #000;
 }
+
+.woocommerce .cart .button, .woocommerce .cart input.button, .woocommerce-page .cart .button, .woocommerce-page .cart input.button, .woocommerce a.button.alt {
+  float: right;
+}
+
+
+
+
 /* ==========================================================================
    Navbars
    ========================================================================== */
