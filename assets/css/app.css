@@ -1034,7 +1034,9 @@ color: #CCC;
   float: right;
 }
 
-
+.woocommerce a.added_to_cart, .woocommerce-page a.added_to_cart {
+  display:none;
+}
 
 
 /* ==========================================================================
