@@ -1300,6 +1300,15 @@ h1.contact-header {
    font-size: 16px;
  }
 
+ .blog-reel-container h2 {
+   margin-top:-9px;
+   transition: color .2s ease;
+ }
+
+ .blog-reel-container a:hover {
+    color: rgb(200, 200, 200);
+  }
+
 
 /* ==========================================================================
    Footer
